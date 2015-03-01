@@ -8,7 +8,7 @@ url: "http://adrian-philipp.com"
 
 # Optional features
 animated:           false
-show_related_posts: false
+show_related_posts: true
 show_post_footers:  false
 
 # Disqus post comments
@@ -16,7 +16,7 @@ show_post_footers:  false
 disqus_shortname: adri_p
 
 # Social icons
-show_social_icons: false
+show_social_icons: true
 twitter_username: adrian_philipp
 github_username:  adri
 stackoverflow_id:
@@ -28,7 +28,7 @@ flattr_button:
 
 # Build settings
 markdown: kramdown
-permalink:    pretty
+permalink: pretty
 paginate: 3
 sass:
   compressed: true

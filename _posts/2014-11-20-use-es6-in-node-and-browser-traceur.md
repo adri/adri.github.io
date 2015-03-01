@@ -14,7 +14,7 @@ npm install traceur --save
 
 Add the following code to your node entry point, in my case `server.js`. This will transpile required files to valid ES5 syntax on the fly but ignores your dependencies to not spend time transpiling those. 
 
-```
+```javascript
 var traceur = require('traceur');
 traceur.require.makeDefault(function(filename) {
   // don't transpile our dependencies, just our app
@@ -31,13 +31,13 @@ Start the server with `node server.js` and enjoy the new features.
 
 It makes sense to transpile your app into a ES5 javascript file once, which is then loaded by a browser in order to not have users waiting for the transpiling process every time. For that I like to use webpack and the `traceur-loader` package:
 
-```
+```bash
 npm install --save-dev webpack traceur-loader
 ```
 
 Create a `webpack.config.js`, here I'm using a different entry point `src/web/app.js` which should be loaded. Webpack will automatically include all required dependencies in the resulting javascript bundle. The most interesting line is the loader definition where all javascript files in the `src` directory will be run through traceur.
  
-```
+```javascript
 module.exports = {
   entry: {
     bundle: './src/web/app.js'
@@ -56,13 +56,14 @@ module.exports = {
 
 For development I recommend running webpack with the `-d` flag which generates source maps and the `--watch` flag to recompile changed files incrementally. 
 
-```
+```bash
 node_modules/.bin/webpack --config webpack.config.js --watch -d --progress
 ```
 
 The resulting ES5 javascript file will be in `build/js/bundle.js` and can be included in a browser:
-```
+
+```html
 <script src="build/js/bundle.js" />
 ```
 
-For a list of possible language features see https://github.com/google/traceur-compiler/wiki/LanguageFeatures. 
+See a [list of possible language features](https://github.com/google/traceur-compiler/wiki/LanguageFeatures). 

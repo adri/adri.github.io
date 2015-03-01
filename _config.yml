@@ -13,7 +13,7 @@ show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: adri_p
+disqus_shortname: codingnightmare
 
 # Social icons
 show_social_icons: true

@@ -1,5 +1,8 @@
-# How to use ES6 in Node and in your Browser with traceur
-
+---
+layout:     post
+title:      ES6 in Node and in your Browser with Traceur
+summary:    How to use Google traceur to transpile ES6 javascript to ES5.
+---
 
 ## How to make it work in node
 

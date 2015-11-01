@@ -9,7 +9,7 @@ duration of the last command in the right prompt. I've made a similar [blog post
 
 ![](https://dl.dropboxusercontent.com/u/13186339/blog/fish-cmd-duration.png)
 
-To make it work create the file `~/.config/fish/functions/rprompt.fish` with this content;
+To make it work create the file `~/.config/fish/functions/rprompt.fish` with this content:
 
 ```bash
 function fish_right_prompt

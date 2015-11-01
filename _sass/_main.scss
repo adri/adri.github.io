@@ -264,6 +264,7 @@ pre, code {
 code {
   color: #7a7a7a;
   font-size: 0.9rem;
+  border-radius: 10px
 }
 
 pre {
@@ -272,6 +273,10 @@ pre {
   line-height: 1.11;
   overflow-x: scroll;
   margin-bottom: 0.88em;
+}
+
+.highlight {
+  border-radius: 8px;
 }
 
 .highlight .p {

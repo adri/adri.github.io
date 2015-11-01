@@ -14,7 +14,7 @@ Development speed matters to many programmers, which is why I like to keep an ey
 
 If you use ZSH, paste this in your startup script, I put it in `.zsh.after/prompt.zsh`. It adds the run time of the last command in seconds to your right command prompt.
 
-
+```bash
     function preexec() {
       timer=${timer:-$SECONDS}
     }
@@ -26,6 +26,7 @@ If you use ZSH, paste this in your startup script, I put it in `.zsh.after/promp
         unset timer
       fi
     }
+```
 
 In case you don't use ZSH, see [this script](http://www.twistedmatrix.com/users/glyph/preexec.bash.txt) which emulates above functions in bash. You need to add a `preexec_install`  after you define above functions.
 

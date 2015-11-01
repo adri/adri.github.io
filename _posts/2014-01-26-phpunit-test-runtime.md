@@ -18,13 +18,13 @@ One solution is to [write your own test listener](http://stackoverflow.com/a/521
 If you don't like to modify your code, it is possible to parse out the time from [PHPUnit's JSON test result](http://phpunit.de/manual/3.7/en/logging.html#logging.json). Put the following alias in your shells initialization script (like `.bashrc`).
 
 ```bash
-    alias phpunit-report-runtime="phpunit --log-json php://stdout \
-        | awk '\$NF ~ '/,/' && \$1 ~ /\"(test|time)\"/' \
-        | cut -d: -f2- \
-        | sed \"N;s/\n/--/\"  \
-        | sed \"s/,//\"   \
-        | awk 'BEGIN{FS=\"--\"}; {print \$2 \$1}' | sort -r \
-        | head -n 5"
+alias phpunit-report-runtime="phpunit --log-json php://stdout \
+    | awk '\$NF ~ '/,/' && \$1 ~ /\"(test|time)\"/' \
+    | cut -d: -f2- \
+    | sed \"N;s/\n/--/\"  \
+    | sed \"s/,//\"   \
+    | awk 'BEGIN{FS=\"--\"}; {print \$2 \$1}' | sort -r \
+    | head -n 5"
 ```
 
 Running the alias `phpunit-report-runtime` in your project prints the top 5 slowest tests with the slowest test at the top.

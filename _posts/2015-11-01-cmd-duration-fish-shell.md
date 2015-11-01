@@ -5,7 +5,7 @@ summary: "Display how long the last command took and notify when a long running 
 ---
 
 If you're interested in how long your commands run you might want to display the 
-duration of the last command in the right prompt. I've made a similar [blog post for ZSH in 2013](2013-08-07-shell-show-time-last-command-took) but I'm now using the [fish shell](http://fishshell.com/).
+duration of the last command in the right prompt. I've made a similar [blog post for ZSH in 2013](http://adrian-philipp.com/post/shell-show-time-last-command-took/) but I'm now using the [fish shell](http://fishshell.com/).
 
 ![](https://dl.dropboxusercontent.com/u/13186339/blog/fish-cmd-duration.png)
 

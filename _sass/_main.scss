@@ -72,7 +72,7 @@ body {
 
 .site-nav {
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .site-header a:hover,
@@ -337,6 +337,7 @@ h6,
 @media screen and (min-width: 48em) {
   .site-header .site-title {
     float: left;
+    padding-top: 10px;
   }
 
   .meta,

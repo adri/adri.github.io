@@ -21,3 +21,35 @@ ga('send', 'pageview');
 
 </script>
 {% endif %}
+
+<script>
+  window.ALGOLIA_CONFIG = {
+    'applicationId': '{{ site.algolia.application_id }}',
+    'indexName': '{{ site.algolia.index_name }}',
+    'apiKey': '{{ site.algolia.read_only_api_key }}',
+    'baseurl': '{{ site.baseurl }}'
+  }
+</script>
+<script id="algolia__template" type="text/template">
+  {% raw %}
+  <div class="post algolia__result">
+    <a class="post-link algolia__result-link" href="{{ full_url }}#algolia:{{ css_selector }}">
+        {{#posted_at}}
+            <p class="post-meta algolia__result-date">{{ posted_at_readable }}</p>
+        {{/posted_at}}
+        <h3 class="h2 post-title">{{{ _highlightResult.title.value }}}</h3>
+        <p class="post-summary algolia__result-text">{{{ _highlightResult.text.value }}}</p>
+    </a>
+  </div>
+  {% endraw %}
+</script>
+<script id="algolia__template--no-results" type="text/template">
+  No results found.
+</script>
+<script src="//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/algoliasearch/3.6.0/algoliasearch.min.js"></script>
+<script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
+<script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+<script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
+<script src="{{ site.baseurl }}/js/algolia.js"></script>
+

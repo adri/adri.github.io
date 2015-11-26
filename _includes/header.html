@@ -5,10 +5,18 @@
       <nav class="site-nav right">
         {% include navigation.html %}
       </nav>
-      <div class="clearfix"></div>
+
       {% if site.show_social_icons %}
         {% include social_links.html %}
       {% endif %}
+
+      <div class="clearfix"></div>
+
+      <div class="left">
+          <input type="text" class="js-algolia__input" id="search-input" />
+          <label class="search-label" for="search-input">Search</label>
+      </div>
+
     </div>
   </div>
 </header>

@@ -7,3 +7,30 @@
 @import "basscss";
 @import "main";
 @import "solarized-light";
+
+.algolia__initial-content--hidden {
+  display: none
+}
+
+#search-input {
+  float: right
+}
+
+.search-label {
+  float: right;
+  font-size: 14px;
+  padding-right: 5px;
+  padding-top: 5px
+}
+
+.algolia__result-highlight {
+  background-color: #00ff66;
+}
+
+.algolia__search-content {
+  display: none;
+}
+
+.algolia__search-content--active {
+  display: block;
+}

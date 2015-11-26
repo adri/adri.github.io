@@ -1,10 +1,10 @@
 # Site settings
-title: code & coffee 
+title: code & coffee
 email: mail@adrian-philipp.com
-description: > 
-  This blog is about two passions of Adrian: web development and coffee. 
+description: >
+  This blog is about two passions of Adrian: web development and coffee.
 baseurl: ""
-url: "http://adrian-philipp.com" 
+url: "http://adrian-philipp.com"
 
 # Optional features
 animated:           false
@@ -34,3 +34,13 @@ permalink: /post/:title
 paginate: 3
 sass:
   compressed: true
+
+algolia:
+  application_id: '38DME6L5S7'
+  index_name:     'adrian-philipp.com'
+  read_only_api_key: 'b1f56fd2be47c4f61ff94bda42d764a2'
+  excluded_files:
+    - post.html
+
+gems:
+  - algoliasearch-jekyll

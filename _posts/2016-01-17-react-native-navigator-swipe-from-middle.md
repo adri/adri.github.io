@@ -25,7 +25,7 @@ overwrite the `edgeHitWidth` to be able to swipe anywhere in the left half of th
 const SCREEN_WIDTH = require('Dimensions').get('window').width;
 
 /**
- * Overwrite default navigator scene config.
+ * Overwrite the default navigator scene config.
  * to use a wider area for back swiping.
  */
 const FloatFromRight = {

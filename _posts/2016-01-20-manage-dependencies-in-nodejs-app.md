@@ -14,9 +14,9 @@ Factory Functions Pattern are a great way to structure applications in NodeJS. T
 
 This post shows how to:
 
- - Code using the Factory Function pattern
- - Wire up dependencies in one place
- - Hot reload a server for fast iteration
+ 1. Code using the Factory Function pattern
+ 2. Wire up dependencies in one place
+ 3. Hot reload a server for fast iteration
 
 ## Wiring up dependencies
 

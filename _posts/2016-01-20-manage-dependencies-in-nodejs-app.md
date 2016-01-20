@@ -203,3 +203,6 @@ watcher.on('ready', () => {
 module.exports = app;
 ```
 
+## Complete example
+
+A complete example can be seen here: https://github.com/adri/node-hotreload-example

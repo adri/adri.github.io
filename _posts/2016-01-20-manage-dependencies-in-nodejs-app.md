@@ -203,7 +203,3 @@ watcher.on('ready', () => {
 module.exports = app;
 ```
 
-If you want you can run unit tests in the same process 
-
-## Complete example
-

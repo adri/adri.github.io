@@ -4,7 +4,7 @@ title: "NodeJS: Factory Function Pattern, Dependency Registry and Hot Reloading"
 summary: "This article shows how to combine Factory Functions with a rapid feedback loop using hot reloading." 
 ---
 
-Factory Functions Pattern are a great way to structure applications in NodeJS. [This In-Depth article](https://medium.com/@pyrolistical/factory-functions-pattern-in-depth-356d14801c91#.3193wonrd) describes how they are used. In short, advantages of this pattern are:
+Factory Functions Pattern are a great way to structure applications in NodeJS. This [In-Depth article](https://medium.com/@pyrolistical/factory-functions-pattern-in-depth-356d14801c91#.3193wonrd) describes how they are used. In short, the advantages of this pattern are:
 
  * All external dependencies of a module are stated explicitly
  * External dependencies can be replaced without changing the module 
@@ -12,15 +12,21 @@ Factory Functions Pattern are a great way to structure applications in NodeJS. [
  * No global references
  * [Inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)
 
-## Wireing up dependencies
+This post shows how to:
+
+ - Code using the Factory Function pattern
+ - Wire up dependencies in one place
+ - Hot reload a server for fast iteration
+
+## Wiring up dependencies
 
 More complex NodeJS applications can gain maintainability and testability from such a structure.
 Dependencies of the app can be wired up in one place. 
 
 An example which runs with NodeJS > 4.x looks like this:
 
-```js
-# In file ./src/index.js
+```js ./src/index.js
+// In file ./src/index.js
 
 // Wire up dependencies
 const leveldb = require('leveldb');

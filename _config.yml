@@ -28,6 +28,7 @@ flattr_button:
 
 # Build settings
 markdown: redcarpet
+exclude: [vendor]
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink: /post/:title

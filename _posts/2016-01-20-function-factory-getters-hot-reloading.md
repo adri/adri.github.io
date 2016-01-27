@@ -132,9 +132,8 @@ const deps = {
   app,
 
   get routes() {
-    const router = express.Router();
-    deps.userController.routes(router);
-    return router;
+    deps.userController.routes(deps.app);
+    return app;
   },
 
   get User() {
@@ -159,7 +158,6 @@ This is how the `./index.js` looks like after the refactoring:
 ```js
 // In file ./index.js
 
-
 // Start with hot reloading: node index hotreload
 const isHot = process.argv[2] === 'hotreload';
 const app = isHot ? require('./hotreload') : require('./src/server');
@@ -168,6 +166,8 @@ app.listen(3000, () => console.log('Listening on http://localhost:3000'));
 ```
 
 ```js
+// In file ./src/server.js
+
 const dependencies = require('./dependencies');
 const app = dependencies.app;
 const routes = dependencies.routes;
@@ -187,6 +187,7 @@ const app = dependencies.app;
 
 // Include server routes as a middleware
 app.use((req, res, next) => {
+  // Require all dependencies.
   dependencies.routes(req, res, next)
 });
 

@@ -8,7 +8,7 @@ Factory Functions Pattern are a great way to structure applications in NodeJS. T
 
  * All external dependencies of a module are stated explicitly
  * External dependencies can be replaced without changing the module 
- * Unittesting is easy/possible
+ * Unittesting works by passing in mocked/testing dependencies
  * No global references
  * [Inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control)
 
@@ -17,6 +17,11 @@ This post shows how to:
  1. Code using the Factory Function pattern
  2. Wire up dependencies in one place
  3. Hot reload a server for fast iteration
+
+Example screencast how to use hot reloading in PHPStorm or Webstorm:
+
+![run-with-hot-reload](https://cloud.githubusercontent.com/assets/133832/12606723/df0e20d0-c4cf-11e5-9905-97150c0738d8.gif)
+
 
 ## Wiring up dependencies
 
@@ -152,7 +157,7 @@ module.exports = deps;
 This is how the `./index.js` looks like after the refactoring:
 
 ```js
-# In file ./index.js
+// In file ./index.js
 
 
 // Start with hot reloading: node index hotreload

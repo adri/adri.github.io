@@ -92,14 +92,17 @@ While trusting is good, **blind trust can be dangerous**. This is why trust shou
 ![Dilbert strip from April 08, 204](http://assets.amuniversal.com/d06331106d5301301d7c001dd8b71c47)
 
 See:
+
  - Low trust: trust because of “a leader”
  - High trust: trust because of the people and systems
 
 Speak:
+
  - Trust is explicitly communicated
  - 13 behaviors, see above
 
 Behave:
+
  - Make systems that inspire trust
  - Create symbols of trust
 

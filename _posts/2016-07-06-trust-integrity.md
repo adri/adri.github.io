@@ -4,7 +4,7 @@ title: Trust and Integrity
 summary: My notes for the Speed of Trust by FranklinCovey.
 ---
 
-While working for different companies and clients I started noticing that there is a big difference in effectiveness when relationships are based on a trust. I feel that trust has a big impact not only on relationships with clients but also within an organization.
+While working for different companies and clients I started noticing that there is a big difference in effectiveness when relationships are based on trust. I feel that trust has a big impact not only on relationships with clients but also within an organization.
 
 Because of this observation I searched for material about this topic. One resource was ["Speed of Trust"](http://www.speedoftrust.com) also available as online course [“Excelerators: The Trust Series”](http://www.franklincovey.com/tc/solutions/online-learning/franklincovey-on-demand/excelerators) by FranklinCovey which the following summary is based on.
 

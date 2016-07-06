@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Trust and Integrity online course
-summary: My notes for the online course “Trust and Integrity” by FranklinCovey.
+title: Trust and Integrity 
+summary: My notes for the Speed of Trust by FranklinCovey.
 ---
 
 While working for different companies and clients I started noticing that there is a big difference in effectiveness when relationships are based on a trust. I feel that trust has a big impact not only on relationships with clients but also within an organization.
 
-Because of this observation I searched for material about this topic. One resource was the online course [“Excelerators: The Trust Series”](http://www.franklincovey.com/tc/solutions/online-learning/franklincovey-on-demand/excelerators) by FranklinCovey which the following summary is based on.
+Because of this observation I searched for material about this topic. One resource was ["Speed of Trust"](http://www.speedoftrust.com) also available as online course [“Excelerators: The Trust Series”](http://www.franklincovey.com/tc/solutions/online-learning/franklincovey-on-demand/excelerators) by FranklinCovey which the following summary is based on.
 
 ![Trust example: A dog jumping high up in the air and landing in the arms of a man.](https://media.giphy.com/media/u6sdOrCj98cVi/giphy.gif)
 

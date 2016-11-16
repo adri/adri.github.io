@@ -10,7 +10,7 @@ so often that there is a name for it – the [“demo effect”](http://www.urba
 But there is an alternative.
 
 ## Prerecording videos 
-For the talk [Experiences building apps with React Native](http://www.slideshare.net/adrian_philipp/experiences-building-apps-with-react-native-domcode-2016) I wanted to try something different. 
+For the talk [Experiences building apps with React Native](http://www.slideshare.net/adrian_philipp/experiences-building-apps-with-react-native-domcode-2016) (only slides, video is coming) I wanted to try something different.
 
 I love screencast series like for example [Destroy All Software](https://www.destroyallsoftware.com/screencasts/catalog). Recently I’ve been watching [LearnElixir](https://www.learnelixir.tv) and [LearnPhoenix](https://www.learnphoenix.tv), both are really nice. The combination of hearing an explanation with seeing someone interacting with software works really well for me. Here is an example screencast  that I used in the presentation:
 

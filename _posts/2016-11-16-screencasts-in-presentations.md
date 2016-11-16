@@ -30,7 +30,7 @@ If your desktop is a bit cluttered, you can hide your desktop icons. That makes 
     killall Finder
 
 #### Make short videos
-Recording videos short videos which are 10 seconds to 2 minutes long helps avoiding mistakes. You can expect to make multiple attempts before getting it right. The shorter the videos the less mistakes happen.
+Recording short videos of 10 seconds to 2 minutes, helps avoiding mistakes. You can expect to make multiple attempts before getting it right. The shorter the videos the less mistakes happen.
 
 Shorter videos also help you to get the timing right when presenting. When a video ends, you have enough time to finish your explanation before starting the next.
 

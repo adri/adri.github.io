@@ -13,8 +13,9 @@ One development that kept be busy next to work for the last few weeks was the **
 
 1. **Compiles to Erlang**<br />
     Running on the battle tested [Erlang VM](https://www.erlang.org) is a great choice because its built-in support for concurrency, distribution and fault tolerance. Before looking into Elixir I wasn’t aware how versatile the Erlang VM is and how much it can simplify a tech stack. 
-![Erlang technology comparison](https://cloud.githubusercontent.com/assets/133832/21369162/f3bbf0aa-c705-11e6-8fb8-5f163eb47cd4.jpg)
-    https://www.manning.com/books/elixir-in-action
+    
+    <img src="https://cloud.githubusercontent.com/assets/133832/21369162/f3bbf0aa-c705-11e6-8fb8-5f163eb47cd4.jpg" width="400" title="Erlang technology comparison"/>
+    Source: https://www.manning.com/books/elixir-in-action
 
 2. **Quality of libraries**<br />
 The quality and maturity of libraries surprised me. For example: the web framework [Phoenix](http://www.phoenixframework.org), the database abstraction [Ecto](https://hexdocs.pm/ecto/getting-started.html) and the GraphQL library [Absinthe](http://absinthe-graphql.org). 

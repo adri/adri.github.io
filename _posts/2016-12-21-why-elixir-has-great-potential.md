@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why I think that the Elixir language has great potential
+title: Why the Elixir language has great potential 
 summary: Elixir enables creating fast, reliable and concurrent modern applications with high productivity
 ---
 

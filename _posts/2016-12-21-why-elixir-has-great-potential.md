@@ -35,6 +35,7 @@ Contrary to processes in other programming languages, a process that fails in Er
 5. **Performance**<br />
   So far I’m very happy with the speed of Elixir/Erlang. Reading about [sub-millisecond response times](https://engineering.pinterest.com/blog/introducing-new-open-source-tools-elixir-community) and scaling to [2 million active websocket connections on one server](http://www.phoenixframework.org/blog/the-road-to-2-million-websocket-connections) lets me not worry much about this topic just yet.   
     <img src="https://cloud.githubusercontent.com/assets/133832/21369160/f3b89130-c705-11e6-861a-e5a72728eb7c.png" title="Phoenix scalability" style="width: 500px">
+
   Especially when compared to PHP, Elixir comes with great performance. Being able to handle so many websocket connection enables a whole different user experience for web and mobile apps. I’m looking forward to using [Elixir with GraphQL subscriptions](https://dev-blog.apollodata.com/graphql-subscriptions-in-apollo-client-9a2457f015fb#.weuza15z1).
 
 6. **Industry adoption**<br /> 

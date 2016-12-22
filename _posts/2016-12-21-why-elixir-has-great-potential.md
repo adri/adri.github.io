@@ -9,7 +9,7 @@ This means to be on the lookout for current trends in the tech industry, guessin
 
 ![Elixir](https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png)
 
-One development that kept be busy next to work for the last few weeks was the **[Elixir](http://elixir-lang.org)**. My background is for the biggest parts in PHP and Javascript. Learning a programming language that is **dynamic, functional, immutable, and supports concurrency and pattern matching** can be mind bending. But apart from being a modern language, Elixir intrigues me because it…
+One development that kept me busy next to work for the last few weeks was the **[Elixir](http://elixir-lang.org)**. My background is for the biggest parts in PHP and Javascript. Learning a programming language that is **dynamic, functional, immutable, and supports concurrency and pattern matching** can be mind bending. But apart from being a modern language, Elixir intrigues me because it…
 
 1. **Compiles to Erlang**<br />
     Running on the battle tested [Erlang VM](https://www.erlang.org) is a great choice because its built-in support for concurrency, distribution and fault tolerance. Before looking into Elixir I wasn’t aware how versatile the Erlang VM is and how much it can simplify a tech stack. 

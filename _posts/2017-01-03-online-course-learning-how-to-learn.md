@@ -30,12 +30,11 @@ The more abstract something is the more important practice is to make neuronal c
 - working memory: small, fast access.
 - long term memory: big, slow access.
 
-…and others
+…and others.
 
 ### To make stronger neuronal connections
 1. **Over time**: To get something from the working memory to the long term memory it takes time and practice. Learning should be spread over time, with pauses in between. 
 2. **Sleep**: Especially when wanting to dream about it. 
-
 
 ### Tips to get to the diffuse mode
 1. **Exercise**: Take notes immediately to not forget.

@@ -3,6 +3,7 @@ layout: post
 title: Learning How to Learn – Online Course Notes
 summary:     
 categories: Learning
+image: https://cloud.githubusercontent.com/assets/133832/21652211/181e760a-d2ac-11e6-90cc-5fda12c231f7.jpeg
 published: false
 ---
 
@@ -14,58 +15,55 @@ With these questions on my mind I did the online course  [Learning How to Learn:
 
 Here are my course notes. 
 
+# *Week 1*
+
+### Modes
+1. Focused: Logical thinking, using existing thoughts.
+2. Diffuse: Creative thinking, making new thoughts.
+
 <img width="1189" alt="modes" src="https://cloud.githubusercontent.com/assets/133832/21652212/18224294-d2ac-11e6-8b62-b5919275739d.png">
 
-
-## Modes
-There are two  
-
-1. Focused: Logical thinking, using existing thoughts
-2. Diffused: Creative thinking, making new thoughts
-
-## Abstract things
+### Abstract things
 The more abstract something is the more important practice is to make neuronal connections in the brain.
 
-## Memory models
-- working memory: small, fast access
-- long term memory: big, slow access
-- and others
+### Memory models
+- working memory: small, fast access.
+- long term memory: big, slow access.
 
-## To make stronger neuronal connections
-1. Over time: To get something from the working memory to the long term memory it takes time and practice. Learning should be spread over time, with pauses in between. 
-2. Sleep. Especially when wanting to dream about it 
+…and others
 
-## Tips to keep focused in lectures
-1. Ask questions
+### To make stronger neuronal connections
+1. **Over time**: To get something from the working memory to the long term memory it takes time and practice. Learning should be spread over time, with pauses in between. 
+2. **Sleep**: Especially when wanting to dream about it. 
 
-## Tips to get to the diffused mode
-1. Exercise: take notes immediately to not forget
-2. Environment: get involved with other people, not by yourself. Rubberducking
 
-*Week 2*
+### Tips to get to the diffuse mode
+1. **Exercise**: Take notes immediately to not forget.
+2. **Environment**: Get involved with other people, not by yourself. Rubberducking.
 
-## Chunking
+# *Week 2*
+
+### Chunking
 Chunking is combining bits of information together with a meaning.
 
-chunking helps the brain to run more efficiently by remembering the main idea.
-Just memorising a fact without the context doesn’t help to understand.
+Chunking helps the brain to run more efficiently by remembering the main idea. Just memorising a fact without the context doesn’t help to understand.
 
 Focusing, practicing and repetition help to build chunks.
-
 The best chunks are always available to remember.
 
 Examples can help to quicker understand an idea. Like hearing a song when you want to learn it on the guitar. 
 Too much focusing on one single step can also be dangerous not see the connections between steps.
 
-## Steps of forming a chunk
+### Steps of forming a chunk
 1. Focus without distraction
 2. Figure out the main idea by using both modes
 3. Practice 
-  - ensure accessibility of the chunk
-  - doing it yourself to validate the idea
+     - ensure accessibility of the chunk
+     - doing it yourself to validate the idea
 
-Bottom up: Chunking: Practice and repetition (how to do)
-Top down: Getting the big picture (when to use)
+
+* **Bottom up**: Chunking: Practice and repetition (how to do)
+* **Top down**: Getting the big picture (when to use)
 Context: Combines the two
 
 ## Tips
@@ -87,7 +85,7 @@ Acids:
 
 ## Reasoning
 1. Sequential: Step by step reasoning. Focused mode.
-2. Holistic: Intuition, build new links. Diffused mode. Verify outcomes with focused mode!
+2. Holistic: Intuition, build new links. Diffuse mode. Verify outcomes with focused mode!
 
 ## Law of Serendipity
 If there is a lot of material, just start somewhere. The rest will get easier.

@@ -77,4 +77,4 @@ Although I haven’t gotten the chance to read these books myself, I heard good 
 - [Programming Phoenix](https://pragprog.com/book/phoenix/programming-phoenix)
 
 ## Elixirs future?
-Who knows. From what I see now, Elixir, although young, has great potential to become mainstream. It enables creating fast, reliable and concurrent modern applications with high productivity. I plan use Elixir in 2017 at least for some side-projects. 
+Who knows. From what I see now, Elixir, although young, has great potential to become mainstream. It enables creating fast, reliable and concurrent modern applications with high productivity. I plan to use Elixir in 2017 at least for some side-projects. 

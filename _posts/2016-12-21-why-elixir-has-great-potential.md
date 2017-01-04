@@ -23,6 +23,7 @@ For all my needs so far, I found some library. The quality and maturity of libra
   
 3. **Path for scalability**<br />
 Premature optimization is costly. Rewrites caused by quick and dirty work are as well. Thanks to *message passing* and processes of Erlang there is actually a very nice path for scaling from small to large while reducing waste:
+
     > 1. Design your code around processes
     > 2. Separate these processes into OTP apps
     > 3. When an OTP app gets too much load, move it to its own node on better hardware

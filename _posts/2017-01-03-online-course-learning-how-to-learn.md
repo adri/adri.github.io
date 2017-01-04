@@ -212,6 +212,5 @@ More effective than studying. What helps:
 
 Start with difficult problems, then go to easy problems. Must have discipline to switch from the hard problem to another task.
 
-# 
 
 

@@ -7,9 +7,8 @@ published: false
 ---
 
 
-My whole life I have been learning things. Every day a bit.
-
-[Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn/)
+In the end of last year I did the online course 
+[Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn/). 
 
 
 ## Modes

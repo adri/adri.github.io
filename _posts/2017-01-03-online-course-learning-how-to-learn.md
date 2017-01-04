@@ -4,7 +4,6 @@ title: Learning How to Learn – Online Course Notes
 summary: My notes for the online course “Learning How to Learn”.    
 categories: Learning
 image: https://cloud.githubusercontent.com/assets/133832/21652211/181e760a-d2ac-11e6-90cc-5fda12c231f7.jpeg
-published: true
 ---
 
 I love learning new things. I get a lot of energy from it. Too bad that I also forget stuff. Why is it that I remember some things well and some things less? Is there a wrong way to learn? How can I **improve my learning skills**? 
@@ -12,6 +11,7 @@ I love learning new things. I get a lot of energy from it. Too bad that I also f
 With these questions on my mind I did the online course  [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn/) thought by Barbara Oakley and Terrence Sejnowski at end of last year. I have to say, it turned out to be **one of the best online courses** I did. 
 
 ![Learning How to Learn](https://cloud.githubusercontent.com/assets/133832/21652211/181e760a-d2ac-11e6-90cc-5fda12c231f7.jpeg)
+Source: [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn/).
 
 Here are my course notes. 
 
@@ -22,6 +22,7 @@ Here are my course notes.
 2. Diffuse: Creative thinking, making new thoughts.
 
 <img width="1189" alt="modes" src="https://cloud.githubusercontent.com/assets/133832/21652212/18224294-d2ac-11e6-8b62-b5919275739d.png">
+Source: [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn/).
 
 ### Abstract things
 The more abstract something is the more important practice is to make neuronal connections in the brain.

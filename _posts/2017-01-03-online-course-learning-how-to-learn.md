@@ -6,4 +6,4 @@ categories: “Learning how to learn”
 published: false
 ---
 
-This is a test from my phone.
+This is a test from my phone... 

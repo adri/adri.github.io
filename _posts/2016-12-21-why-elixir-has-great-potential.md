@@ -6,14 +6,14 @@ categories: Elixir Erlang
 ---
 
 As a developer I think it is important to stay up to date with new developments. But mostly I love learning new things ;-) 
-This means to be on the lookout for current trends in the tech industry, guessing their potential and trying them out. Sometimes I’m right. For example: A few months ago, adopting [GraphQL](https://enrise.com/2016/10/why-we-use-graphql/) turned out to be a good guess. 
+This means to be on the lookout for current trends in the tech industry, guessing their potential and trying them out. Sometimes I’m right. For example: A few months ago, adopting [GraphQL](https://enrise.com/2016/10/why-we-use-graphql/) turned out to be a good guess.  
 
 ![Elixir](https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png)
 
-One development that kept me busy next to work for the last few weeks was the **[Elixir](http://elixir-lang.org)** language. My background is for the biggest parts in PHP and Javascript. Learning a programming language that is **dynamic, functional, immutable, and supports concurrency and pattern matching** can be mind bending. But apart from being a modern language, Elixir intrigues me because it…
+One development that kept me busy next to work for the last few weeks was the **[Elixir](http://elixir-lang.org)** language. My background is for the biggest parts in PHP and Javascript. Learning a programming language that is **dynamic, functional, immutable, and supports concurrency and pattern matching** can be mind bending. But apart from being a modern language, Elixir intrigues me because it… 
 
 1. **Compiles to Erlang**<br />
-    Running on the battle tested [Erlang VM](https://www.erlang.org) is a great choice because its built-in support for concurrency, distribution and fault tolerance. Before looking into Elixir I wasn’t aware how versatile the Erlang VM is and how much it can simplify a tech stack. 
+    Running on the battle tested [Erlang VM](https://www.erlang.org) is a great choice because its built-in support for concurrency, distribution and fault tolerance. Before looking into Elixir I wasn’t aware how versatile the Erlang VM is and how much it can simplify a tech stack.
     
     <img src="https://cloud.githubusercontent.com/assets/133832/21369162/f3bbf0aa-c705-11e6-8fb8-5f163eb47cd4.jpg" title="Erlang technology comparison" style="width: 500px">
   <br/>[Source](https://www.manning.com/books/elixir-in-action)

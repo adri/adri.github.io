@@ -55,58 +55,57 @@ Examples can help to quicker understand an idea. Like hearing a song when you wa
 Too much focusing on one single step can also be dangerous not see the connections between steps.
 
 ### Steps of forming a chunk
-1. Focus without distraction
-2. Figure out the main idea by using both modes
-3. Practice 
-     - ensure accessibility of the chunk
-     - doing it yourself to validate the idea
+1. Focus without distraction.
+2. Figure out the main idea by using both modes/
+3. Practice: 
+     - Ensure accessibility of the chunk.
+     - Doing it yourself to validate the idea.
 
+### Context
+* **Bottom up**: Chunking, practice and repetition. “How to do”.
+* **Top down**: Getting the big picture. “When to use”.
+* **Context**: Combines the two.
 
-* **Bottom up**: Chunking: Practice and repetition (how to do)
-* **Top down**: Getting the big picture (when to use)
-Context: Combines the two
+### Tips
+1. Learn the main concepts first, the structure.
+2. Then fill in the details.
+4. **Recalling**, remembering the key ideas is efficient. Retrieving information helps learning. Recalling outside of the usual environment help to become independent of environment. *Rereading* or spending a lot of time doesn’t help as much.
+5. Testing yourself and making mistakes can help to correct thinking. 
+6. Transfer: Linking one concept in another field.
 
-## Tips
-- Learn the main concepts first, structure
-- Then fill in the details
-- Rereading or spending a lot of time doesn’t help as much
-- “Recalling”, remembering the key ideas is efficient. Retrieving information helps learning. Recalling outside of the usual environment help to become independent of environment.
-- Testing yourself and making mistakes can help to correct thinking 
-- Transfer: Linking one concept in another field
+### Motivation
+Importance and value of the material in the future.
 
-## Motivation
-Importance and value of the material in the future
-
-Acids: 
+### Acids
 - Acetylcholine: focused learning, form connections, long term memory
 - Dopamine: controls motivation, released when unexpected reward, promised reward
 - Serotonin: Social life, risk taking behaviour 
 - Emotions: Slower than action/response
 
-## Reasoning
-1. Sequential: Step by step reasoning. Focused mode.
-2. Holistic: Intuition, build new links. Diffuse mode. Verify outcomes with focused mode!
+### Reasoning
+1. **Sequential**: Step by step reasoning. Focused mode.
+2. **Holistic**: Intuition, build new links. Diffuse mode. Verify outcomes with focused mode!
 
-## Law of Serendipity
+### Law of Serendipity
 If there is a lot of material, just start somewhere. The rest will get easier.
 
-## Overlearning
+### Overlearning
 Continuous practice after mastering something. Can be valuable for automating things in times of nervousness.
 
-## Deliberate practice
+### Deliberate practice
 Focusing on the difficult parts of the material.
 
-## Einstellung
+### Einstellung
 Initial intuition can be misleading. Unlearning old ideas while learning new ones. 
 
-## Interleaving
+### Interleaving
 Select and use different chunks to learn how to switch between them. Build flexibility. 
 - Getting used to learning not only how a technique works but also when to use it.
 - Make connections between chunks in different fields
 
-*Week 3*
+# *Week 3*
 
-## Procrastination 
+### Procrastination 
 = a bad habit, often with making irrational excuses. Flow:
 1. Unhappy feeling with a task (pain)
 2. Doing more enjoyable things

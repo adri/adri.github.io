@@ -4,7 +4,7 @@ title: Learning How to Learn – Online Course Notes
 summary: My notes for the online course “Learning How to Learn”.    
 categories: Learning
 image: https://cloud.githubusercontent.com/assets/133832/21652211/181e760a-d2ac-11e6-90cc-5fda12c231f7.jpeg
-published: false
+published: true
 ---
 
 I love learning new things. I get a lot of energy from it. Too bad that I also forget stuff. Why is it that I remember some things well and some things less? Is there a wrong way to learn? How can I **improve my learning skills**? 

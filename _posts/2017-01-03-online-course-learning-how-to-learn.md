@@ -6,6 +6,8 @@ categories: Learning
 published: false
 ---
 
+My whole life I have been learning things. Every day a bit.
+
 Learning How to Learn: Powerful mental tools to help you master tough subjects
 
 

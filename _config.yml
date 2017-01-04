@@ -1,6 +1,7 @@
 # Site settings
 title: code & coffee
 email: mail@adrian-philipp.com
+author: Adrian Philipp
 description: >
   This blog is about two passions of Adrian: web development and coffee.
 baseurl: ""

@@ -70,7 +70,7 @@ I also saw that there is [DailyDrip Elixir](https://www.dailydrip.com/topics/eli
 Just watching screencast series won’t learn you a language. Practice is important. One way to do this, are the [exercises on exercise.io](http://exercism.io/languages/elixir/exercises). These exercises are small, fun and teach a lot about the language. Reading solutions of other people after submitting your own is a great way to learn about alternative and maybe better code.   
 
 #### Books
-Although I haven’t gotten the change to read these books myself, I heard good things about them:
+Although I haven’t gotten the chance to read these books myself, I heard good things about them:
 
 - [Programming Elixir 1.3](https://pragprog.com/book/elixir13/programming-elixir-1-3)
 - [Programming Phoenix](https://pragprog.com/book/phoenix/programming-phoenix)

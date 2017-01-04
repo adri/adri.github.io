@@ -212,11 +212,6 @@ More effective than studying. What helps:
 
 Start with difficult problems, then go to easy problems. Must have discipline to switch from the hard problem to another task.
 
-## Hints for tests
-
-Stress is how you handle chemicals in your body.  
-If afraid, focus on deep breathing. 
-Have a plan B
-Get sleep!
+# 
 
 

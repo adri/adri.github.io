@@ -5,6 +5,7 @@ description: >
   This blog is about two passions of Adrian: web development and coffee.
 baseurl: ""
 url: "http://adrian-philipp.com"
+google_analytics: UA-39104015-1
 
 # Optional features
 animated:           false

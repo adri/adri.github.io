@@ -8,7 +8,7 @@ published: false
 
 I love learning new things. I get a lot of energy from it. Too bad that I also forget stuff. Why is it that I remember some things well and some things less? Is there a wrong way to learn? How can I **improve my learning skills**? 
 
-With these questions on my mind I did the online course  [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn/) thought by Terrence Sejnowski at end of last year. I have to say, it turned out to be **one of the best online courses** I did. 
+With these questions on my mind I did the online course  [Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn/) thought by Barbara Oakley and Terrence Sejnowski at end of last year. I have to say, it turned out to be **one of the best online courses** I did. 
 
 Here are my course notes. 
 

@@ -1,10 +1,12 @@
 # Site settings
 title: code & coffee
 email: mail@adrian-philipp.com
+author: Adrian Philipp
 description: >
   This blog is about two passions of Adrian: web development and coffee.
 baseurl: ""
 url: "http://adrian-philipp.com"
+google_analytics: UA-39104015-1
 
 # Optional features
 animated:           false
@@ -21,13 +23,13 @@ twitter_username: adrian_philipp
 github_username:  adri
 stackoverflow_id:
 google_plus_id:
-linkedin_username:
+linkedin_username: adrian-philipp-18914692
 bitcoin_url:
 paypal_url:
 flattr_button:
 
 # Build settings
-markdown: redcarpet
+#markdown: redcarpet
 exclude: [vendor]
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']

@@ -100,83 +100,89 @@ Initial intuition can be misleading. Unlearning old ideas while learning new one
 
 ### Interleaving
 Select and use different chunks to learn how to switch between them. Build flexibility. 
+
 - Getting used to learning not only how a technique works but also when to use it.
-- Make connections between chunks in different fields
+- Make connections between chunks in different fields.
 
 # *Week 3*
 
 ### Procrastination 
-= a bad habit, often with making irrational excuses. Flow:
-1. Unhappy feeling with a task (pain)
-2. Doing more enjoyable things
-3. Feeling better temporarily 
+A bad habit, often with making irrational excuses. Flow:
+
+1. Unhappy feeling with a task (pain).
+2. Doing more enjoyable things.
+3. Feeling better temporarily .
 
 ### Habits
 Building strong chunks to not focus anymore on everything. Good and bad. Flow:
-1. Cue: Trigger to start a habit
-2. Habit: Reaction 
-3. Reward 
-4. Belief: Underlying belief
+
+1. **Cue**: Trigger to start a habit.
+2. **Habit**: Reaction.
+3. **Reward**
+4. **Belief**: Underlying belief. 
+
 To change a habit you have to change the underlying belief. 
 
 ### Negative feelings
 Negative thinking at the start is normal. Good learners don’t waste time and get started.
 
 ### Focus on the process 
-To avoid procrastination it is good to focus on process, like spend 20 minutes on a topic instead of the outcome, e.g. finishing a test. Most unhappy feelings or pain come from focusing on the outcome.
+To avoid procrastination it is good to focus on the **process**, like spend 20 minutes on a topic instead of the **outcome**, e.g. finishing a test. Most unhappy feelings or pain come from focusing on the outcome.
 
-- learning starts earlier, not e.g. a day before a test
-- there is more repetition because it becomes a habit to learn a bit more often
+- Learning starts earlier, not e.g. a day before a test.
+- There is more repetition because it becomes a habit to learn a bit more often.
 
 ### Changing habits
-1. Only changing the cue or trigger should need willpower to change.
-A trigger can be:
-- Location
-- Time
-- Feeling
-- Reactions
-2. To avoid going in old habits, have a plan to avoid the reaction.
-3. Reward 
-4. Belief that the new system works
+1. **Trigger**: Only changing the cue or trigger should need willpower to change.
+    A trigger can be:
+    - Location
+    - Time
+    - Feeling
+    - Reactions
+2. **Plan B**: To avoid going in old habits, have a plan B to avoid the reaction.
+3. **Reward**
+4. **Belief**: Belief that the new system works.
 
-## Visual memory
+### Visual memory
 Works very well. To get working memory to long-term memory using images:
-1. Idea must be memorable
-2. Repetition
+
+1. Idea must be memorable.
+2. Repetition.
+
 Use more senses like smelling or hearing to make the memory stronger.
 
-## Hippocampus
+### Hippocampus
 Stores new memories in the cortex. 
 
-## Consolidation and Reconciliation
-- Consolidation: Storing memories in the long term storage
-- Reactivation: Recalling a memory. The memory is in a new context.
-- Reconciliation: When recalling, memories change which can be stored again. 
+### Consolidation and Reconciliation
+- **Consolidation**: Storing memories in the long term storage
+- **Reactivation**: Recalling a memory. The memory is in a new context.
+- **Reconciliation**: When recalling, memories change which can be stored again. 
 
 Consolidation and reconsolidating occur during sleeping.
  
-## Astrocytes
+### Astrocytes
 - Provides nutrients to neurons
 - Maintains extra cellular ion balance
 - Involved in repairing brain injury 
 
-## Memory palace
+### Memory palace
 Technique to visualise where something you have to remember is placed. Used to remember lists of not related things.
 
-*Week 4*
+# *Week 4*
 
-## Learning doesn't progress logically 
+### Learning doesn't progress logically 
 Temporarily feeling like taking a step back in learning is ok because the mind is restructuring its understanding. 
 
-## Analogies 
-Help to get people out of Einstellung 
-Stories help to remember things
+### Analogies 
+Help to get people out of *Einstellung*. 
+Stories help to remember things.
 
-## Hemispheres 
-* Left: interprets the world. keeps interpretations unchanging.
-* Right: questions the status quo, looks for global inconsistencies
+### Hemispheres 
+* **Left**: interprets the world. keeps interpretations unchanging.
+* **Right**: questions the status quo, looks for global inconsistencies
 
-! verify your solutions in the global sense, does this really make sense?
+Verify your solutions in the global sense. Does this really make sense?
 
 ## Others
 

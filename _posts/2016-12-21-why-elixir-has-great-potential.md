@@ -2,6 +2,7 @@
 layout: post
 title: Why the Elixir language has great potential 
 summary: Elixir enables creating fast, reliable and concurrent modern applications with high productivity
+categories: Elixir Erlang 
 ---
 
 As a developer I think it is important to stay up to date with new developments. But mostly I love learning new things ;-) 

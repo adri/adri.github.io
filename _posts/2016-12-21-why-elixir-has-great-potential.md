@@ -68,7 +68,7 @@ I’m a big fan of screencasts. I like the combination between seeing code and h
 I also saw that there is [DailyDrip Elixir](https://www.dailydrip.com/topics/elixir) which I’d like to watch in the future.  
 
 #### Exercises
-Just watching screencast series won’t learn you a language. Practice is important. One way to do this, are the [exercises on exercise.io](http://exercism.io/languages/elixir/exercises). These exercises are small, fun and teach a lot about the language. Reading solutions of other people after submitting your own is a great way to learn about alternative and maybe better code.   
+Just watching screencast series won’t teach you a language. Practice is important. One way to do this, are the [exercises on exercise.io](http://exercism.io/languages/elixir/exercises). These exercises are small, fun and teach a lot about the language. Reading solutions of other people after submitting your own is a great way to learn about alternative and maybe better code.   
 
 #### Books
 Although I haven’t gotten the chance to read these books myself, I heard good things about them:

@@ -5,7 +5,7 @@ summary: Elixir enables creating fast, reliable and concurrent modern applicatio
 categories: Elixir Erlang 
 ---
 
-*Update: There is a nice discussion on [Hacker News](https://news.ycombinator.com/item?id=13235004).*
+*Update: There is a nice discussion on [Hacker News](https://news.ycombinator.com/item?id=13235004).* 
 
 As a developer I think it is important to stay up to date with new developments. But mostly I love learning new things ;-) 
 This means to be on the lookout for current trends in the tech industry, guessing their potential and trying them out. Sometimes I’m right. For example: A few months ago, adopting [GraphQL](https://enrise.com/2016/10/why-we-use-graphql/) turned out to be a good guess.  

@@ -21,7 +21,7 @@ Many implementations of this approach use a second cache key (stale key) to keep
 ## Russian Doll Cache
 For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. How this works is nicely explained in the article [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works). Using `updated_at` timestamps for cache keys of the fragments allows for individual cache updates and minimal re-rendering. 
 
- 
+In the  
 
 
 ## Sources: Dog pile effect

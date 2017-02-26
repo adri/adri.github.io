@@ -16,12 +16,11 @@ When
 	{% cache 'event_comments' ~ event.id ~ event.updatedAt   %}
 	  <ul class="comments">
 		  {% foreach (comment in event.comments) %}
-			  <li>
-				  {comment.body}
+			  <li>{{ comment.author.name }} {{ comment.createdAt }}<br /> 
+				  <p>{{ comment.body }}</p>
 			  </li>
 		  {% endforeach %}
 	  </ul>
-	    
 	{% endcache %}
 {% endcache %}
 ```

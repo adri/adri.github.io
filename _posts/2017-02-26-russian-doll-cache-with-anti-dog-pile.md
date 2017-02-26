@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Improving Nested View Fragment Caching for Traffic Spikes
+title: Improving Caching of Nested Template Fragment for Traffic Spikes
 summary: 
 categories: cache, invalidation
 image: 
 published: false
 ---
 
-## Nested cache blocks
+## Cache 
 
 What is the Russian doll cache?
 The Russian doll approach is a technique for building nested caches in views.

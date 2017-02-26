@@ -7,15 +7,9 @@ image:
 published: false
 ---
 
-Last week I learned about two caching techniques and how to combined them to be even more effective. 
+Last week I learned about two caching techniques and how to combined them to get a more effective caching strategy. First I wanted to solve the **"dog pile" effect** which occurs when a cache expires during a traffic spike. Many users refresh the cache value at the same time and 
 
-
-
-Caching is hard – but also useful to speed up 
-
-  
-First "dog pile" effect which occurs when a cache expires during a traffic spike and many users. 
-Then I learned about the "Russian Doll" approach for caching template fragments effectively. 
+Then I learned about the **"Russian doll" approach** for caching template fragments effectively. 
 
  have to rebuild the cache at the same time, leading to heavy load on a database. 
 

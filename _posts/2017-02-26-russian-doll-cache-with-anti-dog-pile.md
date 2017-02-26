@@ -7,7 +7,7 @@ image:
 published: false
 ---
 
-Last week I learned about the "Russian Doll" approach for caching template fragments effectively. Based on cache-key expiration, a change to the cache key will 
+Last week I learned about the "Russian Doll" approach for caching template fragments effectively. 
 
 
 ## Russian Doll Cache

@@ -19,7 +19,22 @@ One way to prevent this is, that only the first user regenerates a cache value w
 Many implementations of this approach use a second cache key (stale key) to keep track of this. A downside of that is increased writes to the cache backend. Luckily this additional cache value can be used when combining this with the Russian doll cache.
 
 ## Russian Doll Cache
-For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. 
+For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. How this works is nicely explained in the article [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works). Using `updated_at` timestamps for cache keys of the fragments allows for individual cache updates and minimal re-rendering. 
+
+
+ 
+
+## Sources: Russian Doll Cache
+* [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
+* [How Basecamp Next got to be so damn fast without using much client-side UI, 2012](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
+* [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
+
+## Sources: Dog pile effect
+* [Avoiding the Memcache ‘dog pile’ effect](https://www.leaseweb.com/labs/2013/03/avoiding-the-memcache-dog-pile-effect/)
+* [Dog-pile Effect and How to Avoid it with Ruby on Rails memcache-client Patch](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
+* [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
+
+--- 
 
 For example: Assuming there are groups and items. A group can have many items. A template should how information about a group and all it's items.
 
@@ -51,23 +66,7 @@ class Group {
 
 A prerequisite of this approach is, that there are *last updated timestamps* propagated in the hierarchy. When an item changes, the last updated timestamp of the parent group should be updated as well. If the group updates, the last updated timestamps of all of it's items should be updated.
 
-
-
-
-This is effective when composing  Using `updated_at` timestamps for cache keys of the fragments allows for individual cache updates and minimal re-rendering. 
- 
-
-## Sources: Russian Doll Cache
-* [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
-* [How Basecamp Next got to be so damn fast without using much client-side UI, 2012](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
-* [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
-
-## Sources: Dog pile effect
-* [Avoiding the Memcache ‘dog pile’ effect](https://www.leaseweb.com/labs/2013/03/avoiding-the-memcache-dog-pile-effect/)
-* [Dog-pile Effect and How to Avoid it with Ruby on Rails memcache-client Patch](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
-* [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
-
-
+--- 
 
 In my case a Symfony3 application using the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
 
@@ -80,9 +79,6 @@ In my case a Symfony3 application using the [Twig Cache Extension](https://githu
     {% endfor %}
 {% endcache %}
 ```
-
-
-
 
 In `events.twig.html`:
 ```html
@@ -104,8 +100,3 @@ In `event_comments.twig.html`:
     {% endforeach %}
 </ul>
 ```
-
-
-What is the dogpile effect?
-
-Twig 

@@ -7,8 +7,8 @@ image:
 published: false
 ---
 
-When a website looks great and reacts quickly 
-
+I like it when a website doesn't only look good but also reacts fast. 
+One way to 
 
 Caching is hard – but also useful to speed up 
 

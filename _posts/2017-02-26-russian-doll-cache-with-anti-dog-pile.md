@@ -7,11 +7,13 @@ image:
 published: false
 ---
 
-Last week I learned about the "Russian Doll" approach for caching template fragments effectively. 
+Last week I learned about the "Russian Doll" approach, which is about caching template fragments effectively. I also learned read into the "dog pile" effect which occurs when many users
 
 ## Russian Doll Cache
 
-The Russian doll approach is combination of 
+The Russian doll approach works best when combining two techniques: 
+
+1. Have 
 
 While you're free to hard-code any string for the cache key, the true power of Russian-Doll caching comes into play when we use a timestamp-based approach.
 

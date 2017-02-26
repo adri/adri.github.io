@@ -12,7 +12,7 @@ Last week I learned about two caching techniques and how to combined them to get
 First I wanted to solve the **"dogpile" effect** which can happen during a traffic spike, then I learned about the **"Russian doll" approach** for caching nested template blocks. Finally, combining the two 
 
 ## Russian Doll Cache
-For caching nested template blocks the **"Russian doll" approach** works well with timestamp-based cache keys. How this works is nicely explained in the article [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works). Using last updated timestamps for cache keys of the blocks allows for individual cache updates and minimal re-rendering. The cache value only needs to be regenerated when the timestamp changes.
+For caching nested template partials the **"Russian doll" approach** works well with timestamp-based cache keys. How this works is nicely explained in the article [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works). Using last updated timestamps for cache keys of the partials allows for individual cache updates and minimal re-rendering. The cache value only needs to be regenerated when the timestamp changes.
 
 This great unless the cache key changes during a traffic spike. The high load can lead to the "dog-pile" effect.
 

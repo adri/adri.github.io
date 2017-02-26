@@ -19,12 +19,17 @@ One way to prevent this is, that only the first user regenerates a cache value w
 Many implementations of this approach use a second cache key (stale key) to keep track of this. A downside of that is increased writes to the cache backend. Luckily this additional cache value can be used when combining this with the Russian doll cache.
 
 ## Russian Doll Cache
-Then I learned about the **"Russian doll" approach** for caching nested template fragments which works well for hierarchical data. A prerequisite of this approach is, that there are *last updated timestamps* propagated in the hierarchy.
+For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. 
 
-A template is then composed of smaller cached parts (fragments). The cache keys used for the fragments rely on last updated timestamps of the data they show. 
+A prerequisite of this approach is, that there are *last updated timestamps* propagated in the hierarchy.
+
+A template is composed of smaller cached parts (fragments). 
+Each fragment is cached individually. 
+
+The cache keys used for the fragments rely on last updated timestamps of the data they show. 
 
 
-are cached individually. 
+
 
 This is effective when composing  Using `updated_at` timestamps for cache keys of the fragments allows for individual cache updates and minimal re-rendering. 
  

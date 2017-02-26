@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning How to Learn – Online Course Notes
+title: R
 summary: 
 categories: cache, invalidation
 image: 

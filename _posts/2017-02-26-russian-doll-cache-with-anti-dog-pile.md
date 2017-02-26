@@ -11,6 +11,13 @@ Last week I learned about two caching techniques and how to combined them to get
 
 First I wanted to solve the **"dogpile" effect** which can happen during a traffic spike, then I learned about the **"Russian doll" approach** for caching nested template fragments. Finally, combining the two 
 
+
+## Russian Doll Cache
+For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. How this works is nicely explained in the article [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works). Using last updated timestamps for cache keys of the fragments allows for individual cache updates and minimal re-rendering. The cache value only needs to be regenerated when the timestamp changes.
+
+This great unless the cache key changes during a traffic spike. The high load can lead to the "dogpile" effect.
+
+
 ## Dog Pile Effect
 The **"dogpile" effect**, also [cache stampede](https://en.wikipedia.org/wiki/Cache_stampede), occurs when a cache expires during very high load. Many users regenerate the just expired cache value and query the database. The more users hit the database, the slower and less responsive it gets. 
 
@@ -18,23 +25,17 @@ One way to prevent this is, that only the first user regenerates a cache value w
 
 Many implementations of this approach use a second cache key (stale key) to keep track of this. A downside of that the additional cache key increases writes to the cache backend.
 
-## Russian Doll Cache
-For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. How this works is nicely explained in the article [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works). Using last updated timestamps for cache keys of the fragments allows for individual cache updates and minimal re-rendering. 
-
-
 Luckily the additional cache value  can be used when combining this with the Russian doll cache.
-
-
-## Sources: Dog pile effect
-* [Avoiding the Memcache ‘dog pile’ effect](https://www.leaseweb.com/labs/2013/03/avoiding-the-memcache-dog-pile-effect/)
-* [Dog-pile Effect and How to Avoid it with Ruby on Rails memcache-client Patch](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
-* [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
 
 ## Sources: Russian Doll Cache
 * [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
 * [How Basecamp Next got to be so damn fast without using much client-side UI, 2012](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
 * [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
 
+## Sources: Dog pile effect
+* [Avoiding the Memcache ‘dog pile’ effect](https://www.leaseweb.com/labs/2013/03/avoiding-the-memcache-dog-pile-effect/)
+* [Dog-pile Effect and How to Avoid it with Ruby on Rails memcache-client Patch](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
+* [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
 
 --- 
 

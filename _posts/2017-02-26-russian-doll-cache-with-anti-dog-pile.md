@@ -9,7 +9,6 @@ published: false
 
 Last week I learned about the "Russian Doll" approach for caching template fragments effectively. 
 
-
 ## Russian Doll Cache
 
 The Russian doll approach is a technique for building nested caches in templates. 

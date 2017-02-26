@@ -20,7 +20,7 @@ Then I learned about the **"Russian doll" approach** for caching template fragme
 
 ## Sources: Dog pile effect
 * [Avoiding the Memcache ‘dog pile’ effect](https://www.leaseweb.com/labs/2013/03/avoiding-the-memcache-dog-pile-effect/)
-* [](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
+* [Dog-pile Effect and How to Avoid it with Ruby on Rails memcache-client Patch](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
 * [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
 
 

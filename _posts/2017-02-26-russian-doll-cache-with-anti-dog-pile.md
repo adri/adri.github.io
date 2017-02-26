@@ -10,8 +10,20 @@ published: false
 When 
 
 ```html
-{% cache '' %}
-
+{% cache 'event_detail_' ~ event.id ~ event.updatedAt   %}
+	<h1>event.title</h1>
+	
+	{% cache 'event_comments' ~ event.id ~ event.updatedAt   %}
+	  <ul class="comments">
+		  {% foreach (comment in event.comments) %}
+			  <li>
+				  {comment.body}
+			  </li>
+		  {% endforeach %}
+	  </ul>
+	    
+	{% endcache %}
+{% endcache %}
 ```
 
 

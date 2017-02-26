@@ -9,7 +9,7 @@ published: false
 
 Last week I learned about two caching techniques and how to combined them to get a more effective caching strategy. 
 
-First I wanted to solve the **"dogpile" effect** which occurs when a cache expires during a traffic spike. Many users re-generate the just expired cache value and query the database. The more users hit the database, the slower and less responsive it gets. To prevent this, only the first user should re-generate the cache value and all other users will receive a stale version of the cache until 
+First I wanted to solve the **"dogpile" effect** which occurs when a cache expires during a traffic spike. Many users re-generate the just expired cache value and query the database. The more users hit the database, the slower and less responsive it gets. To prevent this, only the first user should re-generate a cache value and all other users will receive a stale version until the cache is refreshed by the first user.
 
 Then I learned about the **"Russian doll" approach** for caching template fragments effectively. nest cached fragments 
 

@@ -8,7 +8,7 @@ published: false
 ---
 
 When a website looks great and reacts quickly 
-As a developer my 
+
 
 Caching is hard – but also useful to speed up 
 

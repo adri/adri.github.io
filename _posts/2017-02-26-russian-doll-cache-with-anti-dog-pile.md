@@ -15,11 +15,14 @@ Then I learned about the **"Russian doll" approach** for caching template fragme
 
 ## Sources: Russian Doll Cache
 * [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
-* [How Basecamp Next got to be so damn fast without using much client-side UI](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
+* [How Basecamp Next got to be so damn fast without using much client-side UI, 2012](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
 * [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
 
 ## Sources: Dog pile effect
-* [preventing the dogpile effect](http://www.sobstel.org/blog/preventing-dogpile-effect/)
+* [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
+* 
+
+
 
 In my case a Symfony3 application using the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
 

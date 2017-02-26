@@ -7,10 +7,19 @@ image:
 published: false
 ---
 
+When 
+
+```html
+{% cache '' %}
+
+```
+
 
 ## Russian Doll Cache
 
-The Russian doll approach is a technique for building nested caches in views.
+The Russian doll approach is a technique for building nested caches in templates.
+
+While you're free to hard-code any string for the cache key, the true power of Russian-Doll caching comes into play when we use a timestamp-based approach.
 
 
 [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)

@@ -7,7 +7,10 @@ image:
 published: false
 ---
 
-Last week I learned some techniques about caching. 
+Caching is hard – but also useful to speed up 
+
+Last week I learned two caching techniques and how to combine them.
+  
 First "dog pile" effect which occurs when a cache expires during a traffic spike and many users. 
 Then I learned about the "Russian Doll" approach for caching template fragments effectively. 
 

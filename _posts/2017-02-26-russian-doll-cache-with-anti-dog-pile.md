@@ -42,6 +42,7 @@ In `events.twig.html`:
 In `event_comments.twig.html`:
 ```html
 <ul class="comments">
+	
     {% foreach (comment in event.comments) %}
         {{ render(controller('comment', comment)) }}
     {% endforeach %}

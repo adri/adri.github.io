@@ -38,7 +38,16 @@ In the [Twig](http://twig.sensiolabs.org) template language with the [Twig Cache
 ```
 
 A template is composed of smaller cached parts (fragments). 
-Each fragment is cached individually. The `cacheKey` used is based 
+Each fragment is cached individually. The `cacheKey` is based on an ID and last updated timestamp of a group or item.
+
+```php
+class Group {
+    // ...
+    public function getCacheKey() {
+	    return $this->id . ' ' . $this->updatedAt;
+    }
+}
+```
 
 A prerequisite of this approach is, that there are *last updated timestamps* propagated in the hierarchy. When an item changes, the last updated timestamp of the parent group should be updated as well. If the group updates, the last updated timestamps of all of it's items should be updated.
 

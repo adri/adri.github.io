@@ -1,27 +1,36 @@
 ---
 layout: post
-title: Improving Caching of Nested Template Fragment for Traffic Spikes
+title: Improving Caching of Nested Fragment for Traffic Spikes
 summary: 
 categories: cache, invalidation
 image: 
 published: false
 ---
 
-Last week I learned about a technique for caching template fragments effectively. 
+Last week I learned about the "Russian Doll" approach for caching template fragments effectively. 
+
+
 
 ## Russian Doll Cache
 
 The Russian doll approach is a technique for building nested caches in templates.
 
+
+In my case a Symfony3 application using the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
+
+```
+{% cache 'v1` %}
+    {% for item in items %}
+        {% cache 'v1' item %}
+            {# ... #}
+        {% endcache %}
+    {% endfor %}
+{% endcache %}
+```
+
+
+
 While you're free to hard-code any string for the cache key, the true power of Russian-Doll caching comes into play when we use a timestamp-based approach.
-
-
-
-
-
-
-
-
 
 ```html
 {% cache 'event_detail_' ~ event.id ~ event.updatedAt   %}
@@ -39,19 +48,8 @@ While you're free to hard-code any string for the cache key, the true power of R
 {% endcache %}
 ```
 
-```
-{% cache 'v1' 900 %}
-    {% for item in items %}
-        {% cache 'v1' item %}
-            {# ... #}
-        {% endcache %}
-    {% endfor %}
-{% endcache %}
-```
 
 
-
-[Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
 
 In 2016 [Matryoshka](https://github.com/laracasts/matryoshka)
 

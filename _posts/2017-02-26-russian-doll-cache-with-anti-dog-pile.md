@@ -7,7 +7,11 @@ image:
 published: false
 ---
 
-Last week I learned about the "Russian Doll" approach, which is about caching template fragments effectively. I also learned read into the "dog pile" effect which occurs when a cache expires and many users have to rebuild the cache at the same time. 
+Last week I learned some techniques about caching. 
+First "dog pile" effect which occurs when a cache expires during a traffic spike and many users. 
+Then I learned about the "Russian Doll" approach for caching template fragments effectively. 
+
+ have to rebuild the cache at the same time, leading to heavy load on a database. 
 
 ## Russian Doll Cache
 

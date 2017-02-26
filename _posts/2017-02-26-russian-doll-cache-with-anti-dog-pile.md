@@ -1,6 +1,6 @@
 ---
 layout: post
-title: R
+title: Russian Doll Cache with Anti Dogpile Effect
 summary: 
 categories: cache, invalidation
 image: 

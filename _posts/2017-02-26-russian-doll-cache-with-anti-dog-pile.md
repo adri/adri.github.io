@@ -21,10 +21,19 @@ Many implementations of this approach use a second cache key (stale key) to keep
 ## Russian Doll Cache
 For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. 
 
+```twig
+{% cache group.cacheKey %}
+    {# heavy lifting template stuff here, include/render other partials etc #}
+{% endcache %} 
+```
+
+
+
 A prerequisite of this approach is, that there are *last updated timestamps* propagated in the hierarchy.
 
 A template is composed of smaller cached parts (fragments). 
-Each fragment is cached individually. 
+Each fragment is cached individually.
+
 
 The cache keys used for the fragments rely on last updated timestamps of the data they show. 
 

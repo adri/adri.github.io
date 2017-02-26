@@ -7,7 +7,7 @@ image:
 published: false
 ---
 
-## Nested 
+## Nested cache blocks
 
 What is the Russian doll cache?
 The Russian doll approach is a technique for building nested caches in views.

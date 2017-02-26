@@ -1,11 +1,16 @@
 ---
 layout: post
-title: Improving Partials Caching for Traffic Spikes
+title: 
 summary: Combining the "Russian doll" approach with preventing the "dog-pile" effect. 
 categories: cache, invalidation
 image: 
 published: false
 ---
+
+Improving Partials Caching for Traffic Spikes
+Handke Traffic spikes with 
+
+
 
 Last week I learned about two caching techniques and how to combine them to get a more effective caching strategy.
 

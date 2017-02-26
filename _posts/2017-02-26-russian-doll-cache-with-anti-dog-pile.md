@@ -8,7 +8,7 @@ published: false
 ---
 
 Improving Partials Caching for Traffic Spikes
-Handke Traffic spikes with 
+Handle Traffic spikes with Timestamp based cache keys  
 
 
 

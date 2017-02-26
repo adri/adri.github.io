@@ -21,8 +21,9 @@ Many implementations of this approach use a second cache key (stale key) to keep
 ## Russian Doll Cache
 For caching nested template fragments the **"Russian doll" approach** works well with timestamp-based cache keys. 
 
+For example: Assuming there are groups and items. A group can have many items. A template should how information about a group and all it's items.
 
-In the [Twig](http://twig.sensiolabs.org) template language with the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension) this looks like this:
+In the [Twig](http://twig.sensiolabs.org) template language with the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension) this could look like this:
 
 ```twig
 {% cache group.cacheKey %}

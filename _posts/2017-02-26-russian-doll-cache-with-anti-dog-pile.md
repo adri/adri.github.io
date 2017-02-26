@@ -11,7 +11,7 @@ published: false
 What is the Russian doll cache?
 Is a technique for building nested caches in views.
 
-- Series on Laracast https://laracasts.com/series/russian-doll-caching-in-laravel/episodes/1
+- Series on Laracast https://github.com/laracasts/matryoshka
 
 What is the dogpile effect?
 

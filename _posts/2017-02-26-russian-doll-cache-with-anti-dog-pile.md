@@ -11,17 +11,15 @@ Last week I learned about the "Russian Doll" approach for caching template fragm
 
 ## Russian Doll Cache
 
-The Russian doll approach is a technique for building nested caches in templates. It's particularly popular in the Ruby world 
+The Russian doll approach is combination of 
 
-* http://hawkins.io/2012/07/advanced_caching_part_2-using_strategies/
+While you're free to hard-code any string for the cache key, the true power of Russian-Doll caching comes into play when we use a timestamp-based approach.
+
 * [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
 * [How Basecamp Next got to be so damn fast without using much client-side UI](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
 * [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
 
-
-- Series on Laracast 
-- 
-
+### Traffic Spikes - the "dog pile" effect
 
 In my case a Symfony3 application using the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
 
@@ -37,7 +35,7 @@ In my case a Symfony3 application using the [Twig Cache Extension](https://githu
 
 
 
-While you're free to hard-code any string for the cache key, the true power of Russian-Doll caching comes into play when we use a timestamp-based approach.
+
 
 In `events.twig.html`:
 ```html

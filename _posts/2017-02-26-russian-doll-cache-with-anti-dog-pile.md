@@ -7,12 +7,12 @@ image:
 published: false
 ---
 
-I like it when a website doesn't only look good but also reacts fast. 
-One way to 
+Last week I learned about two caching techniques and how to combined them to be even more effective. 
+
+
 
 Caching is hard – but also useful to speed up 
 
-Last week I learned two caching techniques and how to combine them.
   
 First "dog pile" effect which occurs when a cache expires during a traffic spike and many users. 
 Then I learned about the "Russian Doll" approach for caching template fragments effectively. 

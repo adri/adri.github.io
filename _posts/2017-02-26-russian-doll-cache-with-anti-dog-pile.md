@@ -12,7 +12,14 @@ Last week I learned about the "Russian Doll" approach for caching template fragm
 
 ## Russian Doll Cache
 
-The Russian doll approach is a technique for building nested caches in templates. In my case a Symfony3 application using the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
+The Russian doll approach is a technique for building nested caches in templates. 
+
+
+https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works
+
+
+
+In my case a Symfony3 application using the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
 
 ```
 {% cache 'v1` %}

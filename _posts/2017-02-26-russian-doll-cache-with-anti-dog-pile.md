@@ -28,22 +28,25 @@ The Russian doll approach is a technique for building nested caches in templates
 
 While you're free to hard-code any string for the cache key, the true power of Russian-Doll caching comes into play when we use a timestamp-based approach.
 
+In `events.twig.html`:
 ```html
-{% cache 'event_detail_' ~ event.id ~ event.updatedAt   %}
+{% cache event.cacheKey   %}
 	<h1>event.title</h1>
 	
 	{% cache 'event_comments' ~ event.id ~ event.updatedAt   %}
-	  <ul class="comments">
-		  {% foreach (comment in event.comments) %}
-			  <li>{{ comment.author.name }} {{ comment.createdAt }}<br /> 
-				  <p>{{ comment.body }}</p>
-			  </li>
-		  {% endforeach %}
-	  </ul>
+	  
 	{% endcache %}
 {% endcache %}
 ```
 
+In `event_comments.twig.html`:
+```html
+<ul class="comments">
+    {% foreach (comment in event.comments) %}
+        {{ render(controller('comment', comment)) }}
+    {% endforeach %}
+</ul>
+```
 
 
 

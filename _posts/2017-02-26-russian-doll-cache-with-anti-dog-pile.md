@@ -33,18 +33,18 @@ In `events.twig.html`:
 {% cache event.cacheKey   %}
 	<h1>event.title</h1>
 	
-	{% cache 'event_comments' ~ event.id ~ event.updatedAt   %}
-	  
+  {% cache 'event_comments' ~ event.cacheKey   %}
+			{{ render(controller('event_comments', event.comments)) }}
 	{% endcache %}
+	
 {% endcache %}
 ```
 
 In `event_comments.twig.html`:
 ```html
 <ul class="comments">
-	
     {% foreach (comment in event.comments) %}
-        {{ render(controller('comment', comment)) }}
+				{{ render(controller('comment', comment)) }}
     {% endforeach %}
 </ul>
 ```

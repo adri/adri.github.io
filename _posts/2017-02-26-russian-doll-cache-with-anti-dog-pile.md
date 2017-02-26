@@ -7,7 +7,8 @@ image:
 published: false
 ---
 
-Having a website that loads quickly and 
+When a website looks great and reacts quickly 
+As a developer my 
 
 Caching is hard – but also useful to speed up 
 

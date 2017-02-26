@@ -7,6 +7,8 @@ image:
 published: false
 ---
 
+Having a website that loads quickly and 
+
 Caching is hard – but also useful to speed up 
 
 Last week I learned two caching techniques and how to combine them.

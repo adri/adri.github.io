@@ -19,8 +19,9 @@ Then I learned about the **"Russian doll" approach** for caching template fragme
 * [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
 
 ## Sources: Dog pile effect
-* [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
 * [Avoiding the Memcache ‘dog pile’ effect](https://www.leaseweb.com/labs/2013/03/avoiding-the-memcache-dog-pile-effect/)
+* [](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
+* [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
 
 
 

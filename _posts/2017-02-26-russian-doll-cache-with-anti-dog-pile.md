@@ -13,7 +13,6 @@ Last week I learned about the "Russian Doll" approach for caching template fragm
 
 The Russian doll approach is a technique for building nested caches in templates. 
 
-
 https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works
 
 

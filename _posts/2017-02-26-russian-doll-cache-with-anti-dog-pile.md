@@ -24,15 +24,17 @@ For caching nested template fragments the **"Russian doll" approach** works well
 
  
 
-## Sources: Russian Doll Cache
-* [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
-* [How Basecamp Next got to be so damn fast without using much client-side UI, 2012](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
-* [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
 
 ## Sources: Dog pile effect
 * [Avoiding the Memcache ‘dog pile’ effect](https://www.leaseweb.com/labs/2013/03/avoiding-the-memcache-dog-pile-effect/)
 * [Dog-pile Effect and How to Avoid it with Ruby on Rails memcache-client Patch](https://kovyrin.net/2008/03/10/dog-pile-effect-and-how-to-avoid-it-with-ruby-on-rails-memcache-client-patch/)
 * [Preventing the dogpile effect, 2014](http://www.sobstel.org/blog/preventing-dogpile-effect/)
+
+## Sources: Russian Doll Cache
+* [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
+* [How Basecamp Next got to be so damn fast without using much client-side UI, 2012](https://signalvnoise.com/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui)
+* [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
+
 
 --- 
 

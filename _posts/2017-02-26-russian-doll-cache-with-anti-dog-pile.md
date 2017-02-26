@@ -19,7 +19,7 @@ Then I learned about the **"Russian doll" approach** for caching template fragme
 * [Matryoshka, PHP library, 2016](https://github.com/laracasts/matryoshka)
 
 ## Sources: Dog pile effect
-* [](http://www.sobstel.org/blog/preventing-dogpile-effect/)
+* [preventing the dogpile effect](http://www.sobstel.org/blog/preventing-dogpile-effect/)
 
 In my case a Symfony3 application using the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension)
 

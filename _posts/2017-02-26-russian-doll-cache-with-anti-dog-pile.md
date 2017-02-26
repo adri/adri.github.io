@@ -23,29 +23,24 @@ For caching nested template fragments the **"Russian doll" approach** works well
 
 For example: Assuming there are groups and items. A group can have many items. A template should how information about a group and all it's items.
 
-In the [Twig](http://twig.sensiolabs.org) template language with the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension) this could look like this:
+In the [Twig](http://twig.sensiolabs.org) template language with the [Twig Cache Extension](https://github.com/twigphp/twig-cache-extension) the template could look like this:
 
 ```twig
-{% cache group.cacheKey %}
+{% cache 'group', key: group.cacheKey %}
     {# ... #}
     
     {% for item in group.items %}
-        {% cache item.cacheKey %}
+        {% cache 'group_items', key: item.cacheKey %}
             {# ... #}
         {% endcache %}
     {% endfor %}
 {% endcache %} 
 ```
 
-
-
-A prerequisite of this approach is, that there are *last updated timestamps* propagated in the hierarchy.
-
 A template is composed of smaller cached parts (fragments). 
-Each fragment is cached individually.
+Each fragment is cached individually. The `cacheKey` used is based 
 
-
-The cache keys used for the fragments rely on last updated timestamps of the data they show. 
+A prerequisite of this approach is, that there are *last updated timestamps* propagated in the hierarchy. When an item changes, the last updated timestamp of the parent group should be updated as well. If the group updates, the last updated timestamps of all of it's items should be updated.
 
 
 

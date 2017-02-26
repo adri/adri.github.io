@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improving Caching of Nested Fragment for Traffic Spikes
+title: Improving Partials Caching for Traffic Spikes
 summary: 
 categories: cache, invalidation
 image: 
@@ -9,7 +9,7 @@ published: false
 
 Last week I learned about two caching techniques and how to combined them to get a more effective caching strategy.
 
-First I wanted to solve the **"dogpile" effect** which can happen during a traffic spike, then I learned about the **"Russian doll" approach** for caching nested template blocks. Finally, combining the two 
+First I learned about the **"Russian doll" approach** for caching nested template partials, then I wanted to solve the **"dogpile" effect** which can happen during a traffic spike. Finally, combining the two techniques 
 
 ## Russian Doll Cache
 For caching nested template partials the **"Russian doll" approach** works well with timestamp-based cache keys. How this works is nicely explained in the article [How key-based cache expiration works](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works). Using last updated timestamps for cache keys of the partials allows for individual cache updates and minimal re-rendering. The cache value only needs to be regenerated when the timestamp changes.
@@ -23,6 +23,8 @@ One way to prevent this is, when only the first user regenerates a cache value w
 
 Many implementations of this approach use a second cache key (stale key) to keep track of this. A downside of that the additional cache key increases writes to the cache backend.
 Luckily the additional cache value can be used in combination with the Russian doll cache.
+
+## Combining the two
 
 ## Sources: Russian Doll Cache
 * [How key-based cache expiration works, 2012](https://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)

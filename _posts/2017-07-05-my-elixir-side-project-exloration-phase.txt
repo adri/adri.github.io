@@ -97,6 +97,8 @@ Implementing Presence was very straight forward. There are [many examples](https
 #### Phoenix Channels
 During estimation sessions I wanted to have all information synchronised between team members. When a moderator selects a story to estimate, the stories description should be shown everywhere. When a team member votes, it should be visible immediately.
 
+I used 
+
 The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
 
 #### GitHub authentication

@@ -7,6 +7,8 @@ image:
 published: false
 ---
 
+To really learn something, I believe 
+
 After getting [an overview of the Elixir language](/post/why-elixir-has-great-potential) and diving into great books like [Elixir in Action](https://www.manning.com/books/elixir-in-action) it was finally time for me to start on a side-project. 
 
 ## Side project

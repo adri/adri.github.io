@@ -15,10 +15,13 @@ Like many developers who wants to learn a new technology, I needed a problem to 
 > If all you have is a hammer, everything looks like a nail.
   [Abraham Maslow](https://en.wikipedia.org/wiki/Abraham_Maslow)
 
-Luckily there was a need at my work for a [planning poker](https://en.wikipedia.org/wiki/Planning_poker) tool that is integrated with Jira and works well with remote developers. 
+Luckily there was a need at my work for a planning poker tool that is integrated with Jira and works well with remote developers. 
 
 ## Estimations for Remote Teams
-Because real cards are not very useful in a remote-friendly environment, planning poker 
+[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is usually played with cards.
+Because real cards are not very useful in a remote-friendly environment,
+http://www.planitpoker.com
+ planning poker 
 
 Realtime estimations 
 Sync of stories to view 

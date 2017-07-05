@@ -33,12 +33,11 @@ Everything was geared towards the specific use-case we have. Learning Elixir was
 
 1. Import stories from Jira  
 2. Estimate. This involves:
-	- Multiple *team members* who estimate a story
-	- A *moderator* who selects a story to estimate and sets an estimation
+Multiple team members who estimate a story. A moderator who selects a story to estimate and sets an estimation.
 3. Set estimations on stories in Jira
 
 ### How does it look like?
-I wanted to spend as little time as possible on the user interface. This meant for me using a [template](https://www.creative-tim.com/product/paper-kit) and hacking the needed Javascript. This is how *step 1 Import stories from Jira* looks like:
+I wanted to spend as little time as possible on the user interface. This meant for me using a [template](https://www.creative-tim.com/product/paper-kit) and hacking the needed Javascript. This is how step 1 "Import stories from Jira" looks like:
 
 ![Backlog imported from Jira](https://user-images.githubusercontent.com/133832/27869217-862d0ce2-619f-11e7-8273-677d2d9751c4.png)
 

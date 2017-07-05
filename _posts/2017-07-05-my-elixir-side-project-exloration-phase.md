@@ -18,7 +18,7 @@ Like many developers who want to learn a new technology, I needed a problem to s
 > If all you have is a hammer, everything looks like a nail.  
 > [Abraham Maslow](https://en.wikipedia.org/wiki/Abraham_Maslow)
 
-Luckily there was a need at my work for a planning poker tool that is integrated with Jira and works well with remote developers. 
+Luckily there was a need [at my work](https://www.ticketswap.com) for a planning poker tool that is integrated with Jira and works well with remote developers. 
 
 ## Estimations for Remote Teams
 [Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is a estimation technique used in agile software development. Usually this is done with real paper cards. In a remote-friendly environment, real cards are not always useful. 

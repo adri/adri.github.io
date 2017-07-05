@@ -44,7 +44,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen style="margin: 0 auto"></iframe>
 
-The moderator (Kermit the Frog) has selected a story to estimate. All team members see the same story description. Team members are giving their estimation by choosing a card for the estimated effort: XS, S, M, L, XL or ?. When all team members have given their estimation, the 
+The moderator (Kermit the Frog) has selected a story to estimate. All team members see the same story description. Team members are giving their estimation by choosing a card for the estimated effort: XS, S, M, L, XL or ?. When all team members have given their estimation, the results are shown and the moderator can save an estimation.
 
 ### What I learned 
 Learning a new language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 

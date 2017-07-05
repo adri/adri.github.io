@@ -92,7 +92,7 @@ Team members should be able to join and leave an estimation session. The state o
 
 ![List of team members](https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png)
 
-Doing this with NodeJS would be totally possible. What [makes Phoenix Presence this so special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) 
+Doing this with NodeJS would be totally possible. What [makes Phoenix Presence this so special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is  that it syncs presence information between all Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT).
 
 
 

@@ -15,7 +15,10 @@ After getting [an overview of the Elixir language](/post/why-elixir-has-great-po
 ## Finding a problem to solve
 Like every developer who wants to use a new technology I needed a problem to solve. A nail for the new hammer. Luckily 
 
-What is elixir particularly good for?
+## What is Elixir particularly good for?
+Having a background in mostly PHP and Javascript, I'd say Elixir can be used for 
+- all those use-cases and additionally:
+- 
 
 
 

@@ -31,9 +31,9 @@ To me this sounded like a nice challenge for learning Elixir. The challange invo
 ### The Plan
 Everything was geared towards the specific use-case we have. Learning Elixir was the focus, the product was secondary. I wanted to implement the following functionality.
 
-1. Import stories from Jira  
-2. Estimate. This involves estimations by the team members and a moderator handling those
-3. Saving estimations as "story points" in Jira
+1. Import stories from Jira.
+2. Estimate. This involves estimations by the team members and a moderator handling those.
+3. Saving estimations as "story points" in Jira.
 
 ### How does it look like?
 I wanted to spend as little time as possible on the user interface. This meant for me using a [template](https://www.creative-tim.com/product/paper-kit) and hacking the needed Javascript. This is how step 1 "Import stories from Jira" looks like:

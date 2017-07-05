@@ -120,7 +120,7 @@ In this example of a new vote coming in, I store the vote and then broadcast the
 #### GitHub authentication
 For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
 
-The readme 
+Maybe it's just me but I had troubles following the readme. At 
 https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20
 
 

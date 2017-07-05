@@ -62,7 +62,7 @@ defmodule Jira.API do
   end
   
   def backlog(board_id) when is_integer(board_id) do
-    get!("/rest/greenhopper/1.0/sprintquery/#{board_id}").body
+    get!("/rest/agile/1.0/board/#{board_id}/backlog").body
   end
 ```
 

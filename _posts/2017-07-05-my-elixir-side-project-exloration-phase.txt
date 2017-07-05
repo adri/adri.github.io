@@ -32,9 +32,6 @@ Follow up to [blogpost]
 
 
 
-
-
-
 Last week I learned about two caching techniques and how to combine them to get a more effective caching strategy.
 
 First I learned about the **Russian doll approach** for caching nested template partials, then I wanted to solve the **dog-pile effect** which can happen during a traffic spike.

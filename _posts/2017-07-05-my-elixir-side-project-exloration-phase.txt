@@ -36,7 +36,9 @@ To get something usable, I wanted to implement the following functionality. Ever
 
 ### How does it look like?
 
-A
+
+
+Here you can see an estimation of one story (data is all fake):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe>
 
 The source code can be found [on Github](https://github.com/adri/estimator). 

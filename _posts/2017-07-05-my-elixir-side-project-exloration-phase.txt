@@ -43,6 +43,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe>
 
 ## What I learned 
+
 The source code can be found [on Github](https://github.com/adri/estimator). 
 
 #### Jira API
@@ -126,7 +127,7 @@ I had some troubles understanding how to hook into the library. When I found out
 For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed in no time and without hassle. I also setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.
 
 ## What's next?
-Using Elixir has been fun. I'm far from being done learning about it. 
+Using Elixir has been fun. I'm far from being done learning about it. My ideas what to look into:
 
 * Explore how to do automated testing
 * Refactor the Elixir code 

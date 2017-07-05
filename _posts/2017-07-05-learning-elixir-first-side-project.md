@@ -78,7 +78,6 @@ I'd like to share some learnings. The complete source code can be found [on Gith
     To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
     
     ![Backlog refresh](https://user-images.githubusercontent.com/133832/27863220-6082cc22-6189-11e7-8529-33e922b51cae.png)
-    
     The implementation was surprisingly concise:
     
     ```elixir

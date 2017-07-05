@@ -35,11 +35,11 @@ To get something usable, I wanted to implement the following functionality. Ever
 3. Set estimations on stories in Jira
 
 ### How does it look like?
-I wanted to spend as little time as possible on the user interface. This meant for me using a [template](https://www.creative-tim.com/product/paper-kit) and hacking the needed Javascript. This is how **step 1 Import stories from Jira** looks like:
+I wanted to spend as little time as possible on the user interface. This meant for me using a [template](https://www.creative-tim.com/product/paper-kit) and hacking the needed Javascript. This is how *step 1 Import stories from Jira* looks like:
 
 ![Backlog imported from Jira](https://user-images.githubusercontent.com/133832/27861877-f3be3b7c-6182-11e7-8eba-3d1cfa4a260a.png)
 
-**Step 2  Estimate** and **step 3 set estimations on stories in Jira** is best shown in a short video. Here you can see an estimation of one story from the perspective of a *moderator*:
+*Step 2  Estimate* and *step 3 set estimations on stories in Jira* is best shown in a short video. Here you can see an estimation of one story from the perspective of a *moderator*:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen style="margin: 0 auto"></iframe>
 

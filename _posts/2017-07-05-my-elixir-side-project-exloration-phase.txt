@@ -11,7 +11,7 @@ published: false
 ## What's next?
 
 * Testing
-* Think more about code structure and runtime concerns based on the article http://theerlangelist.com/article/spawn_or_not
+* Think more about code structure and runtime concerns based on the article [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
 
 
 

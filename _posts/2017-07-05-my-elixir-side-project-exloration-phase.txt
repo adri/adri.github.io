@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Elixir Side Project: Exploration Phase
+title: My Elixir Side-Project: Exploration Phase
 summary: 
 categories: elixir
 image: 

@@ -101,36 +101,36 @@ I'd like to share some learnings. The complete source code can be found [on Gith
     Implementing Presence was straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What makes Phoenix Presence so [special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is that it synchronises presence information between multiple Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 
 
 
-##### Phoenix Channels
-During estimation sessions I wanted to have **all information synchronised** between team members. When a moderator selects a story to estimate, the description of the story should be shown everywhere. When a team member votes, it should be visible immediately.
+4. **Phoenix Channels**<br />
+    During estimation sessions I wanted to have **all information synchronised** between team members. When a moderator selects a story to estimate, the description of the story should be shown everywhere. When a team member votes, it should be visible immediately.
+    
+    I used [socket.io](https://socket.io) in other projects before. Programming with Phoenix Channels feel very similar to that. The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
+    
+    In this example of a new vote coming in, I store the vote and then broadcast the new vote to all other team members.
+    
+    ```elixir
+    def handle_in("vote:new", message, socket) do
+      {:ok, vote} = Votes.insert_vote(%{
+        topic: socket.topic,
+        user_id: socket.assigns.user["id"],
+        issue_key: message["issue_key"],
+        vote: message["vote"],
+      })
+    
+      broadcast! socket, "vote:new", VoteView.render("vote.json", vote)
+    
+      {:noreply, socket}
+    end
+    ```
 
-I used [socket.io](https://socket.io) in other projects before. Programming with Phoenix Channels feel very similar to that. The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
 
-In this example of a new vote coming in, I store the vote and then broadcast the new vote to all other team members.
+5. **GitHub authentication**<br />
+    For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
+    
+    I had some troubles understanding how to hook into the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
 
-```elixir
-def handle_in("vote:new", message, socket) do
-  {:ok, vote} = Votes.insert_vote(%{
-    topic: socket.topic,
-    user_id: socket.assigns.user["id"],
-    issue_key: message["issue_key"],
-    vote: message["vote"],
-  })
-
-  broadcast! socket, "vote:new", VoteView.render("vote.json", vote)
-
-  {:noreply, socket}
-end
-```
-
-
-##### GitHub authentication
-For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
-
-I had some troubles understanding how to hook into the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
-
-##### Deployment
-For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed in no time and without hassle. I also setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.
+6. **Deployment**<br />
+    For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed in no time and without hassle. I also setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.
 
 ### What's next?
 Using Elixir has been fun. I'm far from being done learning about it. My ideas what to look into:

@@ -140,7 +140,7 @@ Using Elixir has been fun. I'm far from being done learning about it. My ideas w
 	* Think about code structure and runtime concerns. The article [to spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not) by Saša Jurić is a great resource 
 	* Use [Credo](https://github.com/rrrene/credo), a static code analyzer
 * Try [Absinthe](http://absinthe-graphql.org) (GraphQL) with subscriptions
-* Try adding optional types 
+* Try adding optional types and check them via [dialyxir](https://github.com/jeremyjh/dialyxir)
 * CI setup 
 * Refactor the frontend using React (maybe)
 

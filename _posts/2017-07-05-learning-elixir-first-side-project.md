@@ -45,7 +45,7 @@ Step 2 "Estimate" and step 3 "Saving estimations in Jira" is best shown in a sho
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe></div>
 <br />
 
-The video shows: The moderator has selected a story to estimate. All team members see the same story description. Team members are giving their estimation by choosing a card for the estimated effort: XS, S, M, L or XL. When all team members have given their estimation, the results are shown and the moderator can save an estimation to Jira.
+The video shows: The moderator has selected a story to estimate. All team members see the same story description. Team members are giving their estimation by choosing a card for the estimated effort: XS, S, M, L or XL. When all team members have given their estimation, the results are shown and the moderator can save an estimation.
 
 ### What I learned so far
 Learning a new language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 

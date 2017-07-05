@@ -88,7 +88,7 @@ The implementation was surprisingly concise:
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
 #### Phoenix Presence
-
+For the list of team members w
 
 #### Phoenix Channels
 #### GitHub authentication

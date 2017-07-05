@@ -52,7 +52,10 @@ I wanted to spend as little time as possible on the user interface. This meant f
 defmodule Jira.API do
   use HTTPoison.Base
  
-
+  def process_url(url) do
+    Application.get_env(:jira, :host) <> url
+  end
+  
 #### Caching
 con_cache
 #### Phoenix Presence

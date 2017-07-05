@@ -102,7 +102,7 @@ I'd like to share some learnings. The complete source code can be found [on Gith
 
 
 4. **Phoenix Channels**<br />
-    During estimation sessions I wanted to have **all information synchronised** between team members. When a moderator selects a story to estimate, the description of the story should be shown everywhere. When a team member votes, it should be visible immediately.
+    During estimation sessions I wanted to have all information synchronised between team members. When a moderator selects a story to estimate, the description of the story should be shown everywhere. When a team member votes, it should be visible immediately.
     
     I used [socket.io](https://socket.io) in other projects before. Programming with Phoenix Channels feel very similar to that. The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
     

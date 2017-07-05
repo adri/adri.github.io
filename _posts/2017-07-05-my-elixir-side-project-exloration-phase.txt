@@ -43,8 +43,9 @@ I wanted to spend as little time as possible on the user interface. This meant f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe>
 
 ## What I learned 
-Combining learning a language and making something useful works well for me.
-The source code can be found [on Github](https://github.com/adri/estimator). 
+The combination of learning a language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 
+
+I'd like to share some learnings. The source code can be found [on Github](https://github.com/adri/estimator). 
 
 #### Jira API
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:

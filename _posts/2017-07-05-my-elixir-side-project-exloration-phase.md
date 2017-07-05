@@ -78,6 +78,7 @@ To not overload the Jira API with unnecessary requests I wanted to cache the bac
 
 The implementation was surprisingly concise:
 
+```elixir
     def backlog(board_id) do
       ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
     end
@@ -85,6 +86,7 @@ The implementation was surprisingly concise:
     def invalidate_backlog(board_id) do
       ConCache.delete(:jira_backlog, board_id)
     end
+```
 
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
@@ -102,7 +104,7 @@ I used [socket.io](https://socket.io) in other projects before. Programming with
 
 In this example of a new vote coming in, I store the vote and then broadcast the new vote to all other team members.
 
-```js 
+```elixir
 def handle_in("vote:new", message, socket) do
   {:ok, vote} = Votes.insert_vote(%{
     topic: socket.topic,

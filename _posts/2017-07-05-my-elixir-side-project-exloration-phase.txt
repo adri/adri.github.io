@@ -63,8 +63,7 @@ The source code can be found [on Github](https://github.com/adri/estimator).
 - pryn
 
 ## What is Elixir particularly good for?
-Having a background in mostly PHP and Javascript, I'd say Elixir can be used for 
-- all those use-cases and additionally:
+Having a background in mostly PHP and Node, I'd say Elixir can be used for everything I would use PHP or Node for.
 
 ## What's next?
 

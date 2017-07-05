@@ -88,7 +88,9 @@ The implementation was surprisingly concise:
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
 #### Phoenix Presence
-For the list of team members w
+Team members should be able to join and leave an estimation session. 
+![List of team members](https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png)
+
 
 #### Phoenix Channels
 #### GitHub authentication

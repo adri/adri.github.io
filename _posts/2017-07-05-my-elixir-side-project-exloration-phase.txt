@@ -47,6 +47,8 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 #### Jira API
 
+
+https://github.com/edgurgel/httpoison#wrapping-httpoisonbase
   use HTTPoison.Base
 
 #### Caching

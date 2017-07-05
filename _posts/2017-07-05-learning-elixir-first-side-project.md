@@ -143,5 +143,5 @@ Using Elixir has been fun. I'm far from being done learning about it. My ideas w
 * CI setup 
 * Refactor the frontend using React (maybe)
 
-*The complete source code can be found [on Github](https://github.com/adri/estimator). *
+The complete source code can be found [on Github](https://github.com/adri/estimator). 
 

@@ -11,7 +11,7 @@ published: false
 ## What's next?
 
 * Testing
-* Think more about  http://theerlangelist.com/article/spawn_or_not
+* Think more about the  http://theerlangelist.com/article/spawn_or_not
 
 
 

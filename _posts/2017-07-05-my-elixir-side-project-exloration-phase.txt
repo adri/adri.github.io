@@ -18,7 +18,7 @@ Like many developers who wants to learn a new technology, I needed a problem to 
 Luckily there was a need at my work for a planning poker tool that is integrated with Jira and works well with remote developers. 
 
 ## Estimations for Remote Teams
-[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is usually played with real cards. In a remote-friendly environment, real cards are not always useful.
+[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is a technique for estimating effort in usually played with real cards. In a remote-friendly environment, real cards are not always useful.
 
 http://www.planitpoker.com
  planning poker 

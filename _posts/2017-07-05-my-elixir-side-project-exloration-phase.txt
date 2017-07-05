@@ -26,11 +26,13 @@ To me this sounded like a nice challenge for learning Elixir. The challange invo
 
 ### The Plan
 
-For a 
+For a first usable product, I wanted to implement the following functionality. For now, everything was geared towards the specific use-case we have. 
 
-1. Import stories from Jira
-2. Estimate 
-3. Push estimations to Jira
+1. Import stories from Jira  
+2. Estimate. This involves:
+	- Multiple *team members* who estimate a story
+	- A *moderator* who selects a story to estimate and sets an estimation 
+3. Set estimations on stories in Jira
 
 --- 
 

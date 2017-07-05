@@ -53,7 +53,7 @@ Learning a new language through a side-project works well for me. I get energy f
 The complete source code can be found [on Github](https://github.com/adri/estimator). I like to share my learnings.
 
 **Jira API**<br />
-[HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
+[HTTPoison](https://github.com/edgurgel/httpoison) makes creating API clients in Elixir easier. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
 
 ```elixir
 defmodule Jira.API do

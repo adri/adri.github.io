@@ -19,7 +19,7 @@ Like many developers who want to learn a new technology, I searched for a proble
 I had to find a nail for this new hammer. Luckily there was a need at [my work](https://www.ticketswap.com) for a planning poker tool that is integrated with Jira and works well with remote developers. 
 
 ### Estimations for Remote Teams
-[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is a estimation technique used in agile software development. Usually this is done with real paper cards. In a remote-friendly environment, real cards are not always useful. 
+[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is a estimation technique used in agile software development. Usually this is done with physical paper cards. In a remote-friendly environment, physical cards are not always useful. 
 
 ![Real paper cards used for planning poker](https://user-images.githubusercontent.com/133832/27869515-7a4468ca-61a0-11e7-9224-41365fd9e8ce.png)  
 [Source: Wikipedia](https://en.wikipedia.org/wiki/Planning_poker#/media/File:CrispPlanningPokerDeck.jpg)

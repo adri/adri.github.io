@@ -36,7 +36,7 @@ To get something usable, I wanted to implement the following functionality. Ever
 
 ### The Outcome
 
-
+The source code can be found [on Github](https://github.com/adri/estimator). 
 
 
 --- 

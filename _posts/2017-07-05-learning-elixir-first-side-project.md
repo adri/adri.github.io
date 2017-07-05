@@ -125,7 +125,7 @@ end
 **GitHub login**<br />
 For logging in team members I used Github. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
     
-I had some troubles understanding how to hook into the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
+I had some troubles understanding how to use the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
 
 **Deployment**<br />
 For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed in no time and without hassle. I also setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.

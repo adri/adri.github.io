@@ -66,10 +66,10 @@ defmodule Jira.API do
 end
 ```
 
-Using `Jira.API.backlog\1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only function exposed. 
+Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only function exposed. 
   
 #### Caching
-To not overload the Jira API with unnecessary requests I wanted to cache stories to estimate and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
+To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
 
 ![Backlog refresh](https://user-images.githubusercontent.com/133832/27863220-6082cc22-6189-11e7-8529-33e922b51cae.png)
 
@@ -123,9 +123,10 @@ For authenticating team members I used a Github login. This had the added benefi
 I had some troubles understanding how to hook into the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
 
 #### Deployment
-For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed. I could even setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.
+For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed in no time and without hassle. I also setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.
 
 ## What's next?
+Using Elixir has been fun. 
 
 * Testing
 * Cleanup 

@@ -118,7 +118,7 @@ In this example of a new vote coming in, I store the vote and then broadcast the
 
 
 #### GitHub authentication
-For authenticating team members I used a Github login. This has the added benefit of fetching avatars and names. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
+For authenticating team members I used a Github login. This has the added benefit of fetching avatars URLs and names. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
 
 
 

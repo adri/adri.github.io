@@ -89,7 +89,7 @@ def invalidate_backlog(board_id) do
 end
 ```
 
-When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
+When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, `con_cache` is already a good enough implementation.
 
 **Phoenix Presence**<br />
 <img src="https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png" title="Synchronised list of team members" style="width: 300px; float: right">

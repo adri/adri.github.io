@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Learning Elixir: My first side-project”
+title: "Learning Elixir: My first side-project"
 summary: Learnings from starting on a side-project written in Elixir.
 categories: elixir, side-project
 image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png

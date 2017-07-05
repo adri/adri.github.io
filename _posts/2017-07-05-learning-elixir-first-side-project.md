@@ -51,7 +51,7 @@ Learning a new language through a side-project works well for me. I get energy f
 I'd like to share some learnings. The complete source code can be found [on Github](https://github.com/adri/estimator). 
 
 
-**Jira API**
+**Jira API**<br />
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
 
 ```elixir
@@ -75,7 +75,7 @@ end
 Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
   
   
-**Caching**
+**Caching**<br />
 To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
 
 ![Backlog refresh](https://user-images.githubusercontent.com/133832/27863220-6082cc22-6189-11e7-8529-33e922b51cae.png)

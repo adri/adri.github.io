@@ -18,7 +18,8 @@ Like many developers who wants to learn a new technology, I needed a problem to 
 Luckily there was a need at my work for a [planning poker](https://en.wikipedia.org/wiki/Planning_poker) tool that is integrated with Jira and works well with remote developers. 
 
 ## Estimations for Remote Teams
-Planning poker 
+Because real cards are not very useful in a remote-friendly environment, planning poker 
+
 Realtime estimations 
 Sync of stories to view 
 

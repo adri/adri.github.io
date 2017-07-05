@@ -49,7 +49,7 @@ The moderator (Kermit the Frog) has selected a story to estimate. All team membe
 ### What I learned 
 Learning a new language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 
 
-I'd like to share some learnings. The source code can be found [on Github](https://github.com/adri/estimator). 
+I'd like to share some learnings. The complete source code can be found [on Github](https://github.com/adri/estimator). 
 
 
 ##### Jira API

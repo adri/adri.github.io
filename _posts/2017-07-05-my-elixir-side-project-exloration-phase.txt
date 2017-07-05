@@ -7,13 +7,12 @@ image:
 published: false
 ---
 
-To really learn something, I believe 
-
-
-After getting [an overview of the Elixir language](/post/why-elixir-has-great-potential) and diving into great books like [Elixir in Action](https://www.manning.com/books/elixir-in-action) it was finally time for me to start on a side-project. 
+I believe that to really learn a programming language, you have to get involved in a project. [Getting an overview of the Elixir language](/post/why-elixir-has-great-potential) was great. But to be able to learn about the details of the language and ecosystem I needed a side-project.
 
 ## Finding a problem to solve
 Like every developer who wants to use a new technology I needed a problem to solve. A nail for the new hammer. 
+
+
 Luckily 
 
 ## What is Elixir particularly good for?

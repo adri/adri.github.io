@@ -81,7 +81,8 @@ To not overload the Jira API with unnecessary requests I wanted to cache stories
   end
 ```
 
-Compared to working with NodeJS or PHP 
+When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS](http://erlang.org/doc/man/ets.html) under the hood, `con_cache` is already a good enough implementation.
+
 
 
 #### Phoenix Presence

@@ -133,7 +133,7 @@ Ideas:
 * Explore how to do automated testing
 * Refactor the Elixir code 
 	* Think about code structure and runtime concerns based on the article [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
-	* Use Credo 
+	* Use [Credo](https://github.com/rrrene/credo) 
 * GraphQL with Absinthe with subscriptions
 * CI setup 
 

@@ -96,6 +96,7 @@ Implementing presence was very straight forward. There are [many examples](https
 
 #### Phoenix Channels
 
+The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough ow to 
 
 #### GitHub authentication
 #### Intellij Elixir plugin

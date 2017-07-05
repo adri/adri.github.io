@@ -73,8 +73,7 @@ end
 ```
 
 Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
-  
-<br />  
+   
 **Caching**<br />
 To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
 
@@ -94,7 +93,6 @@ end
 
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
-<br />
 **Phoenix Presence**<br />
 <img src="https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png" title="Synchronised list of team members" style="width: 300px; float: right">
 

@@ -26,7 +26,7 @@ To me this sounded like a nice challenge for learning Elixir. The challange invo
 
 ### The Plan
 
-To get something usable, I wanted to implement the following functionality. Everything was geared towards the specific use-case we have. Learning Elixir was the focus, the product was secondary. 
+To get something usable, I wanted to implement the following functionality. Everything was geared towards the specific use-case we have. **Learning Elixir was the focus**, the product was secondary. 
 
 1. Import stories from Jira  
 2. Estimate. This involves:
@@ -37,6 +37,7 @@ To get something usable, I wanted to implement the following functionality. Ever
 ### The Outcome
 
 
+
 The source code can be found [on Github](https://github.com/adri/estimator). 
 
 
@@ -44,7 +45,7 @@ The source code can be found [on Github](https://github.com/adri/estimator).
 
 --- 
 
-## What I learned so far
+## What I learned 
 - phoenix 1.3
 - phoenix presence
 - phoenix channels

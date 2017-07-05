@@ -50,7 +50,7 @@ The video shows: The moderator has selected a story to estimate. All team member
 ### What I learned so far
 Learning a new language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 
 
-The complete source code can be found [on Github](https://github.com/adri/estimator). I like to share some learnings:
+The complete source code can be found [on Github](https://github.com/adri/estimator). I like to share my learnings.
 
 **Jira API**<br />
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:

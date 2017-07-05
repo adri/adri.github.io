@@ -118,7 +118,7 @@ In this example of a new vote coming in, I store the vote and then broadcast the
 
 
 #### GitHub authentication
-`ueberauth` and 
+`ueberauth` and `ueberauth_github`
 
 
 #### Intellij Elixir plugin

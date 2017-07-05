@@ -16,7 +16,7 @@ Follow up to [Why the Elixir language has great potential](/post/why-elixir-has-
 - phoenix presence
 - phoenix channels
 - GitHub authentication
-- 
+- con_cache for caching
 
 ## Deployment
 - heroku

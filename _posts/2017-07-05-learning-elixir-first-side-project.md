@@ -51,28 +51,28 @@ Learning a new language through a side-project works well for me. I get energy f
 I'd like to share some learnings. The complete source code can be found [on Github](https://github.com/adri/estimator). 
 
 
-**Jira API**<br />
-[HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
-
-```elixir
-defmodule Jira.API do
-  use HTTPoison.Base
- 
-  def process_url(url) do
-    Application.get_env(:jira, :host) <> url
-  end
-  
-  def process_response_body(body) do
-    Poison.decode!(body)
-  end
-  
-  def backlog(board_id) when is_integer(board_id) do
-    get!("/rest/agile/1.0/board/#{board_id}/backlog").body
-  end
-end
-```
-
-Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
+1. **Jira API**<br />
+    [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
+    
+    ```elixir
+    defmodule Jira.API do
+      use HTTPoison.Base
+     
+      def process_url(url) do
+        Application.get_env(:jira, :host) <> url
+      end
+      
+      def process_response_body(body) do
+        Poison.decode!(body)
+      end
+      
+      def backlog(board_id) when is_integer(board_id) do
+        get!("/rest/agile/1.0/board/#{board_id}/backlog").body
+      end
+    end
+    ```
+    
+    Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
    
 **Caching**<br />
 To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 

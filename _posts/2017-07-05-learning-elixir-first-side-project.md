@@ -73,7 +73,7 @@ defmodule Jira.API do
 end
 ```
 
-Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only function exposed. 
+Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
   
   
 ##### Caching

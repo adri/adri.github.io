@@ -7,6 +7,19 @@ image:
 published: false
 ---
 
+Follow up to [blogpost]
+
+## Side project
+
+## Code
+- phoenix 1.3
+- phoenix presence
+- phoenix channels
+- GitHub integration
+- 
+
+## Deployment
+- heroku
 
 ## What's next?
 

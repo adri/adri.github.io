@@ -79,7 +79,7 @@ Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{
 **Caching**<br />
 To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
 
-![Backlog refresh](https://user-images.githubusercontent.com/133832/27869406-2a732782-61a0-11e7-9f15-86095028b8cd.png)
+![Backlog refresh](https://user-images.githubusercontent.com/133832/27869469-56821f7c-61a0-11e7-84f0-555bf7ccd505.png)
 The implementation was surprisingly concise:
 
 ```elixir

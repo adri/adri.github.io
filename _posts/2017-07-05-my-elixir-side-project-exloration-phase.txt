@@ -118,8 +118,7 @@ In this example of a new vote coming in, I store the vote and then broadcast the
 
 
 #### GitHub authentication
-For authenticating users and fetching avatars and names I used Github login. 
-[`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github)
+For authenticating users and fetching avatars and names I used Github login. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
 
 
 #### Intellij Elixir plugin

@@ -43,7 +43,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe>
 
 ## What I learned 
-
+The source code can be found [on Github](https://github.com/adri/estimator). 
 
 #### Jira API
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
@@ -120,18 +120,9 @@ In this example of a new vote coming in, I store the vote and then broadcast the
 #### GitHub authentication
 For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
 
-Maybe it's just me but I had troubles following the readme. At 
-https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20
+I had some troubles understanding how to hook into the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
 
-
-
-#### Intellij Elixir plugin
-
-
-
-The source code can be found [on Github](https://github.com/adri/estimator). 
-
-## Deployment
+#### Deployment
 - heroku with [Github integration](https://devcenter.heroku.com/articles/github-integration)
 - pryn
 

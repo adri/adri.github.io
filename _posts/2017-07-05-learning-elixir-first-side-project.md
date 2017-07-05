@@ -40,7 +40,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 ![Backlog imported from Jira](https://user-images.githubusercontent.com/133832/27869217-862d0ce2-619f-11e7-8273-677d2d9751c4.png)
 
-*Step 2  Estimate* and *step 3 set estimations on stories in Jira* is best shown in a short video. Here you can see an estimation of one story from the perspective of a *moderator*:
+Step 2 "Estimate" and step 3 "Saving estimations in Jira" is best shown in a short video. Here you can see an estimation of one story from the perspective of a *moderator*:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe></div>
 

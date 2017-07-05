@@ -15,9 +15,9 @@ I believe that to really learn a programming language, you have to get involved 
 ## Finding a problem to solve
 Like many developers who want to learn a new technology, I needed a problem to solve. I had to find a nail for a new hammer. 
 
-> If all you have is a hammer, everything looks like a nail.
+> If all you have is a hammer, everything looks like a nail.  
 
-[Abraham Maslow](https://en.wikipedia.org/wiki/Abraham_Maslow)
+  [Abraham Maslow](https://en.wikipedia.org/wiki/Abraham_Maslow)
 
 Luckily there was a need at my work for a planning poker tool that is integrated with Jira and works well with remote developers. 
 

@@ -132,7 +132,7 @@ Ideas:
 
 * Explore how to do automated testing
 * Refactor the Elixir code 
-	* Think about code structure and runtime concerns. The article [to spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
+	* Think about code structure and runtime concerns. The article [to spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not) by 
 	* Use [Credo](https://github.com/rrrene/credo), a static code analyzer
 * GraphQL with Absinthe with subscriptions
 * CI setup 

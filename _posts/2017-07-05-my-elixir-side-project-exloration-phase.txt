@@ -29,6 +29,7 @@ Follow up to [Why the Elixir language has great potential](/post/why-elixir-has-
 	* credo
 	* Think more about code structure and runtime concerns based on the article [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
 * GraphQL with Absinthe with subscriptions
+* CI setup 
 
 
 

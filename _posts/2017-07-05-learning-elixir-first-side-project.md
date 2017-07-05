@@ -73,7 +73,7 @@ defmodule Jira.API do
 end
 ```
 
-Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
+Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. The `backlog` function is then used in the rest of the code. This allows easy mocking in automated tests.
 
 **Caching**<br />
 To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 

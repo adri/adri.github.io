@@ -18,13 +18,12 @@ Like many developers who wants to learn a new technology, I needed a problem to 
 Luckily there was a need at my work for a planning poker tool that is integrated with Jira and works well with remote developers. 
 
 ## Estimations for Remote Teams
-[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is an estimation technique used in agile software development. Usually it is played with real cards. In a remote-friendly environment, real cards are not always useful. At work we used [PlanITpoker](http://www.planitpoker.com) for a while but we missed an integration with Jira, our 
+[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is an estimation technique used in agile software development. Usually it is played with real cards. In a remote-friendly environment, real cards are not always useful. 
 
+At work we used the web-based tool [PlanITpoker](http://www.planitpoker.com) for a while but we missed an integration with Jira, our issue tracker.  We also had some issues with people joining twice, when using the tool on the phone and notebook. 
 
- planning poker 
+To me this sounded like a nice challenge for learning Elixir. It involves realtime estimations, synchronising of views using web sockets and handling APIs. I found my nail!
 
-Realtime estimations 
-Sync of stories to view 
 
 1. Import stories from Jira
 2. Estimate

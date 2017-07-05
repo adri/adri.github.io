@@ -74,31 +74,31 @@ I'd like to share some learnings. The complete source code can be found [on Gith
     
     Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
    
-**Caching**<br />
-To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
+2. **Caching**<br />
+    To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
+    
+    ![Backlog refresh](https://user-images.githubusercontent.com/133832/27863220-6082cc22-6189-11e7-8529-33e922b51cae.png)
+    
+    The implementation was surprisingly concise:
+    
+    ```elixir
+    def backlog(board_id) do
+      ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
+    end
+    
+    def invalidate_backlog(board_id) do
+      ConCache.delete(:jira_backlog, board_id)
+    end
+    ```
+    
+    When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
-![Backlog refresh](https://user-images.githubusercontent.com/133832/27863220-6082cc22-6189-11e7-8529-33e922b51cae.png)
-
-The implementation was surprisingly concise:
-
-```elixir
-def backlog(board_id) do
-  ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
-end
-
-def invalidate_backlog(board_id) do
-  ConCache.delete(:jira_backlog, board_id)
-end
-```
-
-When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
-
-**Phoenix Presence**<br />
-<img src="https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png" title="Synchronised list of team members" style="width: 300px; float: right">
-
-Team members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. [Phoenix Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html) was a perfect tool for this.
-
-Implementing Presence was straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What makes Phoenix Presence so [special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is that it synchronises presence information between multiple Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 
+3. **Phoenix Presence**<br />
+    <img src="https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png" title="Synchronised list of team members" style="width: 300px; float: right">
+    
+    Team members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. [Phoenix Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html) was a perfect tool for this.
+    
+    Implementing Presence was straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What makes Phoenix Presence so [special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is that it synchronises presence information between multiple Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 
 
 
 ##### Phoenix Channels

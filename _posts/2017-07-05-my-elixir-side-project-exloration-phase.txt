@@ -136,5 +136,5 @@ Ideas:
 	* Use [Credo](https://github.com/rrrene/credo), a static code analyzer
 * Try [Absinthe](http://absinthe-graphql.org) (GraphQL) with subscriptions
 * CI setup 
-* efactor the frontend using React (maybe)
+* Refactor the frontend using React (maybe)
 

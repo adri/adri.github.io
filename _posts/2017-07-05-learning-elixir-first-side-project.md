@@ -43,7 +43,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 Step 2 "Estimate" and step 3 "Saving estimations in Jira" is best shown in a short video. Here you can see an estimation of one story from the perspective of a moderator:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe></div>
-
+<br />
 
 The moderator has selected a story to estimate. All team members see the same story description. Team members are giving their estimation by choosing a card for the estimated effort: XS, S, M, L or XL. When all team members have given their estimation, the results are shown and the moderator can save an estimation.
 

@@ -88,14 +88,14 @@ The implementation was surprisingly concise:
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
 #### Phoenix Presence
-Team members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. 
+Team members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. Phoenix Presence was a perfect match for this.
 
 ![List of team members](https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png)
 
-Implementing presence was very straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What [makes Phoenix Presence this so special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is  that it syncs presence information between all Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 
+Implementing Presence was very straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What [makes Phoenix Presence this so special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is  that it syncs presence information between all Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 
 
 #### Phoenix Channels
-
+soft-realtime features
 
 The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
 

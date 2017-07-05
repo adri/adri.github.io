@@ -126,11 +126,13 @@ I had some troubles understanding how to hook into the library. When I found out
 For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed in no time and without hassle. I also setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.
 
 ## What's next?
-Using Elixir has been fun. 
+Using Elixir has been fun. I'm far from being done learning about it. 
 
-* Testing
-* Cleanup 
-	* credo
+Ideas:
+
+* Explore how to do automated testing
+* Refactor the Elixir code 
+	* Use Credo 
 	* Think more about code structure and runtime concerns based on the article [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
 * GraphQL with Absinthe with subscriptions
 * CI setup 

@@ -51,6 +51,7 @@ Learning a new language through a side-project works well for me. I get energy f
 
 I'd like to share some learnings. The source code can be found [on Github](https://github.com/adri/estimator). 
 
+
 ##### Jira API
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
 
@@ -74,6 +75,7 @@ end
 
 Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only function exposed. 
   
+  
 ##### Caching
 To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
 
@@ -93,12 +95,14 @@ end
 
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
+
 ##### Phoenix Presence
 <img src="https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png" title="Synchronised list of team members" style="width: 300px; float: right">
 
 Team members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. [Phoenix Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html) was a perfect tool for this.
 
 Implementing Presence was straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What makes Phoenix Presence so [special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is that it synchronises presence information between multiple Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 
+
 
 ##### Phoenix Channels
 During estimation sessions I wanted to have **all information synchronised** between team members. When a moderator selects a story to estimate, the description of the story should be shown everywhere. When a team member votes, it should be visible immediately.
@@ -121,6 +125,7 @@ def handle_in("vote:new", message, socket) do
   {:noreply, socket}
 end
 ```
+
 
 ##### GitHub authentication
 For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 

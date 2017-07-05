@@ -7,12 +7,12 @@ image:
 published: false
 ---
 
-I believe that to really learn a programming language, you have to get involved in a project. [Getting an overview of the Elixir language](/post/why-elixir-has-great-potential) was great. But to be able to learn about the details of the language and ecosystem I needed a side-project.
+I believe that to really learn a programming language, you have to get involved in a project. [Getting an overview of the Elixir language](/post/why-elixir-has-great-potential) was great. But to be able to **learn about the details of Elixir and its ecosystem** I needed a side-project.
 
 ## Finding a problem to solve
-Like every developer who wants to use a new technology I needed a problem to solve. A nail for the new hammer. 
+Like every developer who wants to learn a new technology I needed a problem to solve. A nail for the new hammer. 
 
-	If all you have is a hammer, everything looks like a nail.
+> If all you have is a hammer, everything looks like a nail.
   [Abraham Maslow](https://en.wikipedia.org/wiki/Abraham_Maslow)
 
 Luckily 

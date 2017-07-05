@@ -76,7 +76,7 @@ end
 Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. The `backlog` function is then used in the rest of the code. This allows easy mocking in automated tests.
 
 **Caching**<br />
-To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
+To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. I made this work by using the library [`con_cache`](https://github.com/sasa1977/con_cache). 
 
 ![Backlog refresh](https://user-images.githubusercontent.com/133832/27869469-56821f7c-61a0-11e7-84f0-555bf7ccd505.png)
 The implementation was surprisingly concise:

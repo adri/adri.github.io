@@ -55,10 +55,13 @@ defmodule Jira.API do
   def process_url(url) do
     Application.get_env(:jira, :host) <> url
   end
-    def process_response_body(body) do
+  
+  def process_response_body(body) do
     body
-    |> decode_body
+    |> Poison.decode!
   end
+  
+  
 #### Caching
 con_cache
 #### Phoenix Presence

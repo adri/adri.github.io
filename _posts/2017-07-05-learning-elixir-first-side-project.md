@@ -41,7 +41,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 *Step 2  Estimate* and *step 3 set estimations on stories in Jira* is best shown in a short video. Here you can see an estimation of one story from the perspective of a *moderator*:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen style="margin: 0 auto"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen class="video-container"></iframe>
 
 The moderator (Kermit the Frog) has selected a story to estimate. All team members see the same story description. Team members are giving their estimation by choosing a card for the estimated effort: XS, S, M, L, XL or ?. When all team members have given their estimation, the results are shown and the moderator can save an estimation.
 

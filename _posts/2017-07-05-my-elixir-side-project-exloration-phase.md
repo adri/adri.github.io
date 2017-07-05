@@ -102,19 +102,20 @@ I used [socket.io](https://socket.io) in other projects before. Programming with
 
 In this example of a new vote coming in, I store the vote and then broadcast the new vote to all other team members.
 
-    def handle_in("vote:new", message, socket) do
-      {:ok, vote} = Votes.insert_vote(%{
-        topic: socket.topic,
-        user_id: socket.assigns.user["id"],
-        issue_key: message["issue_key"],
-        vote: message["vote"],
-      })
-    
-      broadcast! socket, "vote:new", VoteView.render("vote.json", vote)
-    
-      {:noreply, socket}
-    end
+```js 
+def handle_in("vote:new", message, socket) do
+  {:ok, vote} = Votes.insert_vote(%{
+    topic: socket.topic,
+    user_id: socket.assigns.user["id"],
+    issue_key: message["issue_key"],
+    vote: message["vote"],
+  })
 
+  broadcast! socket, "vote:new", VoteView.render("vote.json", vote)
+
+  {:noreply, socket}
+end
+```
 
 #### GitHub authentication
 For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 

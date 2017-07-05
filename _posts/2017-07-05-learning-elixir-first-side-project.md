@@ -12,6 +12,7 @@ I believe that to really learn a programming language, you have to get involved 
 ![Elixir](https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png)
 
 Like many developers who want to learn a new technology, I searched for a problem to solve. 
+
 > If all you have is a hammer, everything looks like a nail.  
 > [Abraham Maslow](https://en.wikipedia.org/wiki/Abraham_Maslow)
 

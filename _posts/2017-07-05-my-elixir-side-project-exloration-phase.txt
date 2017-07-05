@@ -46,8 +46,8 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 
 #### Jira API
-
-HTTPoison
+[HTTPoison](https://github.com/edgurgel/httpoison) makes it really easy to create API clients in Elixir.
+ 
 https://github.com/edgurgel/httpoison#wrapping-httpoisonbase
   use HTTPoison.Base
 

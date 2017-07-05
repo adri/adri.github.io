@@ -15,16 +15,20 @@ Follow up to [blogpost]
 - phoenix 1.3
 - phoenix presence
 - phoenix channels
-- GitHub integration
+- GitHub authentication
 - 
 
 ## Deployment
 - heroku
+- pryn
 
 ## What's next?
 
 * Testing
-* Think more about code structure and runtime concerns based on the article [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
+* Cleanup 
+	* credo
+	* Think more about code structure and runtime concerns based on the article [To spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not)
+* GraphQL with Absinthe with subscriptions
 
 
 

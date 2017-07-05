@@ -29,7 +29,7 @@ At work we used the web-based tool [PlanITpoker](http://www.planitpoker.com) for
 To me this sounded like a nice challenge for learning Elixir. The challange involved **presence detection** of team members, **synchronising estimations** and **using external APIs**. I found my nail!
 
 ### The Plan
-I wanted to implement the following functionality. Everything was geared towards the specific use-case we have. Learning Elixir was the focus, the product was secondary. 
+Everything was geared towards the specific use-case we have. Learning Elixir was the focus, the product was secondary. I wanted to implement the following functionality.
 
 1. Import stories from Jira  
 2. Estimate. This involves:

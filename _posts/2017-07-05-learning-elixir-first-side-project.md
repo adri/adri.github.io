@@ -50,7 +50,7 @@ Learning a new language through a side-project works well for me. I get energy f
 
 I'd like to share some learnings. The complete source code can be found [on Github](https://github.com/adri/estimator). 
 
-1. **Jira API**<br />
+**Jira API**<br />
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
 
 ```elixir
@@ -73,7 +73,7 @@ end
 
 Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only relevant function. 
 
-2. **Caching**<br />
+**Caching**<br />
 To not overload the Jira API with unnecessary requests I wanted to cache the backlog and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
 
 ![Backlog refresh](https://user-images.githubusercontent.com/133832/27863220-6082cc22-6189-11e7-8529-33e922b51cae.png)
@@ -91,7 +91,7 @@ end
 
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
-3. **Phoenix Presence**<br />
+**Phoenix Presence**<br />
 <img src="https://user-images.githubusercontent.com/133832/27863278-af26d3b4-6189-11e7-8bd1-76a47ae88763.png" title="Synchronised list of team members" style="width: 300px; float: right">
 
 Team members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. [Phoenix Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html) was a perfect tool for this.
@@ -99,7 +99,7 @@ Team members should be able to join and leave an estimation session. The state o
 Implementing Presence was straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What makes Phoenix Presence so [special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is that it synchronises presence information between multiple Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 
 
 
-4. **Phoenix Channels**<br />
+**Phoenix Channels**<br />
 During estimation sessions I wanted to have all information synchronised between team members. When a moderator selects a story to estimate, the description of the story should be shown everywhere. When a team member votes, it should be visible immediately.
 
 I used [socket.io](https://socket.io) in other projects before. Programming with Phoenix Channels feel very similar to that. The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
@@ -122,12 +122,12 @@ end
 ```
 
 
-5. **GitHub authentication**<br />
+**GitHub authentication**<br />
 For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
     
 I had some troubles understanding how to hook into the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
 
-6. **Deployment**<br />
+**Deployment**<br />
 For me it was the first time using Heroku. I like that Heroku provides a free tier for side-project. Following the [instructions in the Phoenix documentation](http://www.phoenixframework.org/docs/heroku) got my Elixir app deployed in no time and without hassle. I also setup the [Github integration](https://devcenter.heroku.com/articles/github-integration) to auto-deploy when pushing to the `master` branch.
 
 ### What's next?

@@ -69,11 +69,20 @@ end
 Using `Jira.API.backlog\1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only function exposed. 
   
 #### Caching
-To not overload the Jira API with unnecessary requests I wanted to cache stories to estimate and allow users to refresh this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). 
+To not overload the Jira API with unnecessary requests I wanted to cache stories to estimate and allow users to invalidate this cache if needed. To make this work I used the library [`con_cache`](https://github.com/sasa1977/con_cache). The implementation was surprisingly concise:
 
 ```
-ConCache.get_or_store(:jira_backlog, board_id, fn() -> fetch_backlog(board_id) end)
+  def backlog(board_id) do
+    ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
+  end
+
+  def invalidate_backlog(board_id) do
+    ConCache.delete(:jira_backlog, board_id)
+  end
 ```
+
+Compared to working with NodeJS or PHP 
+
 
 #### Phoenix Presence
 #### Phoenix Channels

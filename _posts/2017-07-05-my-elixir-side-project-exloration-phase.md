@@ -46,7 +46,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe>
 
 ## What I learned 
-The combination of learning a language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 
+Learning a new language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 
 
 I'd like to share some learnings. The source code can be found [on Github](https://github.com/adri/estimator). 
 

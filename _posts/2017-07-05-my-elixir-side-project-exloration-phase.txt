@@ -20,7 +20,7 @@ Follow up to [Why the Elixir language has great potential](/post/why-elixir-has-
 - con_cache for caching
 
 ## Deployment
-- heroku
+- heroku with [Github integration](https://devcenter.heroku.com/articles/github-integration)
 - pryn
 
 ## What's next?

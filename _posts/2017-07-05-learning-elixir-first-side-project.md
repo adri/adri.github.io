@@ -40,7 +40,7 @@ To get something usable, I wanted to implement the following functionality. Ever
 ### How does it look like?
 I wanted to spend as little time as possible on the user interface. This meant for me using a [template](https://www.creative-tim.com/product/paper-kit) and hacking the needed Javascript. This is how *step 1 Import stories from Jira* looks like:
 
-![Backlog imported from Jira](https://user-images.githubusercontent.com/133832/27869058-fbf67e96-619e-11e7-9c4e-bfccdd922a85.png)
+![Backlog imported from Jira](https://user-images.githubusercontent.com/133832/27869217-862d0ce2-619f-11e7-8273-677d2d9751c4.png)
 
 *Step 2  Estimate* and *step 3 set estimations on stories in Jira* is best shown in a short video. Here you can see an estimation of one story from the perspective of a *moderator*:
 

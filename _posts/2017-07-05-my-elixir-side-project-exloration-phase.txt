@@ -94,7 +94,7 @@ Team members should be able to join and leave an estimation session. The state o
 
 Doing this with NodeJS would be totally possible. What [makes Phoenix Presence this so special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is  that it syncs presence information between all Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT).
 
-
+T
 
 
 #### Phoenix Channels

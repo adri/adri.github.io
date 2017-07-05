@@ -46,7 +46,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 The moderator (Kermit the Frog) has selected a story to estimate. All team members see the same story description. Team members are giving their estimation by choosing a card for the estimated effort: XS, S, M, L, XL or ?.
 
-## What I learned 
+### What I learned 
 Learning a new language through a side-project works well for me. I get energy from learning and it is motivating to create something useful. 
 
 I'd like to share some learnings. The source code can be found [on Github](https://github.com/adri/estimator). 

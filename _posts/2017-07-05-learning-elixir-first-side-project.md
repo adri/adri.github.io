@@ -104,7 +104,7 @@ During estimation sessions I wanted to have all information synchronised between
 
 I used [socket.io](https://socket.io) for soft-realtime communication in other projects before. Programming with Phoenix Channels felt very similar to that. The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
 
-In this example of a new vote coming in, I store the vote and then broadcast the new vote to all other team members.
+In following example of a new vote coming in, I store the vote and then broadcast the new vote to all other team members.
 
 ```elixir
 def handle_in("vote:new", message, socket) do
@@ -122,8 +122,8 @@ end
 ```
 
 
-**GitHub authentication**<br />
-For authenticating team members I used a Github login. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
+**GitHub login**<br />
+For logging in team members I used Github. This had the added benefit of having an avatar and a name. After a bit of research I found [`ueberauth`](https://github.com/ueberauth/ueberauth) and [`ueberauth_github`](https://github.com/ueberauth/ueberauth_github). 
     
 I had some troubles understanding how to hook into the library. When I found out how to [implement the auth callbacks](https://github.com/adri/estimator/blob/1d1eb74ce464a359b089f095f09bf49f41b426ea/lib/estimator/web/controllers/auth_controller.ex#L20) it went well. 
 

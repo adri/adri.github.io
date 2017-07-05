@@ -7,8 +7,7 @@ image:
 published: false
 ---
 
-After 
-Follow up to [Why the Elixir language has great potential](/post/why-elixir-has-great-potential)
+After getting [an overview of the Elixir language](/post/why-elixir-has-great-potential) and diving 
 
 ## Side project
 

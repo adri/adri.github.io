@@ -21,7 +21,7 @@ I had to find a nail for a new hammer. Luckily there was a need [at my work](htt
 ### Estimations for Remote Teams
 [Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is a estimation technique used in agile software development. Usually this is done with real paper cards. In a remote-friendly environment, real cards are not always useful. 
 
-![Real paper cards used for planning poker](https://upload.wikimedia.org/wikipedia/commons/e/eb/CrispPlanningPokerDeck.jpg)  
+![Real paper cards used for planning poker](https://user-images.githubusercontent.com/133832/27869515-7a4468ca-61a0-11e7-9224-41365fd9e8ce.png)  
 [Source: Wikipedia](https://en.wikipedia.org/wiki/Planning_poker#/media/File:CrispPlanningPokerDeck.jpg)
 
 At work we used the web-based tool [PlanITpoker](http://www.planitpoker.com) for a while but we missed an integration with Jira, our issue tracker.  We also had some issues with people joining twice, when using the tool at the same time on the phone and on the notebook. 

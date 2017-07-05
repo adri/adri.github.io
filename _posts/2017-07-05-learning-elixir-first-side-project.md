@@ -95,7 +95,7 @@ end
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, `con_cache` is already a good enough implementation.
 
 **Phoenix Presence**<br />
-<img src="https://user-images.githubusercontent.com/133832/27869498-69e461ec-61a0-11e7-975b-823c96f476d9.png" title="Synchronised list of team members" style="max-width: 25%; float: right">
+<img src="https://user-images.githubusercontent.com/133832/27869498-69e461ec-61a0-11e7-975b-823c96f476d9.png" title="Synchronised list of team members" style="max-width: 250px; float: right">
 Team members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. [Phoenix Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html) was a perfect tool for this.
 
 Implementing Presence was straight forward. There are [many examples](https://www.google.com/search?q=phoenix+presence+example) available. Doing this with NodeJS would be totally possible. What makes Phoenix Presence so [special](https://dockyard.com/blog/2016/03/25/what-makes-phoenix-presence-special-sneak-peek) is that it synchronises presence information between multiple Erlang nodes automatically, without a central data store and with strong eventual consistency (CRDT). 

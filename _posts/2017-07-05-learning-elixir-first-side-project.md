@@ -32,8 +32,7 @@ To me this sounded like a nice challenge for learning Elixir. The challange invo
 Everything was geared towards the specific use-case we have. Learning Elixir was the focus, the product was secondary. I wanted to implement the following functionality.
 
 1. Import stories from Jira  
-2. Estimate. This involves:
-Multiple team members who estimate a story and a moderator who selects a story to estimate and sets an estimation.
+2. Estimate. This involves estimations by the team members and a moderator handling those
 3. Set estimations on stories in Jira
 
 ### How does it look like?

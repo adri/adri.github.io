@@ -78,15 +78,15 @@ To not overload the Jira API with unnecessary requests I wanted to cache the bac
 
 The implementation was surprisingly concise:
 
-```
-  def backlog(board_id) do
-    ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
-  end
 
-  def invalidate_backlog(board_id) do
-    ConCache.delete(:jira_backlog, board_id)
-  end
-```
+    def backlog(board_id) do
+      ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
+      end
+    
+      def invalidate_backlog(board_id) do
+        ConCache.delete(:jira_backlog, board_id)
+      end
+
 
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 

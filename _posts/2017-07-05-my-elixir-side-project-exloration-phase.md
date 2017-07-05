@@ -53,21 +53,23 @@ I'd like to share some learnings. The source code can be found [on Github](https
 #### Jira API
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
 
-    defmodule Jira.API do
-      use HTTPoison.Base
-     
-      def process_url(url) do
-        Application.get_env(:jira, :host) <> url
-      end
-      
-      def process_response_body(body) do
-        Poison.decode!(body)
-      end
-      
-      def backlog(board_id) when is_integer(board_id) do
-        get!("/rest/agile/1.0/board/#{board_id}/backlog").body
-      end
-    end
+```elixir
+defmodule Jira.API do
+  use HTTPoison.Base
+ 
+  def process_url(url) do
+    Application.get_env(:jira, :host) <> url
+  end
+  
+  def process_response_body(body) do
+    Poison.decode!(body)
+  end
+  
+  def backlog(board_id) when is_integer(board_id) do
+    get!("/rest/agile/1.0/board/#{board_id}/backlog").body
+  end
+end
+```
 
 Using `Jira.API.backlog/1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only function exposed. 
   
@@ -79,13 +81,13 @@ To not overload the Jira API with unnecessary requests I wanted to cache the bac
 The implementation was surprisingly concise:
 
 ```elixir
-    def backlog(board_id) do
-      ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
-    end
-    
-    def invalidate_backlog(board_id) do
-      ConCache.delete(:jira_backlog, board_id)
-    end
+def backlog(board_id) do
+  ConCache.get_or_store(:jira_backlog, board_id, fn() -> API.backlog(board_id) end)
+end
+
+def invalidate_backlog(board_id) do
+  ConCache.delete(:jira_backlog, board_id)
+end
 ```
 
 When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.

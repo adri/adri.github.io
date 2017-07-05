@@ -34,7 +34,7 @@ To get something usable, I wanted to implement the following functionality. Ever
 1. Import stories from Jira  
 2. Estimate. This involves:
 	- Multiple *team members* who estimate a story
-	- A *moderator* who selects a story to estimate and sets an estimation 
+	- A *moderator* who selects a story to estimate and sets an estimation
 3. Set estimations on stories in Jira
 
 ### How does it look like?

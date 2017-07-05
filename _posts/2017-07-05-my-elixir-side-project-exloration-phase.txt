@@ -61,7 +61,7 @@ defmodule Jira.API do
     |> Poison.decode!
   end
   
-  def sprints(board_id) when is_integer(board_id) do
+  def backlog(board_id) when is_integer(board_id) do
     get!("/rest/greenhopper/1.0/sprintquery/#{board_id}").body
   end
 ```

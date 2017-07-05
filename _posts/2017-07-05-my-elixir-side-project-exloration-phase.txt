@@ -35,8 +35,7 @@ To get something usable, I wanted to implement the following functionality. Ever
 3. Set estimations on stories in Jira
 
 ### How does it look like?
-
-
+For the user interface I wanted to spend at least amount possible. Paper 
 ![Select stories to estimate](https://user-images.githubusercontent.com/133832/27861877-f3be3b7c-6182-11e7-8eba-3d1cfa4a260a.png)
 
 

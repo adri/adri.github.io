@@ -13,7 +13,8 @@ To really learn something, I believe
 After getting [an overview of the Elixir language](/post/why-elixir-has-great-potential) and diving into great books like [Elixir in Action](https://www.manning.com/books/elixir-in-action) it was finally time for me to start on a side-project. 
 
 ## Finding a problem to solve
-Like every developer who wants to use a new technology I needed a problem to solve. A nail for the new hammer. Luckily 
+Like every developer who wants to use a new technology I needed a problem to solve. A nail for the new hammer. 
+Luckily 
 
 ## What is Elixir particularly good for?
 Having a background in mostly PHP and Javascript, I'd say Elixir can be used for 

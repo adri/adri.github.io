@@ -46,7 +46,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 
 #### Jira API
-[HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. Example:
+[HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. An example:
 
 ```
 defmodule Jira.API do
@@ -57,18 +57,19 @@ defmodule Jira.API do
   end
   
   def process_response_body(body) do
-    body
-    |> Poison.decode!
+    Poison.decode!(body)
   end
   
   def backlog(board_id) when is_integer(board_id) do
     get!("/rest/agile/1.0/board/#{board_id}/backlog").body
   end
+end
 ```
 
-Using `Jira.API.sprints(1)` 
+Using `Jira.API.backlog\1` returns the response of the `/rest/agile/1.0/board/#{board_id}/backlog` endpoint. To my application, `backlog` is the only function exposed. 
   
 #### Caching
+Because the Jira API isn't always the fastest,
 con_cache
 #### Phoenix Presence
 #### Phoenix Channels

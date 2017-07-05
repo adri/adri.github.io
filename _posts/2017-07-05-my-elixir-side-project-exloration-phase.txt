@@ -46,6 +46,7 @@ I wanted to spend as little time as possible on the user interface. This meant f
 
 
 #### Jira API
+
   use HTTPoison.Base
 
 #### Caching

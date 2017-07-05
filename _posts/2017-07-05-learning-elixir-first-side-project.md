@@ -102,7 +102,7 @@ Implementing Presence was straight forward. There are [many examples](https://ww
 **Phoenix Channels**<br />
 During estimation sessions I wanted to have all information synchronised between team members. When a moderator selects a story to estimate, the description of the story should be shown for every team member. When a team member votes, it should be visible immediately.
 
-I used [socket.io](https://socket.io) for soft-realtime communication in other projects before. Programming with Phoenix Channels feel very similar to that. The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
+I used [socket.io](https://socket.io) for soft-realtime communication in other projects before. Programming with Phoenix Channels felt very similar to that. The [Phoenix documentation](http://www.phoenixframework.org/docs/channels) has a great walkthrough how to implement Phoenix Channels.
 
 In this example of a new vote coming in, I store the vote and then broadcast the new vote to all other team members.
 

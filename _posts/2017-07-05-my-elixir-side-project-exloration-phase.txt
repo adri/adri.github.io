@@ -128,8 +128,6 @@ For me it was the first time using Heroku. I like that Heroku provides a free ti
 ## What's next?
 Using Elixir has been fun. I'm far from being done learning about it. 
 
-Ideas:
-
 * Explore how to do automated testing
 * Refactor the Elixir code 
 	* Think about code structure and runtime concerns. The article [to spawn, or not to spawn?](http://theerlangelist.com/article/spawn_or_not) by Saša Jurić is a great resource 

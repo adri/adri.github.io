@@ -21,7 +21,7 @@ Like many developers who want to learn a new technology, I needed a problem to s
 Luckily there was a need at my work for a planning poker tool that is integrated with Jira and works well with remote developers. 
 
 ## Estimations for Remote Teams
-[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is an estimation technique used in agile software development. Usually this is done with real paper cards. In a remote-friendly environment, real cards are not always useful. 
+[Planning poker](https://en.wikipedia.org/wiki/Planning_poker) is a estimation technique used in agile software development. Usually this is done with real paper cards. In a remote-friendly environment, real cards are not always useful. 
 
 At work we used the web-based tool [PlanITpoker](http://www.planitpoker.com) for a while but we missed an integration with Jira, our issue tracker.  We also had some issues with people joining twice, when using the tool at the same time on the phone and on the notebook. 
 

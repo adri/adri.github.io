@@ -52,7 +52,7 @@ con_cache
 #### Phoenix Presence
 #### Phoenix Channels
 #### GitHub authentication
-
+#### Intellij Elixir plugin
 
 - Phoenix 1.3
 

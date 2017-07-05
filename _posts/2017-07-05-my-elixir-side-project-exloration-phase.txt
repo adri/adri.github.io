@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Elixir Side-Project: Exploration Phase
+title: Learning Elixir: Side-Project Exploration Phase
 summary: 
 categories: elixir
 image: 
@@ -26,9 +26,9 @@ To me this sounded like a nice challenge for learning Elixir. The challange invo
 
 ### The Plan
 
-For a first usable product, I wanted to implement the following functionality. For now, everything was geared towards the specific use-case we have. 
+For a usable product, I wanted to implement the following functionality. Everything was geared towards the specific use-case we have. Learning Elixir was the focus, the product was secondary. 
 
-1. Import stories from Jira  
+1. Import stories to estimate from Jira  
 2. Estimate. This involves:
 	- Multiple *team members* who estimate a story
 	- A *moderator* who selects a story to estimate and sets an estimation 

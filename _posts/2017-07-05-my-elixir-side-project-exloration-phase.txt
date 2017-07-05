@@ -85,7 +85,7 @@ The implementation was surprisingly concise:
   end
 ```
 
-When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, `con_cache` is already a good enough implementation.
+When working with NodeJS or PHP I would have eventually used Redis or Memcached for this. Thanks to using [ETS (Erlang Term Storage)](http://erlang.org/doc/man/ets.html) under the hood, using `con_cache` is already a good enough implementation.
 
 #### Phoenix Presence
 

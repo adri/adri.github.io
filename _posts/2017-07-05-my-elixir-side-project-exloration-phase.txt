@@ -34,7 +34,7 @@ To get something usable, I wanted to implement the following functionality. Ever
 	- A *moderator* who selects a story to estimate and sets an estimation 
 3. Set estimations on stories in Jira
 
-### The Outcome
+### How does it look like?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe>
 

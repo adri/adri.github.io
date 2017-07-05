@@ -49,9 +49,9 @@ I wanted to spend as little time as possible on the user interface. This meant f
 [HTTPoison](https://github.com/edgurgel/httpoison) eases creating API clients in Elixir. I like the concept of using adapters to external APIs and using [`HTTPoison.Base`](https://github.com/edgurgel/httpoison#wrapping-httpoisonbase) allows this in a concise manner. Example:
 
 ```
-
- 
+defmodule Jira.API do
   use HTTPoison.Base
+ 
 
 #### Caching
 con_cache

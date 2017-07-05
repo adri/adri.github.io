@@ -70,6 +70,10 @@ Using `Jira.API.backlog\1` returns the response of the `/rest/agile/1.0/board/#{
   
 #### Caching
 Because the Jira API isn't always the fastest,
+
+```
+ConCache.get_or_store(:jira_backlog, board_id, fn() -> fetch_backlog(board_id) end)
+```
 con_cache
 #### Phoenix Presence
 #### Phoenix Channels

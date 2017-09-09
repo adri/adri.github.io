@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Elixir side-project #2: Plan recipes with a supermarket API"
+summary: Learnings from my side-project #2 written in Elixir using GraphQL.
+categories: elixir, side-project, graphql, react, next.js
+image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
+published: false
+---
+
+After learning about [/post/learning-elixir-first-side-project](first side project).
+
+![Elixir](https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png)
+
+- Picnic: Supermarket API 
+https://www.picnic.nl/
+- How Picnic changed our lives
+- Plan recipes with Picnic API
+- Goals
+	- essentials
+	- sync with order
+	- manage recipes and ingredients 
+- GraphQL with Elixir 
+	- batching
+	- async
+	- Phoenix 1.3 contexts
+	- Parallel testing
+- Frontend for elixir 
+	- Separate deployment vs complexity 
+	- start next.js process with elixir
+	- proxy requests 
+
+---- 

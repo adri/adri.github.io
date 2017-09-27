@@ -19,7 +19,7 @@ This is part 2 of a blog post series **Elixir side-project #2**.
 The most used GraphQL library for Elixir is [Absinthe](http://absinthe-graphql.org). The maintainers are very active on the 
 [#absinthe-graphql Slack channel](https://elixir-slackin.herokuapp.com/) and they are [writing a book](https://pragprog.com/book/wwgraphql/craft-graphql-apis-in-elixir-with-absinthe) about Absinthe.   
 
-I assume you have read about GraphQL. Otherwise I recommend to read a [great introduction](http://graphql.org) or watch a [great talk](https://www.youtube.com/watch?v=WQLzZf34FJ8).
+I assume you have read about GraphQL. Otherwise I recommend to read an [introduction](http://graphql.org) or watch a [talk](https://www.youtube.com/watch?v=WQLzZf34FJ8).
 
 #### Schema Definition
 Absinthe provides some macros to make schema definitions easy 

@@ -13,7 +13,7 @@ I had a lot of fun learning Elixir during my [last side-project](/post/learning-
 
 I was looking for a problem with a small domain but with some complexity. The idea was born to speed up our grocery shopping by ordering recipes and their ingredients via a supermarket API. 
 
-This is part 1 of a blog post series "Elixir side-project #2".
+This is part 1 of a blog post series **Elixir side-project #2**.
 1. Plan recipes with a supermarket API (1/2)
 2. *In progress:* A Graphql API with Elixir (2/2)
 

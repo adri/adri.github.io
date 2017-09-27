@@ -28,7 +28,7 @@ Automating this process sounded fun. Some things are important for us, we want t
 * reduce the time it takes to order by automation but with the same result
 
 ### Picape
-Picape is a website that I made to manage and order recipes and ingredients via a supermarket API. Ingredients are added automatically to an order. Here a demo how this looks like:
+Picape (pronounced pɪ) is a website that I made to manage and order recipes and ingredients via a supermarket API. Ingredients are added automatically to an order. Here a demo how this looks like:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/qhtsn7rZClQ" frameborder="0" allowfullscreen></iframe></div>
 <br />

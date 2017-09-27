@@ -9,7 +9,7 @@ published: true
 
 I had a lot of fun learning Elixir during my [last side-project](/post/learning-elixir-first-side-project). For the last 1.5 years I'm working with GraphQL APIs. Now I wanted to learn **how to build GraphQL APIs with Elixir**. For me it was clear: I needed another side-project. 
 
-![Elixir](https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png)
+![Elixir](https://user-images.githubusercontent.com/133832/30913064-1f4ed2bc-a38f-11e7-877c-0d57928f599c.png)
 
 I was looking for a problem with a small domain but with some complexity. The idea was born to speed up our grocery shopping by ordering recipes and their ingredients via a supermarket API. 
 

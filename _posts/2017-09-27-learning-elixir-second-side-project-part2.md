@@ -17,7 +17,7 @@ This is part 2 of a blog post series **Elixir side-project #2**.
 
 ### GraphQL with Elixir 
 
-The most used GraphQL library for Elixir is 
+The most used GraphQL library for Elixir is [Absinthe](http://absinthe-graphql.org).  
 
 	- batching
 	- async

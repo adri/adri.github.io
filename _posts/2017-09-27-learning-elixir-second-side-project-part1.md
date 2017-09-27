@@ -51,4 +51,6 @@ Payment happens via the app itself not on the website. But the order holds a lis
 The most complex part of the project is the synchronisation logic with the supermarket API. I like to be able to order products in the app. The ingredients ordered via the website should not delete existing products or order too many.
 
 ### What's next
+This first blog post 
+
 Stay tuned for the next blog post, where I describe how to build a GraphQL API with Elixir using this domain.

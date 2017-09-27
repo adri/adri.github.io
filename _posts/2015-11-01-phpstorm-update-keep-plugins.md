@@ -22,3 +22,4 @@ cp -R ~/Library/Application\ Support/WebIde95/* ~/Library/Application\ Support/W
 # test it, then remove the backup
 rm -fr ~/Library/Application\ Support/WebIde100_backup
 ```
+# 

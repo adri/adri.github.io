@@ -41,23 +41,4 @@ Every ingredient is mapped to a product in the supermarket API. Choosing a speci
 4. Order 
 A list of ingredients that have been added to cart and for which recipe they are planned. Payment happens via the app itself not via Picape.
 
-
-- Picnic: Supermarket API 
-https://www.picnic.nl/
-- How Picnic changed our lives
-- Plan recipes with Picnic API
-- Goals
-	- essentials
-	- sync with order
-	- manage recipes and ingredients 
-- GraphQL with Elixir 
-	- batching
-	- async
-	- Phoenix 1.3 contexts
-	- Parallel testing
-- Frontend for elixir 
-	- Separate deployment vs complexity 
-	- start next.js process with elixir
-	- proxy requests 
-
 ---- 

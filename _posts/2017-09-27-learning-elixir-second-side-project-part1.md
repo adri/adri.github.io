@@ -32,32 +32,11 @@ What was important for us:
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/qhtsn7rZClQ" frameborder="0" allowfullscreen></iframe></div>
 <br />
 
-1. Recipes  
+1. **Recipes**<br /> 
 A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the cart via the supermarket API.
-2. Essentials  
+2. **Essentials**<br />  
 Some ingredients should not be added automatically to the cart because they are always in stock. These are ingredients like herbs, milk products and frozen goods. Instead: if a recipe needs an essential, those should be highlighted only.
-3. Ingredients  
+3. **Ingredients**<br />  
 Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. I just order "tomato sauce" and don't think "which tomato sauce did I choose again?". 
-4. Order 
+4. **Order**<br /> 
 A list of ingredients that have been added to cart and for which recipe they are planned. Payment happens via the app itself not via Picape.
-
-
-- Picnic: Supermarket API 
-https://www.picnic.nl/
-- How Picnic changed our lives
-- Plan recipes with Picnic API
-- Goals
-	- essentials
-	- sync with order
-	- manage recipes and ingredients 
-- GraphQL with Elixir 
-	- batching
-	- async
-	- Phoenix 1.3 contexts
-	- Parallel testing
-- Frontend for elixir 
-	- Separate deployment vs complexity 
-	- start next.js process with elixir
-	- proxy requests 
-
----- 

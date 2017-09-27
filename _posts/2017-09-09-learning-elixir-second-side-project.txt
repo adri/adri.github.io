@@ -25,7 +25,6 @@ What was important for us:
 * reduce the time it takes to order 
 
 ### Picape
-
 1. Recipes  
 A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the cart via the supermarket API.
 2. Essentials  

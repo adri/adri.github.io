@@ -19,12 +19,14 @@ A few months ago we changed our grocery shopping habits. Instead of going to a s
 Every time when we ordered we thought of recipes to cook and their ingredients and then added every ingredient to the app. We also added essential ingredients like milk or eggs if we needed them. 
 
 What was important for us:
-* avoid food waste
-* don't run out of essentials 
-* avoid ready made meals
+* use all food to avoid food waste
+* always have the essentials 
+* prefer cooking over ready-made meals
 * reduce the time it takes to order 
 
 ### Picape
+
+
 1. Recipes  
 A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the cart via the supermarket API.
 2. Essentials  
@@ -32,7 +34,7 @@ Some ingredients should not be added automatically to the cart because they are 
 3. Ingredients  
 Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. I just order "tomato sauce" and don't think "which tomato sauce did I choose again?". 
 4. Order 
-A list of ingredients that have been added to cart. 
+A list of ingredients that have been added to cart and for which recipe they are planned. Payment happens via the app itself not via Picape.
 
 
 - Picnic: Supermarket API 

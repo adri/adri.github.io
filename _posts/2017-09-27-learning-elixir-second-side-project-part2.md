@@ -17,7 +17,7 @@ This is part 2 of a blog post series **Elixir side-project #2**.
 
 ### GraphQL with Elixir 
 
-
+There 
 
 	- batching
 	- async

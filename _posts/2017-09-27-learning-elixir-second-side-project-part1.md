@@ -20,7 +20,7 @@ This is part 1 of a blog post series "Elixir side-project #2".
 ### Planning Recipes with a Supermarket API
 A few months ago we changed our grocery shopping habits. Instead of going to a store a few times a week, we now order ingredients via an app and get them delivered the next day. Usually we order two times a week. When ordering, we plan what we are going to eat in the next 3-4 days.  
  
-Every time when we ordered we thought of recipes to cook and their ingredients and then added every ingredient to the app. We also added essential ingredients like milk or eggs if we needed them. 
+Every time when we order we think of recipes to cook and their ingredients. Then we add every ingredient to the app. We also added essential ingredients like milk or eggs if we needed them. 
 
 What was important for us:
 * use all food to avoid food waste

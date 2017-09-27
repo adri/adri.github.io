@@ -27,9 +27,9 @@ What was important for us:
 ### Picape
 
 1. Recipes  
-A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added to the cart via the supermarket API.
+A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the cart via the supermarket API.
 2. Essentials  
-Some ingredients 
+Some ingredients should not be added automatically because we 
 3. Ingredients
 
 

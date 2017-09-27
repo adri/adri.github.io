@@ -46,7 +46,7 @@ Some ingredients should not be added automatically to the cart because they are 
 Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. I just order *"tomato sauce"* and don't think *"which tomato sauce did I choose again?"*.   
 
 4. **Current order**<br />
-Payment happens via the app itself not on the website. But the order holds a list of ingredients and for which recipe these were planned. The order also has a total amount. 
+The payment happens via the app itself not on the website. But the order holds a list of ingredients and for which recipe these were planned. The order also has a total amount. 
 
 
 The most complex part of the project is the synchronisation logic with the supermarket API. I like to be able to order products in the app as well as on the website. The ingredients ordered via the website should not delete ordered products or order too many.

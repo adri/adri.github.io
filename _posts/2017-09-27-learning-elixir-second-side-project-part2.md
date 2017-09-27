@@ -7,15 +7,13 @@ image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-
 published: false
 ---
 
-I had a lot of fun learning Elixir during my [last side-project](/post/learning-elixir-first-side-project). For 1 year I'm working with GraphQL APIs – mostly written in PHP. Now I wanted to learn **how GraphQL APIs work in Elixir**. For me it was clear: I needed another side-project. 
+I had a lot of fun learning Elixir during my [last side-project](/post/learning-elixir-first-side-project). 
 
 ![Elixir](https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png)
 
-I was looking for a problem with a small domain but with some complexity. The idea was born to speed up our grocery shopping by ordering recipes and their ingredients via a supermarket API. 
-
-This is part 1 of a blog post series **Elixir side-project #2**.
+This is part 2 of a blog post series **Elixir side-project #2**.
 1. Planning recipes with a supermarket API (1/2)
-2. *Work in progress:* A Graphql API with Elixir (2/2)
+2. A Graphql API with Elixir (2/2)
 
 ### Planning Recipes with a Supermarket API
 A few months ago we changed our grocery shopping habits. Instead of going to a store a few times a week, we now order ingredients via an app and get them delivered the next day. Usually we order two times a week. When ordering, we plan what we are going to eat in the next 3-4 days.  

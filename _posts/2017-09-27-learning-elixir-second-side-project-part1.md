@@ -48,5 +48,7 @@ Every ingredient is mapped to a product in the supermarket API. Choosing a speci
 4. **Current order**<br />
 Payment happens via the app itself not on the website. But the order holds a list of ingredients and for which recipe these were planned. The order also has a total amount. 
 
+The most complex part of the project is the synchronisation logic with the supermarket API. I like to be able to order products in the app. The ingredients ordered via the website should not delete existing products and 
+
 ### What's next
 Stay tuned for the next blog post, where I describe how to build a GraphQL API with Elixir using this domain.

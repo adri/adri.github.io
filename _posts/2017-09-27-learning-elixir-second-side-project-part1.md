@@ -43,7 +43,7 @@ A list of recipes that can be planned. Those recipes have ingredients. When a re
 Some ingredients should not be added automatically to the cart because they are always in stock. These are ingredients like herbs, milk products and frozen goods. Instead: if a recipe needs essentials, those should be highlighted only.  
 
 3. **Ingredients**<br />
-Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. I just order "tomato sauce" and don't think "which tomato sauce did I choose again?".   
+Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. I just order *"tomato sauce"* and don't think *"which tomato sauce did I choose again?"*.   
 
 4. **Current order**<br />
 Payment happens via the app itself not on the website. But the order holds a list of ingredients and for which recipe these were planned. The order also has a total amount. 

@@ -29,7 +29,7 @@ What was important for us:
 1. Recipes  
 A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the cart via the supermarket API.
 2. Essentials  
-Some ingredients should not be added automatically because we 
+Some ingredients should not be added automatically because they area always in stock. Ingredients like herbs, 
 3. Ingredients
 
 

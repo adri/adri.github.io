@@ -40,7 +40,7 @@ The domain is very connected which makes it a great use-case for GraphQL. The ma
 A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the order via the supermarket API.  
 
 2. **Essentials**<br />
-Some ingredients should not be added automatically to the cart because they are always in stock. These are ingredients like herbs, milk products and frozen goods. Instead: if a recipe needs an essential, those should be highlighted only.  
+Some ingredients should not be added automatically to the cart because they are always in stock. These are ingredients like herbs, milk products and frozen goods. Instead: if a recipe needs essentials, those should be highlighted only.  
 
 3. **Ingredients**<br />
 Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. I just order "tomato sauce" and don't think "which tomato sauce did I choose again?".   

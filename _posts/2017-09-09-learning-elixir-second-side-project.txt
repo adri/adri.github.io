@@ -11,7 +11,8 @@ After learning about [/post/learning-elixir-first-side-project](first side proje
 
 ![Elixir](https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png)
 
-A few months ago we changed our grocery shopping habits. Instead of going to a store a few times a week, we now order ingredients via an app and get them delivered the next day. Usually we order two times a week. This change in habits meant that we plan what we are going to eat in the next 3-4 days. 
+A few months ago we changed our grocery shopping habits. Instead of going to a store a few times a week, we now order ingredients via an app and get them delivered the next day. Usually we order two times a week. This change in habits meant that we plan what we are going to eat in the next 3-4 days.
+ 
 - avoid food waste
 - don't run out of essentials 
 - eat 

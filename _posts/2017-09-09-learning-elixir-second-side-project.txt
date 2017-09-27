@@ -31,7 +31,7 @@ A list of recipes that can be planned. Those recipes have ingredients. When a re
 2. Essentials  
 Some ingredients should not be added automatically to the cart because they are always in stock. Ingredients like herbs, milk products and fruit for breakfast.
 3. Ingredients  
-Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction like "which tomatoes did we choose again?"
+Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. we just order "Tomatoes" and don't think "which tomatoes did I choose again?". 
 
 
 - Picnic: Supermarket API 

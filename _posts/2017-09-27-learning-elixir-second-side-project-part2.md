@@ -25,6 +25,7 @@ I assume you have read about GraphQL. Otherwise I recommend to read an [introduc
 Absinthe provides some macros to make schema definitions easy 
 
 #### Batching
+In javascript or PHP I have used a data loader .
 
 #### Async
 

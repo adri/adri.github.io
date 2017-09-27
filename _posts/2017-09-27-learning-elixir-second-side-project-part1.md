@@ -37,7 +37,7 @@ Picape is a website that we use to manage and order recipes and ingredients. Her
 The domain is very connected which makes it a great use-case for GraphQL. The main concepts are:
 
 1. **Recipes**<br /> 
-A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the cart via the supermarket API.  
+A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the order via the supermarket API.  
 
 2. **Essentials**<br />
 Some ingredients should not be added automatically to the cart because they are always in stock. These are ingredients like herbs, milk products and frozen goods. Instead: if a recipe needs an essential, those should be highlighted only.  

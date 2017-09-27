@@ -45,5 +45,5 @@ Some ingredients should not be added automatically to the cart because they are 
 3. **Ingredients**<br />
 Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction. E.g. I just order "tomato sauce" and don't think "which tomato sauce did I choose again?".   
 
-4. **Order**<br />
+4. **Current order**<br />
 A list of ingredients that have been added to cart and for which recipe they are planned. Payment happens via the app itself not via Picape.

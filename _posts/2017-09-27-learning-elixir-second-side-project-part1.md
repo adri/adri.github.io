@@ -26,7 +26,7 @@ Automating this process sounded fun. What is important for us:
 * order enough ingredients and avoid throwing food away
 * always have the essentials in stock without forgetting some
 * prefer cooking over ready-made meals
-* reduce the time it takes to order 
+* reduce the time it takes to order by automation but with the same result
 
 ### Picape
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/qhtsn7rZClQ" frameborder="0" allowfullscreen></iframe></div>

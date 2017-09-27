@@ -4,7 +4,7 @@ title: "Elixir side-project #2: Plan recipes with a supermarket API (1/2)"
 summary: Introduction to my next side project to learn Elixir.
 categories: elixir, side-project, graphql, react, next.js
 image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
-published: false
+published: true
 ---
 
 I had a lot of fun learning Elixir during my [last side-project](/post/learning-elixir-first-side-project). For the last 1.5 years I'm working with GraphQL APIs. Now I wanted to learn **how to build GraphQL APIs with Elixir**. For me it was clear: I needed another side-project.
@@ -29,7 +29,7 @@ What was important for us:
 * reduce the time it takes to order 
 
 ### Picape
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/qhtsn7rZClQ" frameborder="0" allowfullscreen></iframe></div>
 <br />
 
 1. Recipes  

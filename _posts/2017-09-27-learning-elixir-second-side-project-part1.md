@@ -49,7 +49,7 @@ Every ingredient is mapped to a product in the supermarket API. Choosing a speci
 Payment happens via the app itself not on the website. But the order holds a list of ingredients and for which recipe these were planned. The order also has a total amount. 
 
 
-The most complex part of the project is the synchronisation logic with the supermarket API. I like to be able to order products in the app as well as on the website. The ingredients ordered via the website should not delete existing products or order too many.
+The most complex part of the project is the synchronisation logic with the supermarket API. I like to be able to order products in the app as well as on the website. The ingredients ordered via the website should not delete ordered products or order too many.
 
 ### What's next
 This first blog post describes the problem I worked on and explains the concepts used.

@@ -29,8 +29,9 @@ What was important for us:
 1. Recipes  
 A list of recipes that can be planned. Those recipes have ingredients. When a recipe is planned, their ingredients get added automatically to the cart via the supermarket API.
 2. Essentials  
-Some ingredients should not be added automatically because they area always in stock. Ingredients like herbs, 
-3. Ingredients
+Some ingredients should not be added automatically to the cart because they are always in stock. Ingredients like herbs, milk products and fruit for breakfast.
+3. Ingredients  
+Every ingredient is mapped to a product in the supermarket API. Choosing a specific product and naming it reduces friction like "which tomatoes did we choose again?"
 
 
 - Picnic: Supermarket API 

@@ -29,6 +29,7 @@ Automating this process sounded fun. What is important for us:
 * reduce the time it takes to order by automation but with the same result
 
 ### Picape
+Picape is a website that we use to manage and order recipes and ingredients.
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/qhtsn7rZClQ" frameborder="0" allowfullscreen></iframe></div>
 <br />

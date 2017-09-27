@@ -36,8 +36,9 @@ The most used GraphQL library for Elixir is [Absinthe](http://absinthe-graphql.o
 
 
 
-
+<!-- 
 - Frontend for elixir 
 	- Separate deployment vs complexity 
 	- start next.js process with elixir
 	- proxy requests 
+-->

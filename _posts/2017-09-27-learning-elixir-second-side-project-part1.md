@@ -23,7 +23,7 @@ A few months ago we changed our grocery shopping habits. Instead of going to a s
 Every time when we order we think of recipes to cook and their ingredients. Then we add every ingredient to the app. We also added essential ingredients like milk or eggs if we needed them. 
 
 What was important for us:
-* use all food to avoid food waste
+* use all food to avoid throwing food away
 * always have the essentials 
 * prefer cooking over ready-made meals
 * reduce the time it takes to order 

@@ -15,8 +15,7 @@ This is part 2 of a blog post series **Elixir side-project #2**.
 1. Planning recipes with a supermarket API (1/2)
 2. A Graphql API with Elixir (2/2)
 
-### GraphQL with Elixir 
-
+### GraphQL and Elixir 
 The most used GraphQL library for Elixir is [Absinthe](http://absinthe-graphql.org).  
 
 	- batching

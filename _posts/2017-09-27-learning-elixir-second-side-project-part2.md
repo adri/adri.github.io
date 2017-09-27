@@ -23,6 +23,8 @@ The most used GraphQL library for Elixir is [Absinthe](http://absinthe-graphql.o
 	- Phoenix 1.3 contexts
 	- Parallel testing
 
+https://pragprog.com/book/wwgraphql/craft-graphql-apis-in-elixir-with-absinthe
+
 
 - Frontend for elixir 
 	- Separate deployment vs complexity 

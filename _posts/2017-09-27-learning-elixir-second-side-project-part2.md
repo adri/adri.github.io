@@ -7,12 +7,12 @@ image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-
 published: false
 ---
 
-I had a lot of fun learning Elixir during my [last side-project](/post/learning-elixir-first-side-project). 
+I made a GraphQL API and a web interface with next.js+apollo to [manage and order recipes and ingredients via a supermarket API](/post/learning-elixir-first-side-project).
 
 ![Elixir](https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png)
 
 This is part 2 of a blog post series **Elixir side-project #2**.
-1. Planning recipes with a supermarket API (1/2)
+1. [Planning recipes with a supermarket API (1/2)](/post/learning-elixir-first-side-project) 
 2. A Graphql API with Elixir (2/2)
 
 ### GraphQL and Elixir 

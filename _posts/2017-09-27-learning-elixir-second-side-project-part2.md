@@ -84,7 +84,7 @@ end
 #### Phoenix 1.3 Contexts
 Phoenix 1.3 introduced a concept called [contexts](https://hexdocs.pm/phoenix/contexts.html#thinking-about-design) as way to structure and design an Elixir application. 
 
-A context groups related functionality. For example the context `Recipes` can include functions like `list_recipes` or `recipes_by_ids`. The function `list_recipes` lists all recipes and can be used in a GraphQL resolver, in a Phoenix controller or in a CLI command.
+A context groups related functionality. For example the context `Recipes` can include functions like `list_recipes` or `recipes_by_ids`. The function `list_recipes` lists all recipes and can be used in many places: in a GraphQL resolver, in a Phoenix controller or in a CLI command.
 
 ```elixir
 defmodule Picape.Recipes do

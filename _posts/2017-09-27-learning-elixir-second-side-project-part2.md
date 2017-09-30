@@ -36,7 +36,7 @@ I'm using the currently latest Absinthe version which is 1.4-rc and also some he
 * `absinthe_relay` because I like to expose only [Global IDs](https://facebook.github.io/relay/docs/graphql-object-identification.html). This enables [automatic store updates](http://dev.apollodata.com/react/cache-updates.html#normalization) using Apollo.
 
 #### Schema Definition
-The  Picape domain is small enough to define in two files:   [schema.ex](https://github.com/adri/picape/blob/master/lib/picape_web/graphql/schema.ex) and [types.ex](https://github.com/adri/picape/blob/master/lib/picape_web/graphql/types.ex). Here a **query schema overview** made with [GraphQL Voyager](https://apis.guru/graphql-voyager/) (click the image to enlarge).
+The  Picape domain is small enough to define in two files:   [schema.ex](https://github.com/adri/picape/blob/master/lib/picape_web/graphql/schema.ex) and [types.ex](https://github.com/adri/picape/blob/master/lib/picape_web/graphql/types.ex). Here is a **query schema overview** made with [GraphQL Voyager](https://apis.guru/graphql-voyager/) (click the image to enlarge).
 
 [![Picape GraphQL Schema overview](https://user-images.githubusercontent.com/133832/31045265-f7c5d918-a5df-11e7-9c28-88ee5d738fa7.png)](https://user-images.githubusercontent.com/133832/31045265-f7c5d918-a5df-11e7-9c28-88ee5d738fa7.png)
 

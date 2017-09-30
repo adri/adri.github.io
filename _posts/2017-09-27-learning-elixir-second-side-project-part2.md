@@ -7,7 +7,7 @@ image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-
 published: false
 ---
 
-I made a GraphQL API and a web interface with next.js+apollo to [manage and order recipes and ingredients via a supermarket API](/post/learning-elixir-first-side-project).
+I made a GraphQL API and a web interface with next.js + Apollo to [manage and order recipes and ingredients via a supermarket API](/post/learning-elixir-first-side-project).
 
 ![GraphQL and Elixir](https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png)
 

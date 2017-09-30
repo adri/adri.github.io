@@ -157,4 +157,4 @@ I'm still growing the GraphQL tests. So far, running all tests took under 0.5 se
 ### The Future
 So far I really like how GraphQL works in Elixir with Absinthe. I'm very happy with the speed of the functional tests and how concise the schema and type definitions are. 
 
-I'll play with [subscriptions](https://hexdocs.pm/absinthe/1.4.0-beta.1/Absinthe.Schema.html#subscription/2) and the [async middleware](https://hexdocs.pm/absinthe/Absinthe.Middleware.Async.html) next.
+I'll play with [subscriptions](https://hexdocs.pm/absinthe/1.4.0-beta.1/Absinthe.Schema.html#subscription/2) and the [async middleware](https://hexdocs.pm/absinthe/Absinthe.Middleware.Async.html) next. 

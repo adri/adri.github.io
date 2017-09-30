@@ -68,7 +68,7 @@ end
 ```
 [Source code of all types](https://github.com/adri/picape/blob/master/lib/picape_web/graphql/types.ex)
 
-Resolvers take care of mapping the GraphQL schema to actual data. I see resolvers as glue code – the actual logic of how to fetch data should be in another layer of the application. This can be combined with the concept of Phoenix 1.3 contexts. This way my resolvers are mostly one or two line calls to the relevant contexts.
+Resolvers take care of mapping the GraphQL schema to actual data. I see resolvers as glue code – the actual logic of how to fetch data should be in another layer of the application. I liked combining this with the concept of Phoenix 1.3 contexts. This way my resolvers are mostly one or two line calls to the relevant contexts.
 
 ```elixir
 defmodule PicapeWeb.Graphql.Resolver.Recipe do

@@ -79,7 +79,7 @@ defmodule PicapeWeb.Graphql.Resolver.Recipe do
   end
 end
 ```
-[Source code of the recipe resolvers](https://github.com/adri/picape/blob/master/lib/picape_web/graphql/resolver/recipe.ex)
+[Source code of all recipe resolvers](https://github.com/adri/picape/blob/master/lib/picape_web/graphql/resolver/recipe.ex)
 
 #### Phoenix 1.3 Contexts
 Phoenix 1.3 introduced a concept called [contexts](https://hexdocs.pm/phoenix/contexts.html#thinking-about-design) as way to structure and design an Elixir application. 

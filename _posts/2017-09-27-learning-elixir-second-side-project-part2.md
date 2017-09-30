@@ -94,7 +94,7 @@ defmodule Picape.Recipes do
 end
 ```
 
-In OOP languages I often use DDD concepts like repositories, services, entities and value objects. I still have to figure out how this relates to Phoenix contexts.
+In OOP languages I often use DDD concepts like repositories, services, entities and value objects. I still have to figure out how this relates to Phoenix contexts. If you know a good comparison, please let me know.
 
 #### Batching
 I knew that at some point I had to take care of the [n + 1 problem](https://secure.phabricator.com/book/phabcontrib/article/n_plus_one/). In Javascript and PHP I have used a [DataLoader](https://github.com/facebook/dataloader). Absinthe offers [batching](http://absinthe-graphql.org/guides/ecto-best-practices/) for this. For example to fetch all ingredients for recipes the resolver for the `ingredients` field looks like this:

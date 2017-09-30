@@ -126,7 +126,7 @@ I'm using the PostgreSQL database and [Ecto](https://github.com/elixir-ecto/ecto
 
 Using the Ecto Sandbox for GraphQL tests turned out to be straight forward. I made an ExUnit test case `AbsintheCase` used by all functional tests of the GraphQL API. This test case defines some helpers and includes the [`DataCase` with `async: true`](https://github.com/adri/picape/blob/b1afd7ef94f95c1f847929a83b129a31f4a33c2d/test/support/absinthe_case.ex#L7) which takes care of handling database transactions per test.
 
-I also used a [Factory](https://github.com/adri/picape/blob/master/test/support/factory.ex) to make [fixtures for Ecto](http://blog.danielberkompas.com/elixir/2015/07/16/fixtures-for-ecto.html). Fixtures are local to each test. I've seen global fixtures (e.g. database seeds) used for tests like this. The problem with this is, that many tests depend on the same fixtures. This makes the fixtures hard to change and maintain.
+I also used a [Factory](https://github.com/adri/picape/blob/master/test/support/factory.ex) to make [fixtures for Ecto](http://blog.danielberkompas.com/elixir/2015/07/16/fixtures-for-ecto.html). Fixtures are local to each test. I've seen global fixtures (e.g. database seeds) used for tests like this. The problem with this is, that then many tests depend on the same global fixtures. This makes the fixtures hard to change and maintain.
 
 ```elixir
 test "returns a list of essentials" do

@@ -12,7 +12,7 @@ I made a GraphQL API and a web interface with [next.js](https://github.com/zeit/
 ![GraphQL and Elixir](https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png)
 
 This is part 2 of a blog post series **Elixir side-project #2**.
-1. [Planning recipes with a supermarket API (1/2)](/post/learning-elixir-first-side-project) 
+1. [Planning recipes with a supermarket API (1/2)](/learning-elixir-second-side-project-part2) 
 2. A Graphql API with Elixir (2/2)
 
 ### GraphQL and Elixir 

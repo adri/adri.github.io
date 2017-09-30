@@ -53,4 +53,4 @@ The most complex part of the project is the synchronisation logic with the super
 ### What's next
 This first blog post describes the problem I worked on and explains the concepts used.
 
-Stay tuned for the next blog post. I will describe how to build a GraphQL API with Elixir using this domain.
+In the the [next blog post](/post/learning-elixir-second-side-project-part2). I’ll describe how to build a GraphQL API with Elixir using this domain.

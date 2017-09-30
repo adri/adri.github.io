@@ -3,7 +3,7 @@ layout: post
 title: "Elixir side-project #2: Planning recipes with a supermarket API (1/2)"
 summary: Introduction to my next side project to learn Elixir.
 categories: elixir, side-project, graphql, react, next.js
-image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
+image: https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png
 published: true
 ---
 

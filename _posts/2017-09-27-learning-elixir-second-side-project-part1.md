@@ -15,7 +15,7 @@ I was looking for a problem with a small domain but with some complexity. The id
 
 This is part 1 of a blog post series **Elixir side-project #2**.
 1. Planning recipes with a supermarket API (1/2)
-2. *Work in progress:* A Graphql API with Elixir (2/2)
+2. [A Graphql API with Elixir (2/2)](/post/learning-elixir-second-side-project-part2)
 
 ### Planning Recipes with a Supermarket API
 A few months ago we changed our grocery shopping habits. Instead of going to a store a few times a week, we now order ingredients via an app and get them delivered the next day. Usually we order two times a week. When ordering, we plan what we are going to eat in the next 3-4 days.  

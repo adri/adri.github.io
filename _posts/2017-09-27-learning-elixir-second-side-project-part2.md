@@ -152,7 +152,7 @@ end
 ```
 [Source code of the full test](https://github.com/adri/picape/blob/master/test/graphql/query_essential_test.exs). 
 
-I'm still growing the GraphQL tests. So far, running all tests took under 0.5 seconds. I consider this very fast for functional tests. 
+I'm still growing the GraphQL tests. So far, running all tests took under 0.5 seconds. I consider this very fast for functional tests.
 
 ### The Future
 So far I really like how GraphQL works in Elixir with Absinthe. I'm very happy with the speed of the functional tests and how concise the schema and type definitions are. 

@@ -107,7 +107,7 @@ node object :recipe do
 end
 ```
 
-`batched` is a helper function that I've added. It takes a tuple in the form of `{Module, :function_name}` and passes it to the `batch` function from Absinthe which calls that tuple with a list of all recipe ids which need their ingredients. This way there will be only one database query instead of one for every recipe.
+`batched` is a helper function that I've added. It takes a tuple in the form of `{Module, :function_name}` and passes it to the `batch` function from Absinthe. The `batch` function calls that tuple with a list of all recipe ids which need their ingredients. This way there will be only one database query instead of one for every recipe.
 
 ```elixir
 defp batched(batch_fun) do

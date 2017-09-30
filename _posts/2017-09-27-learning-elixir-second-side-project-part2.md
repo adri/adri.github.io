@@ -24,7 +24,7 @@ The most used GraphQL library for Elixir is [Absinthe](http://absinthe-graphql.o
 #### Installation
 I'm using the currently latest Absinthe version which is 1.4-rc and also some helper libraries. `absinthe_relay` needs to be updated to 1.4 which is why I use `override: true`. In the `mix.exs` file I put these dependencies:
 
-```
+```elixir
 {:absinthe, "~> 1.4.0-rc", override: true},
 {:absinthe_plug, "~> 1.4.0-rc"},
 {:absinthe_phoenix, "~> 1.4.0-rc"},
@@ -42,7 +42,7 @@ The  Picape domain is small enough to define in two files:   [schema.ex](https:/
 
 Absinthe provides macros to make schema definitions concise. For example the `query` macro can be used to define the root query fields. In the following example we define a field "recipes" using the `field` macro. That field resolves to a list of recipes using the `resolve` macro.
 
-```
+```elixir
 query do
   @desc "Lists all recipes."
   field :recipes, list_of(:recipe) do
@@ -54,7 +54,7 @@ end
 
 The types file defines all object types using the `object` macro. In this case I used the `node` macro which defines a [Relay node interface](https://facebook.github.io/relay/graphql/objectidentification.htm#sec-Node-Interface). This just means that this object will get an `id` field with a [globally unique ID](https://facebook.github.io/relay/docs/graphql-object-identification.html). 
 
-```
+```elixir
 node object :recipe do
   field :title, :string
   field :image_url, :string
@@ -70,7 +70,7 @@ end
 
 Resolvers take care of mapping the GraphQL schema to actual data. I see resolvers as glue code – the actual logic of how to fetch data should be in another layer of the application. This maps great to the concept of Phoenix 1.3 contexts. This way my resolvers are mostly one or two line calls to the relevant contexts.
 
-```
+```elixir
 defmodule PicapeWeb.Graphql.Resolver.Recipe do
   alias Picape.Recipe
 
@@ -99,7 +99,7 @@ In OOP languages I often use DDD concepts like repositories, services, entities 
 #### Batching
 I knew that at some point I had to take care of the [n + 1 problem](https://secure.phabricator.com/book/phabcontrib/article/n_plus_one/). In Javascript and PHP I have used a [DataLoader](https://github.com/facebook/dataloader). Absinthe offers [batching](http://absinthe-graphql.org/guides/ecto-best-practices/) for this. For example to fetch all ingredients for recipes the resolver for the `ingredients` field looks like this:
 
-```
+```elixir
 node object :recipe do
   field :ingredients, list_of(:recipe_ingredient_edge) do
     resolve: batched({Resolver.Recipe, :ingredients_by_recipe_ids})
@@ -109,7 +109,7 @@ end
 
 `batched` is a helper function that I've added. It takes a tuple in the form of `{Module, :function_name}` and passes it to the `batch` function from Absinthe which calls that tuple with a list of all recipe ids which need their ingredients. This way there will be only one database query instead of one for every recipe.
 
-```
+```elixir
 defp batched(batch_fun) do
   fn parent, _args, _ctx ->
     batch(batch_fun, parent.id, fn results ->

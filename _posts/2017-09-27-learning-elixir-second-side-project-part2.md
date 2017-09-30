@@ -7,7 +7,7 @@ image: https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-1
 published: true
 ---
 
-After implementing  [manage and order recipes and ingredients via a supermarket API](/post/learning-elixir-second-side-project-part1). I made a GraphQL API and a web interface with [next.js](https://github.com/zeit/next.js) + [Apollo](https://www.apollodata.com).
+A first proof of concept for my side-project to [manage and order recipes and ingredients via a supermarket API](/post/learning-elixir-second-side-project-part1) was successful. I continued with making a GraphQL API and a web interface with [next.js](https://github.com/zeit/next.js) + [Apollo](https://www.apollodata.com).
 
 ![GraphQL and Elixir](https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png)
 

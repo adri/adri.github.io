@@ -7,7 +7,7 @@ image: https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-1
 published: true
 ---
 
-Learning Elixir with my [last side-project](/post/learning-elixir-first-side-project) was a lot of fun. 
+Learning Elixir with my [last side-project](/post/learning-elixir-first-side-project) was a lot of fun. Learning by doing works well for me. 
 
 The past year I have been working with GraphQL APIs – mostly written in PHP.   Now I wanted to learn **how GraphQL APIs work in Elixir**. For me it was clear: I needed another side-project. 
 

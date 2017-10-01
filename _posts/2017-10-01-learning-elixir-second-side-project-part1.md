@@ -7,7 +7,9 @@ image: https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-1
 published: true
 ---
 
-The past year I have been working with GraphQL APIs – mostly written in PHP. I had a lot of fun learning Elixir during my [last side-project](/post/learning-elixir-first-side-project).  Now I wanted to learn **how GraphQL APIs work in Elixir**. For me it was clear: I needed another side-project. 
+Learning Elixir with my [last side-project](/post/learning-elixir-first-side-project) was a lot of fun. 
+
+The past year I have been working with GraphQL APIs – mostly written in PHP.   Now I wanted to learn **how GraphQL APIs work in Elixir**. For me it was clear: I needed another side-project. 
 
 ![Elixir](https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png)
 

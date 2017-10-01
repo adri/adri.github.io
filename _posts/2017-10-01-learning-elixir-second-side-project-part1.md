@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Elixir side-project #2: Planning recipes with a supermarket API (1/2)"
+title: "Elixir side-project #2: Planning Recipes with a Supermarket API (1/2)"
 summary: Introduction to my next side-project to learn Elixir.
 categories: elixir, side-project, graphql, react, next.js
 image: https://user-images.githubusercontent.com/133832/30913555-ede256ac-a390-11e7-8f3a-b8e70b00e702.png
@@ -16,7 +16,7 @@ In the past year I have been working with GraphQL APIs – mostly written in PHP
 I was looking for a problem with a small domain but with some complexity. The idea was born to speed up our grocery shopping by ordering recipes and their ingredients via a supermarket API. 
 
 This is part 1 of a blog post series **Elixir side-project #2**.
-1. Planning recipes with a supermarket API (1/2)
+1. Planning Recipes with a Supermarket API (1/2)
 2. [A Graphql API with Elixir (2/2)](/post/learning-elixir-second-side-project-part2)
 
 ### Planning Recipes with a Supermarket API

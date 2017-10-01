@@ -59,10 +59,10 @@ node object :recipe do
   field :title, :string
   field :image_url, :string
   field :is_planned, :boolean do 
-    resolve: batched({Resolver.Order, :recipies_planned?})
+    resolve batched({Resolver.Order, :recipies_planned?})
   end  
   field :ingredients, list_of(:recipe_ingredient_edge) do
-    resolve: batched({Resolver.Recipe, :ingredients_by_recipe_ids})
+    resolve batched({Resolver.Recipe, :ingredients_by_recipe_ids})
   end
 end
 ```

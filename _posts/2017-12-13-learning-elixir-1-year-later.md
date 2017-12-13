@@ -16,7 +16,7 @@ One year ago I started learning [Elixir](http://elixir-lang.github.io/) because 
 Before reflecting on how I liked things in Elixir land, I like to summarise *what* I actually did.
 
 ### Books
-After watching screencast series and doing exercises mentioned in the [blog post one year ago](https://adrian-philipp.com/post/why-elixir-has-great-potential), I have read the following books:
+After watching screencast series and doing exercises mentioned in the [blog post one year ago](https://adrian-philipp.com/post/why-elixir-has-great-potential) I have read the following books:
 
  * [Elixir in Action](https://www.manning.com/books/elixir-in-action) by Saša Jurić
  * [Functional Web Development with Elixir, OTP, and Phoenix](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix) by Lance Halvorsen

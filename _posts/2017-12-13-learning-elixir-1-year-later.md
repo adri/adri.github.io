@@ -131,7 +131,7 @@ I've used many editors like VIM, Atom and VSCode. When working with PHP I'm happ
 ##### Code Density
 Elixir is a very nice language and it is very expressive. This expressiveness means that code can get dense. Especially when pattern matching is new to someone. 
 
-To not step on anyones toes, let's look at some code I wrote last year. It's an exercise on [exercism.io](http://exercism.io). A function that returns whether the first list is a sublist or a superlist of a second list. And if not whether it is equal or unequal to the second list. Here [my solution using pattern matching on function definitions and recursion](http://exercism.io/submissions/4d02217954a84b98aa7533eb52d643f9). This is performant but I find it also hard to see what's happening.
+To not step on anyones toes, let's look at some code I wrote last year. It's an exercise on [exercism.io](http://exercism.io). A function that returns whether the first list is a sublist or a superlist of a second list, and if not whether it is equal or unequal to the second list. Here [my solution using pattern matching on function definitions and recursion](http://exercism.io/submissions/4d02217954a84b98aa7533eb52d643f9). This is performant but I find it also hard to see what's happening.
 
 I felt it was too hard to read for my future self and picked up [an idea from another solution for this problem not using recursion](http://exercism.io/submissions/7ba724dfeb8b43bcb6b5c9b32a048ea3). This is much slower but in my opinion easier to read.
 

@@ -93,7 +93,7 @@ I was hanging out in Slack channels, read blog posts and some forums. What I con
 ##### Parallel tests
 My phone has 6 CPU cores. Looking at the increase of cores in devices over the last years makes parallelism in programming more important. One area where leveraging parallelism is great, is running automated tests in Elixir. Especially integration tests with databases. 
 
-As projects grow, their automated test get slower. It takes a constant effort to keep the test times low, to be able to move fast. This is still the case with Elixir, but using all available resources without having developers caring about it can delay this effort. 
+As projects grow, their automated tests get slower. It takes a constant effort to keep the test times low, to be able to move fast. This is still the case with Elixir, but using all available resources without having developers caring about it can delay this effort. 
 
 ##### Fast workflow
 Developing in Elixir using the web framework Phoenix feels very similar to using PHP. Code changes don't need a server restart like in NodeJS. I like how live reloading on code changes comes out of the box, making the developer experience even better.

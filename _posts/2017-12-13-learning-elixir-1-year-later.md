@@ -80,7 +80,7 @@ The [source code is on Github](https://github.com/adri/picape). Read more about 
 There are many small details that I liked. When looking at the whole year I would mention these points in particular:
 
 ##### Functional programming
-Before learning Elixir, I have applied functional programming principles in Javascript with lodash and Ramda. It turned out to be mind bending when these principles are the only ones available – like in Elixir. I'm happy to have gone "through the pain". In the beginning the syntax looked strange and confusing to me. But after few days, when the concepts began to "click", I started to see the beauty of it. 
+Before learning Elixir, I have applied functional programming principles in Javascript with Lodash and Ramda. It turned out to be mind bending when these principles are the only ones available – like in Elixir. I'm happy to have gone "through the pain". In the beginning the syntax looked strange and confusing to me. But after few days, when the concepts began to "click", I started to see the beauty of it. 
 
 ##### Elixir language
 Once I was used to the pipeline operator `|>`, pattern matching and the `with` statement I started to miss it in other languages. 
@@ -120,13 +120,13 @@ ConCache.get_or_store(:bucket, key, fn() -> compute(key) end)
 ## What I didn't like
 Like with everything, there are some cons. Or I didn't understand it well enough yet.  
 
-##### Erlangs cryptic error messages
+##### Erlang's cryptic error messages
 I have to say that Elixirs error messages are very helpful. More helpful compared to PHP and Javascript. However, Elixir runs on Erlang. Those messages can be sometimes a bit cryptic. Unfortunately (for this blog post) I can't see my production error messages anymore. The last error is too long ago. 
 
-[Searching for this](https://www.google.nl/search?&q=elixir+error+messages+cryptic) reveals some error messages like `(ArithmeticError) bad argument in arithmetic expression`. Those I find hard to make sense of. I like that Elixir core devs are contributing to Erlang to improve this: [example](https://github.com/elixir-lang/elixir/issues/6142).
+[Searching for this](https://www.google.nl/search?&q=elixir+error+messages+cryptic) reveals some error messages like `(ArithmeticError) bad argument in arithmetic expression`. Those I find hard to make sense of. I like that Elixir core developers are contributing to Erlang to improve this: [example](https://github.com/elixir-lang/elixir/issues/6142).
 
 ##### IDE support 
-I've used many editors like VIM, Atom and VSCode. When working with PHP I'm happy with PHPStorm and the features from WebStorm with support for Javascript and other web technologies. With Elixir I feel the experience is not yet on par. The [Elixir plugin for IntelliJ](https://github.com/KronicDeth/intellij-elixir) and [Elixir language server](https://github.com/JakeBecker/elixir-ls) are awesome efforts to improve this though. 
+I've used many editors like VIM, Atom and VSCode. When working with PHP I'm happy with PHPStorm and the features from WebStorm with support for Javascript and other web technologies. The Elixir language integration is not yet on par. The [Elixir plugin for IntelliJ](https://github.com/KronicDeth/intellij-elixir) and [Elixir language server](https://github.com/JakeBecker/elixir-ls) are awesome efforts to improve this though. 
 
 ##### Code Density
 Elixir is a very nice language and it is very expressive. This expressiveness means that code can get dense. Especially when pattern matching is new to someone. 
@@ -142,7 +142,7 @@ Deployments could be better supported out of the box. The best experience was de
 
 For Picape I could not use Heroku however because I wanted to separate the frontend (running on NodeJS, using next.js) and backend (Elixir/Erlang process) but keep the simplicity of one repository. I ended up with [starting a NodeJS process](https://github.com/adri/picape/blob/master/config/prod.exs#L23-L25) when starting Elixir/Erlang. On Heroku I had issues opening multiple ports and get the forwarding working.
 
-Deploying to my VPS (virtual private server) was easy but I had to do [some](https://github.com/adri/picape/blob/master/bin/update) [scripting](https://github.com/adri/picape/blob/master/bin/deploy) and find out how to restart the Elixir process. This is by no means a zero downtime deployment ;) However I would love to learn a way how to do this properly.
+Deploying to my VPS (virtual private server) was easy but I had to do [some](https://github.com/adri/picape/blob/master/bin/update) [scripting](https://github.com/adri/picape/blob/master/bin/deploy) and find out how to restart the Elixir process. This is by no means a zero downtime deployment. However I would love to learn a way how to do this properly.
 
 ## Summarizing
 I'm very happy to have learned Elixir and I'm planning to learn more. I think it helps me to become a better developer. It is awesome to see that so many great people are working on Elixir and improving it. 

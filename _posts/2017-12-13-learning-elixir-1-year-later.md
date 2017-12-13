@@ -72,7 +72,7 @@ What I did during this side-project:
 * Structuring an application using Phoenix Contexts
 * Deploying on a VPS (virtual private server) with git push
 * Integrating Sentry for error tracking and Timber for logs
-* Code coverage with codecov
+* Code coverage with Codecov
 
 The [source code is on Github](https://github.com/adri/picape). Read more about it in the [Picape blog post](https://adrian-philipp.com/post/learning-elixir-second-side-project-part1).
 

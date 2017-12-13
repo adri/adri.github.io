@@ -99,7 +99,7 @@ As projects grow, their automated tests get slower. It takes a constant effort t
 Developing in Elixir using the web framework Phoenix feels very similar to using PHP. Code changes don't need a server restart like in NodeJS. I like how live reloading on code changes comes out of the box, making the developer experience even better.
 
 ##### Dependency management
-Using [Mix](http://elixir-lang.github.io/getting-started/mix-otp/introduction-to-mix.html) with [hex](https://hex.pm/) to install and update library dependencies is a pleasure. It is fast, customisable, reliable and gives helpful instructions in case of conflicts. Especially compared to Composer, a PHP dependency manager, I found this a much better experience. Please don't get me wrong, I still think Composer is a great software and transformed the PHP world a few years ago. 
+Using [Mix](http://elixir-lang.github.io/getting-started/mix-otp/introduction-to-mix.html) with [hex](https://hex.pm/) to install and update library dependencies is a pleasure. It is fast, customizable, reliable and gives helpful instructions in case of conflicts. Especially compared to Composer, a PHP dependency manager, I found this a much better experience. Don't get me wrong, I still think Composer is a great software and transformed the PHP world a few years ago. 
 
 ##### Powerful Platform
 I'm repeating a bit what I mentioned last year but I still want to stress the importance of running Erlang under the hood. The following comparison shows what I mean:

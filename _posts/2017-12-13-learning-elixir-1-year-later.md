@@ -4,7 +4,7 @@ title: "Learning Elixir: 1 year later"
 summary: One year ago I dived into learning Elixir. It's time for a retrospective. 
 categories: elixir, side-project, graphql, learning
 image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
-published: false
+published: true
 ---
 
 One year ago I started learning [Elixir](http://elixir-lang.github.io/) because I saw [great potential](https://adrian-philipp.com/post/why-elixir-has-great-potential). This is my retrospective, looking back on my journey with Elixir in the last year. 

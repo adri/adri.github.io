@@ -126,7 +126,7 @@ I have to say that Elixirs error messages are very helpful. More helpful compare
 [Searching for this](https://www.google.nl/search?&q=elixir+error+messages+cryptic) reveals some error messages like `(ArithmeticError) bad argument in arithmetic expression`. Those I find hard to make sense of. I like that Elixir core developers are contributing to Erlang to improve this: [example](https://github.com/elixir-lang/elixir/issues/6142).
 
 ##### IDE support 
-I've used many editors like VIM, Atom and VSCode. When working with PHP I'm happy with PHPStorm and the features from WebStorm with support for Javascript and other web technologies. The Elixir language integration is not yet on par. The [Elixir plugin for IntelliJ](https://github.com/KronicDeth/intellij-elixir) and [Elixir language server](https://github.com/JakeBecker/elixir-ls) are awesome efforts to improve this though. 
+I've used many editors like VIM, Atom and VSCode. When working with PHP I'm happy with PHPStorm and the features from WebStorm with support for Javascript and other web technologies. The Elixir language support is not yet on par. The [Elixir plugin for IntelliJ](https://github.com/KronicDeth/intellij-elixir) and [Elixir language server](https://github.com/JakeBecker/elixir-ls) are awesome efforts to improve this though. 
 
 ##### Code Density
 Elixir is a very nice language and it is very expressive. This expressiveness means that code can get dense. Especially when pattern matching is new to someone. 

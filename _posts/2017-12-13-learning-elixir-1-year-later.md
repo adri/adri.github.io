@@ -9,7 +9,7 @@ published: true
 
 One year ago I started learning [Elixir](http://elixir-lang.github.io/) because I saw [great potential](https://adrian-philipp.com/post/why-elixir-has-great-potential). This is my retrospective, looking back on my journey so far with Elixir in the last year. 
 
-### TLDR;
+### TLDR
 *I liked functional programming, the Elixir langauge, the community, parallel tests, the fast workflow, the dependency management and the powerful platform. I had troubles with Erlangs cryptic error messages, IDE support, code density and deployments. My excitement for Elixir is still the same!*
 
 ## What I did in 2017

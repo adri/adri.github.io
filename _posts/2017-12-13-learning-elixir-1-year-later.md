@@ -145,7 +145,7 @@ For Picape I could not use Heroku however because I wanted to separate the front
 Deploying to my VPS was easy but I had to do [some](https://github.com/adri/picape/blob/master/bin/update) [scripting](https://github.com/adri/picape/blob/master/bin/deploy) and find out how to restart the Elixir process. This is by no means a zero downtime deployment. I would love to learn a way how to do this properly.
 
 ## Summarizing
-I'm very happy to have learned Elixir and I'm planning to learn more. I think it helps me to become a better developer. It is awesome to see that so many great people are working on Elixir and improving it. 
+I'm very happy to have learned Elixir and I'm planning to learn more. I think it helps me to become a better developer. It's awesome to see that so many great people are working on Elixir and improving it. 
 
 A few upcoming things I'm excited about: [Elixir formatter](https://github.com/lpil/exfmt), [property-based testing](http://elixir-lang.github.io/blog/2017/10/31/stream-data-property-based-testing-and-data-generation-for-elixir/), an abstraction for monitoring Phoenix and improved deployment tools. 
 

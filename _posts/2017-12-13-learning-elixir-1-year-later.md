@@ -118,7 +118,7 @@ ConCache.get_or_store(:bucket, key, fn() -> compute(key) end)
 ```
 
 ## What I didn't like
-Like with everything, there are some cons. Or I didn't understand enough yet.  
+Like with everything, there are some cons. Or I didn't understand it well enough yet.  
 
 ##### Erlangs cryptic error messages
 I have to say that Elixirs error messages are very helpful. More helpful compared to PHP and Javascript. However, Elixir runs on Erlang. Those messages can be sometimes a bit cryptic. Unfortunately (for this blog post) I can't see my production error messages anymore. The last error is too long ago. 

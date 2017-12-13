@@ -142,7 +142,7 @@ Deployments could be better supported out of the box. The best experience was de
 
 For Picape I could not use Heroku however because I wanted to separate the frontend (running on NodeJS, using next.js) and backend (Elixir/Erlang process) but keep the simplicity of one repository. I ended up with [starting a NodeJS process](https://github.com/adri/picape/blob/master/config/prod.exs#L23-L25) when starting Elixir/Erlang. On Heroku I had issues opening multiple ports and get the forwarding working.
 
-Deploying to my VPS was easy but I had to do [some](https://github.com/adri/picape/blob/master/bin/update) [scripting](https://github.com/adri/picape/blob/master/bin/deploy) and had find out how to restart the Elixir process. This is by no means a zero downtime deployment. However I would love to learn a way how to do this properly.
+Deploying to my VPS was easy but I had to do [some](https://github.com/adri/picape/blob/master/bin/update) [scripting](https://github.com/adri/picape/blob/master/bin/deploy) and find out how to restart the Elixir process. This is by no means a zero downtime deployment. However I would love to learn a way how to do this properly.
 
 ## Summarizing
 I'm very happy to have learned Elixir and I'm planning to learn more. I think it helps me to become a better developer. It is awesome to see that so many great people are working on Elixir and improving it. 

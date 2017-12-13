@@ -60,7 +60,7 @@ What I learned during this side-project:
 The [source code is on Github](https://github.com/adri/estimator). Read more about it in the [Estimator blog post](https://adrian-philipp.com/post/learning-elixir-first-side-project).
 
 #### Picape
-The second side-project is a tool speed up ordering ingredients at a supermarket. Picape holds a mapping of recipes and their ingredients to products from a home delivery supermarket. We use the tool about twice a week for the last 3 months. Demo:
+The second side-project is a tool to speed up ordering ingredients at a supermarket. Picape holds a mapping of recipes and their ingredients to products from a home delivery supermarket. We use the tool about twice a week for the last 3 months. Demo:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/qhtsn7rZClQ" frameborder="0" allowfullscreen></iframe></div>
 <br />

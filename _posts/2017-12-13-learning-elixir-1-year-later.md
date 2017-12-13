@@ -70,7 +70,7 @@ What I did during this side-project:
 * Building a GraphQL API in Elixir
 * Automated parallel testing of GraphQL, databases and websockets
 * Structuring an application using Phoenix Contexts
-* Deploying on a vserver with git push
+* Deploying on a VPS (virtual private server) with git push
 * Integrating Sentry for error tracking and Timber for logs
 * Code coverage with codecov
 

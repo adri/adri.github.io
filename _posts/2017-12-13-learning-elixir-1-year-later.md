@@ -82,26 +82,26 @@ There are many small details that I liked. When looking at the whole year I woul
 ##### Functional programming
 I have applied functional programming principles in Javascript (with lodash, Ramda) and PHP before learning Elixir. It turned out to be mind bending when these principles are the only ones available – like in Elixir. I'm happy to have gone "though the pain". In the beginning I remember the syntax to look very strange and confusing, but after few days when the concepts begin to "click" I started to see the beauty of it. 
 
-#### The langauge
+##### The langauge
 Once I was used to the pipeline operator `|>`, pattern matching and the `with` statement I started to miss it in other languages. 
 
 The `with` statement I find particularly nice because it simplifies error handling in a sequence of function calls. There is a great explanation and [example on StackOverflow](https://stackoverflow.com/questions/34210281/how-to-use-the-with-keyword-in-elixir-and-what-is-it-for). 
 
-#### Community
+##### Community
 I was hanging out in Slack channels, read blog posts and some forums. What I consistently noticed is how friendly, helpful and open the community is. I'm not saying that other communities are less good. Just that Elixirs community is at least as good. 
 
-#### Parallel tests
+##### Parallel tests
 My phone has 6 cores. Looking at the increase of CPUs in devices over the last years makes parallelism in programming more important. One area where leveraging parallelism is great, is running tests in Elixir. Especially integration tests with databases. 
 
 As projects grow, their automated test get slower. It takes a constant effort to keep the test times low, to be able to move fast. This is still the case with Elixir, but using all available resources without having developers caring about it can delay this effort. 
 
-#### Fast workflow
+##### Fast workflow
 Developing in Elixir using the web framework Phoenix feels very similar to using PHP. Code changes don't need a server restart like in NodeJS. I like how live reloading on code changes comes out of the box, making the developer experience even better.
 
-#### Dependency management
+##### Dependency management
 Using [Mix](http://elixir-lang.github.io/getting-started/mix-otp/introduction-to-mix.html) with [hex](https://hex.pm/) to install and update library dependencies is a pleasure. It is fast, customisable, reliable and gives helpful instructions in case of conflicts. Especially compared to Composer, a PHP dependency manager, I found this a much better experience. Please don't get me wrong, I still think Composer is a great software and transformed the PHP world a few years ago. 
 
-#### Powerful Platform
+##### Powerful Platform
 I'm repeating a bit what I mentioned last year but I still want to stress the importance of running Erlang under the hood. The following comparison shows what I mean:
  
 ![Erlang technology comparison](https://cloud.githubusercontent.com/assets/133832/21369162/f3bbf0aa-c705-11e6-8fb8-5f163eb47cd4.jpg)
@@ -120,15 +120,15 @@ ConCache.get_or_store(:bucket, key, fn() -> compute(key) end)
 ## What I didn't like
 Like with everything, there are some cons. Or I didn't understand enough yet.  
 
-#### Erlangs cryptic error messages
+##### Erlangs cryptic error messages
 I have to say that Elixirs error messages are very helpful. More helpful compared to PHP and Javascript. However, Elixir runs on Erlang. Those messages can be sometimes a bit cryptic. Unfortunately (for this blog post) I can't see my production error messages anymore. The last error is too long ago. 
 
 [Searching for this](https://www.google.nl/search?&q=elixir+error+messages+cryptic) reveals some error messages like `(ArithmeticError) bad argument in arithmetic expression`. Those I find hard to make sense of. I like that Elixir core devs are contributing to Erlang to improve this: [example](https://github.com/elixir-lang/elixir/issues/6142).
 
-#### IDE support 
+##### IDE support 
 I've used many editors like VIM, Atom and VSCode. When working with PHP I'm happy with PHPStorm and the features from WebStorm with support for Javascript and other web technologies. With Elixir I feel the experience is not yet on par. The [Elixir plugin for IntelliJ](https://github.com/KronicDeth/intellij-elixir) and [Elixir language server](https://github.com/JakeBecker/elixir-ls) are awesome efforts to improve this though. 
 
-#### Code Density
+##### Code Density
 Elixir is a very nice language and it is very expressive. This expressiveness means that code can get dense. Especially when pattern matching is new to someone. 
 
 To not step on anyones toes, lets look at some code I wrote last year. It's an exercise on [exercism.io](http://exercism.io). A function that returns whether the first list is a sublist or a superlist of a second list. And if not whether it is equal or unequal to the second list. Here [my solution using pattern matching on function definitions and recursion](http://exercism.io/submissions/4d02217954a84b98aa7533eb52d643f9). This is performant but I find it also hard to see what's happening.
@@ -137,7 +137,7 @@ I felt it was too hard to read for my future self and picked up [an idea from an
 
 My point here is: I like the expressiveness of Elixir. When trying to pack too much information in a piece of code it become too dense though. 
 
-#### Deployments
+##### Deployments
 Deployments could be better supported out of the box. The best experience was deploying to Heroku, this works great. 
 
 For Picape I could not use Heroku however because I wanted to separate the frontend (running on NodeJS, using next.js) and backend (Elixir/Erlang process) but keep the simplicity of one repository. I ended up with [starting a NodeJS process](https://github.com/adri/picape/blob/master/config/prod.exs#L23-L25) when starting Elixir/Erlang. On Heroku I had issues opening multiple ports and get the forwarding working.

@@ -82,7 +82,7 @@ There are many small details that I liked. When looking at the whole year I woul
 ##### Functional programming
 Before learning Elixir, I have applied functional programming principles in Javascript with lodash and Ramda. It turned out to be mind bending when these principles are the only ones available – like in Elixir. I'm happy to have gone "through the pain". In the beginning the syntax looked strange and confusing to me. But after few days, when the concepts began to "click", I started to see the beauty of it. 
 
-##### The langauge
+##### Elixir language
 Once I was used to the pipeline operator `|>`, pattern matching and the `with` statement I started to miss it in other languages. 
 
 The `with` statement I find particularly nice because it simplifies error handling in a sequence of function calls. There is a great explanation and [example on StackOverflow](https://stackoverflow.com/questions/34210281/how-to-use-the-with-keyword-in-elixir-and-what-is-it-for). 

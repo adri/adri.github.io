@@ -41,7 +41,7 @@ My preferred way to learn new technologies is to solve problems that I see.
 This brings two things: having a solution to a problem and learning about different aspects of a technology. These aspects are for me: development speed, testability, maintainability, reliability and observability in production, community support, tooling support and performance.
 
 #### Estimator
-The first side-project was about solving a problem I saw at work. I saw a need for a Planning Poker tool that integrates with Jira. The tool called Estimator is used since June regularly, about every 1-2 weeks by two teams. Here a demo:
+The first side-project was about solving a problem I saw at work. I saw a need for a Planning Poker tool that integrates with Jira. The tool called Estimator is used since June regularly, about every 1-2 weeks by two teams. Here is a demo:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe></div>
 <br />
@@ -60,12 +60,12 @@ What I did during this side-project:
 The [source code is on Github](https://github.com/adri/estimator). Read more about it in the [Estimator blog post](https://adrian-philipp.com/post/learning-elixir-first-side-project).
 
 #### Picape
-The second side-project is a tool to make it easier to order ingredients at a home delivery supermarket. Picape holds a mapping of recipes and their ingredients to products from a supermarket. For the last 3 months, we are using the tool twice a week. Here a demo:
+The second side-project is a tool to make it easier to order ingredients at a home delivery supermarket. Picape holds a mapping of recipes and their ingredients to products from a supermarket. For the last 3 months, we are using the tool twice a week. Here is a demo:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/qhtsn7rZClQ" frameborder="0" allowfullscreen></iframe></div>
 <br />
 
-What I learned during this side-project:
+What I did during this side-project:
 
 * Building a GraphQL API in Elixir
 * Automated parallel testing of GraphQL, databases and websockets

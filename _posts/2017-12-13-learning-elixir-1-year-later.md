@@ -46,7 +46,7 @@ The first side-project was about solving a problem I saw at work. I saw a need f
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/uEaGnlmUaWE" frameborder="0" allowfullscreen></iframe></div>
 <br />
 
-What I learned during this side-project:
+What I did during this side-project:
 
  * Realtime synchronisation of data via websockets
  * Authentication via Github

@@ -135,7 +135,7 @@ To not step on anyones toes, let's look at some code I wrote last year. It's an 
 
 I felt it was too hard to read for my future self and picked up [an idea from another solution for this problem not using recursion](http://exercism.io/submissions/7ba724dfeb8b43bcb6b5c9b32a048ea3). This is much slower but in my opinion easier to read.
 
-My point here is: I like the expressiveness of Elixir. When trying to pack too much information in a piece of code it become too dense though. 
+My point here is: I like the expressiveness of Elixir. When trying to pack too much information in a piece of code it can become too dense though. 
 
 ##### Deployments
 Deployments could be better supported out of the box. The best experience was deploying to Heroku, this works great. 

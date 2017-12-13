@@ -24,7 +24,7 @@ After watching screencast series and doing exercises mentioned in the [blog post
  * [Craft GraphQL APIs in Elixir with Absinthe (beta)](https://pragprog.com/book/wwgraphql/craft-graphql-apis-in-elixir-with-absinthe) by Bruce Williams and Ben Wilson
  * [Adopting Elixir (beta)](https://pragprog.com/book/tvmelixir/adopting-elixir) by Ben Marx, José Valim, Bruce Tate
 
-Of these books I found Elixir in Action the most challenging (in a good way) and inspiring. In a way that's also because it was one of the first books I've read. Which means that some content was repeated in other books. For GraphQL specifically I really liked what's already available in "Craft GraphQL APIs in Elixir with Absinthe (beta)".
+Out of these books I found Elixir in Action the most challenging (in a good way) and inspiring. In a way that's also because it was one of the first books I've read. Which means that some content was repeated in other books. For GraphQL specifically I really liked what's already available in "Craft GraphQL APIs in Elixir with Absinthe (beta)".
 
 ### Talks
 Playlists of Elixir conference talks I watched:

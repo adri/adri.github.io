@@ -53,7 +53,7 @@ What I learned during this side-project:
  * Deploying to Heroku
  * Database usage via Ecto: schemas, migrations, queries 
  * Using external APIs (Jira)
- * Caching 
+ * Caching data across requests 
  * Continuous integration setup
  * A little bit about automated testing
 

@@ -80,7 +80,7 @@ The [source code is on Github](https://github.com/adri/picape). Read more about 
 There are many small details that I liked. When looking at the whole year I would mention these points in particular:
 
 ##### Functional programming
-Before learning Elixir, I have applied functional programming principles in Javascript with lodash and Ramda. It turned out to be mind bending when these principles are the only ones available – like in Elixir. I'm happy to have gone "through the pain". In the beginning the syntax looked strange and confusing to me. But after few days when the concepts began to "click" I started to see the beauty of it. 
+Before learning Elixir, I have applied functional programming principles in Javascript with lodash and Ramda. It turned out to be mind bending when these principles are the only ones available – like in Elixir. I'm happy to have gone "through the pain". In the beginning the syntax looked strange and confusing to me. But after few days, when the concepts began to "click", I started to see the beauty of it. 
 
 ##### The langauge
 Once I was used to the pipeline operator `|>`, pattern matching and the `with` statement I started to miss it in other languages. 

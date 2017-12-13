@@ -109,7 +109,7 @@ I'm repeating a bit what I mentioned last year but I still want to stress the im
 
 All components are solid. Apart from a PostgreSQL database I had no infrastructure setup. This is great for development and production simplicity. Note that you can still use software like Redis, memcached, cron etc if needed. Some examples:
 
-* [Adding a cronjob](https://github.com/adri/picape/commit/12f9f12a0e361b1b4d2f2f825bc011589b94d9c6)
+* [Adding a “cronjob”](https://github.com/adri/picape/commit/12f9f12a0e361b1b4d2f2f825bc011589b94d9c6)
 * [Adding a reverse proxy](https://github.com/adri/picape/commit/c7c9c5dcadd776913b27da4da3534ea2d16ea87e)
 * Adding caching across requests (using ETS under the hood): 
 

@@ -36,7 +36,7 @@ Playlists of Elixir conference talks I watched:
 - [EMPEX 2017](https://www.youtube.com/watch?v=nvV-4040xXI&list=PLyO-58-sOapxgGz6S53Iklyv4s96ePyjS)
 
 ### Side projects
-My preferred way to learn new technologies is to solve problems that I see. This gets me value by having a solution to a problem and learning about different aspects of a technology. 
+My preferred way to learn new technologies is to solve problems that I see. This brings two things: having a solution to a problem and learning about different aspects of a technology. 
 
 These aspects are for me: development speed, testability, maintainability, reliability and observability in production, community support, tooling support and performance.
 

@@ -48,7 +48,7 @@ The first side-project was about solving a problem I saw at work. I saw a need f
 
 What I did during this side-project:
 
- * Realtime synchronisation of data via websockets
+ * Soft realtime synchronisation of data via websockets
  * Authentication via Github
  * Deploying to Heroku
  * Database usage via Ecto: schemas, migrations, queries 

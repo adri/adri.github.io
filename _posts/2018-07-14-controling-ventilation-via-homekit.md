@@ -12,7 +12,7 @@ I'm a software developer. Working on web applications is my passion. But I like 
 ## Ventilation
 In our house there is a ventilation system, a Itho CVE ECO RFT to be precise. Almost every room has a ventilation vent that looks like this:
 		
-<img src="https://user-images.githubusercontent.com/133832/42728477-84ded882-87bb-11e8-8156-197998089745.png" width="150" />
+<img src="https://user-images.githubusercontent.com/133832/42728477-84ded882-87bb-11e8-8156-197998089745.png" style=“width: 150px !important“ />
 
 We have 1 remote control in our bathroom to set different ventilation speeds or a 10 min timer. It looks like this:
 

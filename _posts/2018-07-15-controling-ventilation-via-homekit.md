@@ -16,11 +16,11 @@ In our house there is a ventilation system, a Itho CVE ECO RFT to be precise. Al
 
 We have 1 remote control in our bathroom to set different ventilation speeds or a 10 min timer. It looks like this:
 
-<img src="https://user-images.githubusercontent.com/133832/42728478-84fa96f8-87bb-11e8-83e4-32b392a461b0.jpg" width="150" />
+<img src="https://user-images.githubusercontent.com/133832/42728478-84fa96f8-87bb-11e8-83e4-32b392a461b0.jpg" style="width: 150px !important" />
 
 I found it a bit annoying to walk to the bathroom when I'm laying in bed and notice that I forgot to turn the ventilation to a lower speed. Not really a huge deal of course, but I found this could be better and a nice project to experiment on. The goal was to use my phone to set the ventilation speed by integrating the ventilation with HomeKit: 
 
-<img src="https://user-images.githubusercontent.com/133832/31438701-81256bf4-ae89-11e7-8c5c-a3c1d5d4d4c5.png" width="300" />
+<img src="https://user-images.githubusercontent.com/133832/31438701-81256bf4-ae89-11e7-8c5c-a3c1d5d4d4c5.png" style="width: 300px !important" />
 
 ## Remote Control
 The remote for the Itho CVE ECO RFT cost around 50-60 euro, which I found quite steep. I first thought I had to buy one and reverse engineer it. But I had incredible luck that an awesome engineer already [reverse engineered](https://www.progz.nl/homeautomation/2014/12/29/reverse-engineering-remote-itho-cve-eco-rft-part-1/) the remote control. The biggest part of this whole project was already done! All that was left was to get hardware and integrate with HomeKit. 
@@ -41,7 +41,7 @@ The place where I bought the hardware is [AliExpress](https://www.aliexpress.com
 
 ### How to get it running
 1. Connect all the hardware<br/>
-    <img src="https://user-images.githubusercontent.com/133832/42728532-88d9c7ca-87bc-11e8-949c-bb504732fc68.JPG" width="400"/>  
+    <img src="https://user-images.githubusercontent.com/133832/42728532-88d9c7ca-87bc-11e8-949c-bb504732fc68.JPG" style="width: 400px !important"/>  
 
     This is the end result. You can also see a [table of the connections](https://github.com/adri/IthoEcoFanRFT). For the power supply I connected the ESP8266 via USB to a Mac mini. 
    

@@ -4,7 +4,7 @@ title: "Controlling a ventilation system via HomeKit"
 summary: How to setup a micro controller to control a ventilation system and integrate it with Apple HomeKit. 
 categories: CC1101, ESP8266, HomeKit, Arduino, home automation
 image: https://user-images.githubusercontent.com/133832/42728532-88d9c7ca-87bc-11e8-949c-bb504732fc68.JPG
-published: false
+published: true
 ---
 
 I'm a software developer. Working on web applications is my passion. But I like to learn things and a few months ago I got inspired by my colleague [Ruud](https://twitter.com/Ruud_) to dive into hardware. After some brainstorming I found a nice first project to try. This is a brain dump of what I did and my learnings – I hope they inspire someone else.

@@ -14,7 +14,7 @@ In our house there is a ventilation system, a Itho CVE ECO RFT to be precise. Al
 		
 <img src="https://user-images.githubusercontent.com/133832/42728477-84ded882-87bb-11e8-8156-197998089745.png" style="width: 150px !important" />
 
-We have 1 remote control in our bathroom to set different ventilation speeds or a 10 min timer. It looks like this:
+We have 1 remote control in our bathroom to set different ventilation speeds or a 10 min timer. All vents are regulated centrally, you can't set the speed for each vent. It looks like this:
 
 <img src="https://user-images.githubusercontent.com/133832/42728478-84fa96f8-87bb-11e8-83e4-32b392a461b0.jpg" style="width: 150px !important" />
 
@@ -26,7 +26,7 @@ I found it a bit annoying to walk to the bathroom when I'm laying in bed and not
 The remote for the Itho CVE ECO RFT cost around 50-60 euro, which I found quite steep. I first thought I had to buy one and reverse engineer it. But I had incredible luck that an awesome engineer already [reverse engineered](https://www.progz.nl/homeautomation/2014/12/29/reverse-engineering-remote-itho-cve-eco-rft-part-1/) the remote control. The biggest part of this whole project was already done! All that was left was to get hardware and integrate with HomeKit. 
 
 ## Hardware
-The place where I bought the hardware is [AliExpress](https://www.aliexpress.com/). It felt a bit shady to buy there first, because the prices were low and there were no shipping costs. It worked out great though. I considered the environmental impact of buying in China. Most products are shipped from China, and except the price there is not a difference to buying it in Europe – so I went with it. Bring some patients, it takes a few weeks until you get your parts. 
+The place where I bought the hardware is [AliExpress](https://www.aliexpress.com/). It felt a bit shady to buy there first, because the prices were low and there were no shipping costs. It worked out great though. I considered the environmental impact of buying in China. Most products are shipped from China, and except the price there is not a difference to buying it in Europe – so I went with it. Bring some patience, it takes a few weeks until you get your parts. Unfortunately I didn't receive some parts as well. 
 
 1. [Bread board](https://www.aliexpress.com/item/MB102-Breadboard-power-module-MB-102-830-points-Solderless-Prototype-Bread-board-kit-65-Flexible-jumper/32690555189.html?spm=a2g0s.9042311.0.0.27424c4dprEHhP) with jumper wires<br/>
     For hoppy projects like this, you want a solderless bread board. It's called bread board because in the early days, people nailed copper wires in wooden boards to create electrical circuits – sometimes boards that were actually used to slice bread on. Solderless means you don't have to deal with soldering. You just need to put the jumper cables in to the right holes, and you're done. 
@@ -34,7 +34,7 @@ The place where I bought the hardware is [AliExpress](https://www.aliexpress.com
     A bread board often has numbers and letters on them. They can be used to rebuild electrical circuits from others to place the jumper cables in the right wholes. The wholes are connected in a certain way. Read this [great overview](https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard#holes) to learn how the wholes are connected. 
     
 2. [CC1101](https://www.aliexpress.com/item/1pc-E07-868MS10-CC1101-868MHz-SPI-Transceiver-rf-Module-CDSENET-Wireless-Receiver-868-MHz-for-Arduino/32800599482.html?spm=a2g0s.9042311.0.0.27424c4dprEHhP)<br/>
-   Chip manufacturers like to use acronyms and numbers to identify their products – get used to it. A CC1101 is a radio transceiver, and it's needed to emulate the Itho CVE ECO RFT remote control. This means this chip can send and receive information via radio signals. It's actually quite amazing how this works – in those chips are crystals that vibrating to create a certain electric frequency. This chip sends and receives on the 868 Mhz band, which the Itho uses. 
+   Chip manufacturers like to use acronyms and numbers to identify their products. A CC1101 is a radio transceiver, and it's needed to emulate the Itho CVE ECO RFT remote control. This means this chip can send and receive information via radio signals. It's actually quite amazing how this works – in those chips are crystals that vibrating to create a certain electric frequency. This chip sends and receives on the 868 Mhz band, which the Itho uses. 
 
 3. [ESP8266](https://www.aliexpress.com/item/ESP8266-ESP-12-NodeMCU-Lua-WiFi-Internet-Things-Development-Board/32368848967.html?spm=a2g0s.9042311.0.0.27424c4ddIBWwT)<br/> 
     To control the CC1101 chip, you need a micro controller. The ESP8266 is cheaper than Arduinos and comes with a wifi-module, which is perfect to combing with Homekit. The [Arduino IDE](https://www.arduino.cc/en/Main/Software) can be used to program this micro controller in C/C++. 
@@ -62,7 +62,7 @@ The place where I bought the hardware is [AliExpress](https://www.aliexpress.com
     Test that it works by opening `http://[ip]/press?button=high` and `http://[ip]/press?button=low` in a browser. You should hear the ventilation picking up speed and slowing down again.
     
 3. HomeKit support via Homebridge plugin<br/> 
-    To integrate with HomeKit, I wrote [a Homebridge plugin](https://github.com/adri/homebridge-itho-cve-eco-rft) to control the ESP. [Homebridge](https://github.com/nfarina/homebridge) emulates the iOS HomeKit API and is written in NodeJS. You can use the IP from the last step in the installation step [described here](https://github.com/adri/homebridge-itho-cve-eco-rft). The challenge here was to map the actions coming from HomeKit to signals going to the remote. I ended up using a [state machine](https://github.com/adri/homebridge-itho-cve-eco-rft/blob/master/index.js#L105-L121) which worked great.  
+    I wrote [a Homebridge plugin](https://github.com/adri/homebridge-itho-cve-eco-rft) to control the ESP. [Homebridge](https://github.com/nfarina/homebridge) emulates the iOS HomeKit API and is written in NodeJS. You can use the IP from the last step in the installation step [described here](https://github.com/adri/homebridge-itho-cve-eco-rft). The challenge here was to map the actions coming from HomeKit to signals going to the remote. I ended up using a [state machine](https://github.com/adri/homebridge-itho-cve-eco-rft/blob/master/index.js#L105-L121) which worked great.  
     There is now also [esp-homekit](https://github.com/maximkulkin/esp-homekit), an option to emulate the HomeKit API directly on the ESP, which I didn't try yet. 
 
 ## Learnings

@@ -50,7 +50,7 @@ ruleset:
     - CustomerCommand
     - CustomerEvent
     - CustomerEntity
-   ....
+   ...
 ```
 
 

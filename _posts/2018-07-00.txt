@@ -35,7 +35,7 @@ Because we use command and event pattern, this means:
 - customer command handlers handle only customer commands and only publish customer events
 - customer subscribers only handle customer events
 
-In Deptrac we can define controllers, command handlers, commands, etc. as layers. 
+In Deptrac you can define controllers, command handlers, commands, etc. as layers. 
 ```
 layers:
   - name: CustomerController

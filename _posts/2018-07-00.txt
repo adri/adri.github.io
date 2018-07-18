@@ -64,6 +64,9 @@ ruleset:
 ```
 
 
+```
+vendor/bin/deptrac analyze tests/Deptrac/domain_customer.yml --formatter-graphviz-display=0
+```
 
 ### Example 2: 
 

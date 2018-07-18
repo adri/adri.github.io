@@ -35,7 +35,7 @@ Because we use command and event pattern, this means:
 - customer command handlers handle only customer commands and only publish customer events
 - customer subscribers only handle customer events
 
-In Deptrac you can define controllers, command handlers, commands, etc. as layers. 
+In Deptrac you can define controllers, command handlers, commands, etc. as layers. In a file `domain_customer.yml` 
 ```
 layers:
   - name: CustomerController
@@ -48,6 +48,8 @@ layers:
        regex: .*Domain\\Command\\Customer.*
   ... 
 ```
+
+
 
 
 

@@ -60,6 +60,19 @@ vendor/bin/deptrac analyze tests/Deptrac/domain_customer.yml --formatter-graphvi
 
 ### Example 2: 
 
+```
+- run:
+  name: Setup Deptrac
+  command: |
+  set -exu
+  if [ ! -f ./api/vendor/bin/deptrac ]; then
+      sudo curl -LS http://get.sensiolabs.de/deptrac.phar -o ./api/vendor/bin/deptrac
+      sudo chmod +x ./api/vendor/bin/deptrac
+  fi
+
+```
+
+
 ### Integration in CI Pipelien
 
 

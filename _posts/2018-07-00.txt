@@ -30,7 +30,6 @@ Not all architecture decisions are about code structure. But for the ones that a
 
 ### Example 1: Domain Separation
 In a financial service, we want to keep the `customer` domain isolated. 
-
 Because we use command and event pattern, this means:
 - customer controllers can only use customer commands
 - customer command handlers handle only customer commands and only publish customer events

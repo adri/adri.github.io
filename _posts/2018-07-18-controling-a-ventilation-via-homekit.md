@@ -3,7 +3,7 @@ layout: post
 title: "Controlling a ventilation system via HomeKit"
 summary: How to setup a micro controller to control a ventilation system and integrate it with Apple HomeKit. 
 categories: CC1101, ESP8266, HomeKit, Arduino, home automation
-image: https://user-images.githubusercontent.com/133832/42728532-88d9c7ca-87bc-11e8-949c-bb504732fc68.JPG
+image: https://user-images.githubusercontent.com/133832/42869060-3f6a7818-8a74-11e8-8b89-f88419b3c90b.jpg
 published: true
 ---
 
@@ -41,7 +41,7 @@ The place where I bought the hardware is [AliExpress](https://www.aliexpress.com
 
 ### How to get it running
 1. Connect all the hardware<br/>
-    <img src="https://user-images.githubusercontent.com/133832/42728532-88d9c7ca-87bc-11e8-949c-bb504732fc68.JPG" style="width: 400px !important"/>  
+    <img src="https://user-images.githubusercontent.com/133832/42869060-3f6a7818-8a74-11e8-8b89-f88419b3c90b.jpg" style="width: 400px !important"/>  
 
     This is the end result. You can also see a [table of the connections](https://github.com/adri/IthoEcoFanRFT). For the power supply I connected the ESP8266 via USB to a Mac mini. 
    
@@ -53,7 +53,7 @@ The place where I bought the hardware is [AliExpress](https://www.aliexpress.com
       
     I was lucky to be able to reuse a lot of code. All I added was a REST interface and connect to a local wifi. You can use the code from my [fork](https://github.com/adri/IthoEcoFanRFT). To connect the ESP to your wifi network, add the wifi credentials in [`IthoEcoFanRFT.ino`](https://github.com/adri/IthoEcoFanRFT/blob/master/IthoEcoFanRFT.ino#L35-L36). To get the code running on the ESP, open the `IthoEcoFanRFT.ino` file in the Arduino IDE and upload it like explained [in this video](https://www.youtube.com/watch?v=m2fEXhl70OY). You should see an IP popping up in the serial monitor. Test that it works by opening `http://[ip]/` in a browser. The ventilation doesn't react yet, it needs to be paired with the new remote.
     
-3. Pair the ESP as a remote 
+3. Pair the ESP as a remote
     - Plug out the Itho CVE ECO RFT ventilation unit
     - Wait at least 15 seconds
     - Plug in the ventilation unit  
@@ -61,7 +61,7 @@ The place where I bought the hardware is [AliExpress](https://www.aliexpress.com
       
     Test that it works by opening `http://[ip]/press?button=high` and `http://[ip]/press?button=low` in a browser. You should hear the ventilation picking up speed and slowing down again.
     
-3. HomeKit support via Homebridge plugin<br/> 
+3. HomeKit support<br/> 
     I wrote [a Homebridge plugin](https://github.com/adri/homebridge-itho-cve-eco-rft) to control the ESP. [Homebridge](https://github.com/nfarina/homebridge) emulates the iOS HomeKit API and is written in NodeJS. You can use the IP from the last step in the installation step [described here](https://github.com/adri/homebridge-itho-cve-eco-rft). The challenge here was to map the actions coming from HomeKit to signals going to the remote. I ended up using a [state machine](https://github.com/adri/homebridge-itho-cve-eco-rft/blob/master/index.js#L105-L121) which worked great.  
     There is now also [esp-homekit](https://github.com/maximkulkin/esp-homekit), an option to emulate the HomeKit API directly on the ESP, which I didn't try yet. 
 

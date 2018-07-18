@@ -10,7 +10,7 @@ published: true
 I'm a software developer. Working on web applications is my passion. But I like to learn things and a few months ago I got inspired by my colleague [Ruud](https://twitter.com/Ruud_) to dive into hardware. After some brainstorming I found a nice first project to try. This is a brain dump of what I did and my learnings – I hope they inspire someone else.
 
 ## Ventilation
-In our house there is a ventilation system, an Itho CVE ECO RFT to be precise. Almost every room has a ventilation vent that looks like this:
+In our house, there is a ventilation system, an Itho CVE ECO RFT to be precise. Almost every room has a ventilation vent that looks like this:
 		
 <img src="https://user-images.githubusercontent.com/133832/42728477-84ded882-87bb-11e8-8156-197998089745.png" style="width: 150px !important" />
 

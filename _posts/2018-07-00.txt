@@ -62,11 +62,20 @@ vendor/bin/deptrac analyze tests/Deptrac/domain_customer.yml --formatter-graphvi
 
 
 ```
+- run:
+  name: Setup Deptrac
+  command: |
+    set -exu
+    if [ ! -f ./vendor/bin/deptrac ]; then
+      curl -LS http://get.sensiolabs.de/deptrac.phar -o ./vendor/bin/deptrac
+      chmod +x ./api/vendor/bin/deptrac
+    fi
 ```
 
 
 ### Integration in CI Pipelien
 
+```
 - run:
   name: 'Validate Deptrac'
   command: |
@@ -76,5 +85,7 @@ vendor/bin/deptrac analyze tests/Deptrac/domain_customer.yml --formatter-graphvi
       vendor/bin/deptrac analyze tests/Deptrac/domain_customer.yml --formatter-graphviz-display=0
       vendor/bin/deptrac analyze tests/Deptrac/platform.yml --formatter-graphviz-display=0
       ...
+```
+
 
 

@@ -55,6 +55,12 @@ ruleset:
    CustomerController:
     - CustomerCommand
     - CustomerEntity
+
+   CustomerCommandHandler:
+    - CustomerCommand
+    - CustomerEvent
+    - CustomerEntity
+   ....
 ```
 
 

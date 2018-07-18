@@ -34,6 +34,8 @@ Not all architecture decisions are about code structure. But for the ones that a
 
 ### Example 2: 
 
+### Integration in CI
+
 
 
 

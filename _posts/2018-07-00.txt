@@ -28,7 +28,9 @@ This tool allows you to define rules for code structure. You can validate that t
 
 Not all architecture decisions are about code structure. But for the ones that are, the tool can help to ensure that the underlying ADR is up to date. It saves time in code reviews because I don’t have to check that the ADRs are followed. 
 
-### Example 1: Software Layer Separation
+### Example 1: Domain Separation
+
+
 
 ### Example 2: 
 

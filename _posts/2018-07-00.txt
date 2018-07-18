@@ -49,7 +49,7 @@ layers:
   ... 
 ```
 
-The dependencies between layers are defined in a `ruleset`. In this example, this looks like this:
+The dependencies between layers are defined in a `ruleset`. In this example, it looks like this:
 ```
 ruleset:
    CustomerController:

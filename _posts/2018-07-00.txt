@@ -35,14 +35,20 @@ Because we use command and event pattern, this means:
 - customer command handlers handle only customer commands and only publish customer events
 - customer subscribers only handle customer events
 
-In Deptrac we can define each layer (controller, command handler, command, ...) like this: 
+In Deptrac we can define controllers, command handlers, commands, etc. as layers. 
 ```
 layers:
   - name: CustomerController
     collectors:
      - type: className
        regex: .*Controller\\.*Customer\\.*
+  - name: CustomerCommand
+    collectors:
+     - type: className
+       regex: .*Domain\\Command\\Customer.*
+  ... 
 ```
+
 
 
 ### Example 2: 

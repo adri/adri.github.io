@@ -67,6 +67,14 @@ vendor/bin/deptrac analyze tests/Deptrac/domain_customer.yml --formatter-graphvi
 
 ### Integration in CI Pipelien
 
-
+- run:
+  name: 'Validate Deptrac'
+  command: |
+    set -exu
+    vendor/bin/deptrac analyze tests/Deptrac/administration_platform.yml --formatter-graphviz-display=0
+    vendor/bin/deptrac analyze tests/Deptrac/domain_cart.yml --formatter-graphviz-display=0
+      vendor/bin/deptrac analyze tests/Deptrac/domain_customer.yml --formatter-graphviz-display=0
+      vendor/bin/deptrac analyze tests/Deptrac/platform.yml --formatter-graphviz-display=0
+      ...
 
 

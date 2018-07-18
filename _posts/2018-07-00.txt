@@ -20,7 +20,7 @@ In many software projects that I worked on, those reasons are not immediately vi
 
 At TicketSwap we started documenting these reasons in a format called ADR (Architecture Devision Records). These are lightweight documents which give a reason and context to an architecture decision. Documentation is great, but it has a risk of getting out of date. How can we help ourselves to keep ensure ADRs are updated? 
 
-Many smart people have thought about this. One helpful tool in the PHP community is Deptrac.
+Many smart people have thought about this. One helpful tool in the PHP community is [sensiolabs-de/deptrac](https://github.com/sensiolabs-de/deptrac).
 
 ### Deptrac  
 This tool allows you to define rules for code structure. You can validate that these rules are met and integrate this into your CI pipeline. 

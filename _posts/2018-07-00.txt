@@ -30,12 +30,10 @@ Not all architecture decisions are about code structure. But for the ones that a
 
 ### Example 1: Domain Separation
 In a financial service, we want to keep the `customer` domain isolated. 
-
-#
-# This means:
-# - Customer controllers can only use Customer commands
-# - Customer command handlers handle Customer commands and only push Customer events
-# - Customer subscribers only handle Customer events
+This means:
+- Customer controllers can only use Customer commands
+- Customer command handlers handle Customer commands and only push Customer events
+- Customer subscribers only handle Customer events
 
 
 ### Example 2: 

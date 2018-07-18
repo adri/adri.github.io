@@ -29,7 +29,13 @@ This CLI tool allows you to define layers and code structure rules in YAML. You 
 Not all architecture decisions are about code structure. But for the ones that are, the tool can help to ensure that the underlying ADR is up to date. It saves time in code reviews because I don’t have to check that the ADRs are followed. 
 
 ### Example 1: Domain Separation
-In 
+In a financial service I'm working on, we want to keep the `customer` domain isolated. 
+
+#
+# This means:
+# - Customer controllers can only use Customer commands
+# - Customer command handlers handle Customer commands and only push Customer events
+# - Customer subscribers only handle Customer events
 
 
 ### Example 2: 

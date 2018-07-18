@@ -29,13 +29,20 @@ This CLI tool allows you to define layers and code structure rules in YAML. You 
 Not all architecture decisions are about code structure. But for the ones that are, the tool can help to ensure that the underlying ADR is up to date. It saves time in code reviews because I don’t have to check that the ADRs are followed. 
 
 ### Example 1: Domain Separation
-In a financial service, we want to keep the `customer` domain isolated. 
+In a financial service, we want to keep the `customer` domain isolated. [todo why].
 Because we use command and event pattern, this means:
 - customer controllers can only use customer commands
 - customer command handlers handle only customer commands and only publish customer events
 - customer subscribers only handle customer events
 
-
+In Deptrac we can define each layer (controller, command handler, command, ...) like this: 
+```
+layers:
+  - name: CustomerController
+    collectors:
+     - type: className
+       regex: .*Controller\\.*Customer\\.*
+```
 
 
 ### Example 2: 

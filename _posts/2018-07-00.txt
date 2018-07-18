@@ -1,8 +1,17 @@
-2018-07-00-
+---
+layout: post
+title: "Deptrac"
+summary: How to setup a micro controller to control a ventilation system and integrate it with Apple HomeKit. 
+categories: CC1101, ESP8266, HomeKit, Arduino, home automation
+image: https://user-images.githubusercontent.com/133832/42869060-3f6a7818-8a74-11e8-8b89-f88419b3c90b.jpg
+published: false
+---
 
 
 ## How we use deptrac to document and validate architecture decisions 
-Every day, in every software project, I structure code in a certain way. There are always reasons why code is structured in that way. One reason might be that the team agreed to follow a certain design pattern. Or maybe certain performance characteristics need to be met. 
+Every day, in every software project, I structure code in a certain way. There are always reasons why the code is structured in that way. One reason might be that the team agreed to follow a certain design pattern. Or maybe certain performance characteristics need to be met. 
+
+### Architecture decisions
 In many software projects that I worked on, those reasons are not immediately visible. Having the reasons visible would give developers context and a better understanding of the code. This is helful with: 
 - on-boarding of new developers
 - aligning a team on architecture decisions

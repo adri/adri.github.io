@@ -62,8 +62,8 @@ typings/
 
 .cache
 **/.cache
-public
 !public/CNAME
+public
 
 .idea
 .vscode

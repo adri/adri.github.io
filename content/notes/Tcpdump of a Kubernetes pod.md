@@ -14,7 +14,7 @@ This script gets the host and the container ID of a given pod and then connects 
 # bash tcpdump-pod.sh name-of-pod
 
 remote() {
-  ssh -i ~/.ssh/k8s_prod_id_rsa -oStrictHostKeyChecking=no -o IdentitiesOnly=yes -o ServerAliveInterval=60 -o ProxyCommand="ssh -W %h:%p -o ServerAliveInterval=60 bastion.k8s.ticketswap.com" ec2-user@$1 $2
+  ssh -i ~/.ssh/k8s_prod_id_rsa -oStrictHostKeyChecking=no -o IdentitiesOnly=yes -o ServerAliveInterval=60 -o ProxyCommand="ssh -W %h:%p -o ServerAliveInterval=60 server" ec2-user@$1 $2
 }
 
 remote_cp() {

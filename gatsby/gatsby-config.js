@@ -53,10 +53,6 @@ module.exports = {
             title: `Notes`,
             slug: `/notes`,
           },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
         ],
         externalLinks: [
           {

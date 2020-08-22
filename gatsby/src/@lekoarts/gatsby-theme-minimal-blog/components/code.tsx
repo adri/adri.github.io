@@ -4,6 +4,7 @@ import { Prism } from "prism-react-renderer";
 (typeof global !== "undefined" ? global : window).Prism = Prism;
 
 require("prismjs/components/prism-elixir");
-import Code from "@lekoarts/gatsby-theme-minimal-blog/src/components/Code";
+
+import Code from "@lekoarts/gatsby-theme-minimal-blog/src/components/code";
 
 export default Code;

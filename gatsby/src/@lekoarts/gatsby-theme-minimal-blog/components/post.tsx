@@ -1,0 +1,90 @@
+/** @jsx jsx */
+import { jsx, Heading, section } from "theme-ui";
+import { MDXRenderer } from "gatsby-plugin-mdx";
+import React from "react";
+import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout";
+import ItemTags from "@lekoarts/gatsby-theme-minimal-blog/src/components/item-tags";
+import SEO from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo";
+import { Disqus } from "gatsby-plugin-disqus";
+
+type PostProps = {
+  data: {
+    post: {
+      slug: string;
+      title: string;
+      date: string;
+      tags?: {
+        name: string;
+        slug: string;
+      }[];
+      description?: string;
+      body: string;
+      excerpt: string;
+      timeToRead?: number;
+      banner?: {
+        childImageSharp: {
+          resize: {
+            src: string;
+          };
+        };
+      };
+    };
+  };
+};
+
+const px = [`32px`, `16px`, `8px`, `4px`];
+const shadow = px.map((v) => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`);
+
+const Post = ({ data: { post } }: PostProps) => (
+  <Layout>
+    <SEO
+      title={post.title}
+      description={post.description ? post.description : post.excerpt}
+      image={post.banner ? post.banner.childImageSharp.resize.src : undefined}
+      pathname={post.slug}
+    />
+    <Heading variant="styles.h2">{post.title}</Heading>
+    <p
+      sx={{
+        color: `secondary`,
+        mt: 2,
+        a: { color: `secondary` },
+        fontSize: [1, 1, 2],
+      }}
+    >
+      <time>{post.date}</time>
+      {post.tags && (
+        <React.Fragment>
+          {` — `}
+          <ItemTags tags={post.tags} />
+        </React.Fragment>
+      )}
+      {post.timeToRead && ` — `}
+      {post.timeToRead && <span>{post.timeToRead} min read</span>}
+    </p>
+
+    <section
+      sx={{
+        my: 4,
+        ".gatsby-resp-image-wrapper": {
+          my: [3, 3, 4],
+          boxShadow: shadow.join(`, `),
+        },
+        a: {
+          borderBottomWidth: "1px",
+          borderBottomStyle: "solid",
+          borderBottomColor: `primary`,
+          "&:hover": {
+            textDecoration: "none",
+          },
+        },
+      }}
+    >
+      <MDXRenderer variant="post">{post.body}</MDXRenderer>
+    </section>
+    <div sx={{ a: { color: "primary" }, color: "text" }}>
+      <Disqus config={{ identifier: post.slug, title: post.title }} />
+    </div>
+  </Layout>
+);
+export default Post;

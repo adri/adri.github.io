@@ -12,10 +12,9 @@ Where do I read/watch/hear information that I want to keep?
 - [[Import notes from Instapaper]]
 - [[Import Twitter likes]]
 - [[Import Github stars]]
-- Import messages from iMessage
-- Import notes from Slack
-- Import notes from Website highlights (what tool?)
-- Import Photos
-- Import Youtube watch history
+- Import messages from iMessage?
+- [[Import notes from Website highlights]] (what tool?)?
+- Import photos?
+- Import youtube watch history?
 
 #published #idea 

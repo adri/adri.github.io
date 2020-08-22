@@ -18,7 +18,7 @@ remote() {
 }
 
 remote_cp() {
-  scp -i ~/.ssh/k8s_prod_id_rsa -o IdentitiesOnly=yes -o ProxyCommand="ssh -W %h:%p bastion.k8s.ticketswap.com" ec2-user@$1:$2 $2
+  scp -i ~/.ssh/k8s_prod_id_rsa -o IdentitiesOnly=yes -o ProxyCommand="ssh -W %h:%p server" ec2-user@$1:$2 $2
 }
 
 download_pcap() {

@@ -7181,6 +7181,13 @@ gatsby-remark-images@^3.3.18:
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
+gatsby-remark-line-breaks@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-line-breaks/-/gatsby-remark-line-breaks-1.0.0.tgz#60f838433acc24ddf425f4d135e12cea634bc7a3"
+  integrity sha512-chLmEttxDDLGy18nhOlfPFDmzt8EhLEnj1RSxvdtskpIS8F0M3vIhRN9J1MFB5s+19OeLzscubrjT+kK4gKrgw==
+  dependencies:
+    remark-breaks "^1.0.5"
+
 gatsby-source-filesystem@^2.3.19:
   version "2.3.24"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.24.tgz#857932fb91cba876ff1e48172103ead66cf2b0fe"
@@ -12816,6 +12823,11 @@ rehype-stringify@^7.0.0:
   dependencies:
     hast-util-to-html "^7.0.0"
     xtend "^4.0.0"
+
+remark-breaks@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/remark-breaks/-/remark-breaks-1.0.5.tgz#e9785f8b174f45c05af542fbeb18354b766e1139"
+  integrity sha512-lr8+TlJI273NjEqL27eUthPYPTCgXEj4NaLbnazS3bQaQL2FySlsbtgo52gE36fE1gWeQgkn1VdmWsoT+uA7FA==
 
 remark-footnotes@1.0.0:
   version "1.0.0"

@@ -75,7 +75,7 @@ module.exports = {
       options: {
         notesDirectory: `../content/notes/`,
         rootPath: "/notes",
-        rootNote: "Notes",
+        rootNote: "notes",
         linkifyHashtags: true,
         hideDoubleBrackets: false,
         mdxOtherwiseConfigured: true,

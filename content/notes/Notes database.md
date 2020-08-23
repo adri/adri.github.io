@@ -12,7 +12,8 @@ Where do I read/watch/hear information that I want to keep?
 - [[Import notes from Instapaper]]
 - [[Import Twitter likes]]
 - [[Import Github stars]]
-- Import messages from iMessage? http://2016.padjo.org/tutorials/sqlite-your-browser-history/
+- Import messages from iMessage? https://github.com/song940/imessage
+- Import browser history? http://2016.padjo.org/tutorials/sqlite-your-browser-history/
 - [[Import notes from Website highlights]] (what tool?)?
 - Import photos?
 - Import youtube watch history?

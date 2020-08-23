@@ -1,6 +1,6 @@
 When baking bread rolls or other small baking goods, steam is important so that the dough can rise in the oven. The humidity prevents the oven heat from drying out the top of the bread. That way the dough can keep rising. 
 
-The bread rolls will rip open on the sides or buttom when there is too little humidity. 
+The bread rolls will rip open on the sides or bottom when there is too little humidity. 
 
 The steam is released often after half of the baking time to allow a crust to form.
 

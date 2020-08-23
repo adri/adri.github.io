@@ -7,7 +7,7 @@ The steam is released often after half of the baking time to allow a crust to fo
 ### Considerations 
 Some ovens have a steam function built-in. Professional bakers use these to save time and effort. 
 
-When baking bread instead of bread rolls it's best to use a **dutch oven**. The humidity that is contained in the dough is enough to let the dough rise inside the pot. The humidity is contained in the much smaller pod compared to the oven. For bread rolls however that doesn't work.
+When baking bread instead of bread rolls it's best to use a **dutch oven**. The humidity that is contained in the dough is enough to let the dough rise inside the pot. The humidity is contained in the much smaller pot compared to the oven. For bread rolls however that doesn't work.
 
 In general, any material can be used that can heat up to high temperatures and have a high surface area so that it can create lots of steam when water hits it. Some people use **stones**, however that can give off dust. Water can also be thrown on the **bottom of the oven directly**. This can cause calk spots on the oven and could damage the oven because of the big temperature difference. 
 

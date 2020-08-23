@@ -13,4 +13,8 @@
 - [[Get PHP-FPM opcache statistics]]
 - [[POST a request to PHP-FPM]]
 
+### Databases
+- [[MySQL Choose Index Column Order]]
+- [[MySQL Optimizer Trace to debug slow queries]]
+
 #published

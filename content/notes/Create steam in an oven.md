@@ -1,4 +1,4 @@
-When baking bread rolls or other small baking goods, steam is important so that dough can rise in the oven. The humidity prevents the oven heat from drying out the top of the bread.
+When baking bread rolls or other small baking goods, steam is important so that the dough can rise in the oven. The humidity prevents the oven heat from drying out the top of the bread.
 The steam is released often after half of the baking time to allow a crust to form.
 
 ### Steam cup  

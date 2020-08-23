@@ -18,17 +18,16 @@ const BrainNote = ({ note, linkedNotes }) => {
   if (note.inboundReferenceNotes != null) {
     references = references.concat(
       note.inboundReferenceNotes.map((ref) => (
-        <Text mb="4" key={ref.title}>
+        <Text mb="3" key={ref.title}>
           <TLink as={Link} to={`/notes/${ref.slug}`}>
             {ref.title}
           </TLink>
-          <Text>{ref.childMdx.excerpt}</Text>
         </Text>
       ))
     );
   }
 
-  if (note.inboundReferencePreviews != null) {
+  if (false && note.inboundReferencePreviews != null) {
     references = references.concat(
       note.inboundReferencePreviews.map((ref) => (
         <Box mb={4} as="article">
@@ -45,8 +44,8 @@ const BrainNote = ({ note, linkedNotes }) => {
 
   if (references.length > 0) {
     referenceBlock = (
-      <Box mt={6}>
-        <Heading mb={3}>Linked references</Heading>
+      <Box mt={5}>
+        <Heading mb={3}>Links to this note</Heading>
         <Box>{references}</Box>
       </Box>
     );
@@ -56,12 +55,6 @@ const BrainNote = ({ note, linkedNotes }) => {
     <Layout>
       <SEO title={`Notes on ${note.title}`} />
       <Container variant="narrow">
-        <Text sx={{ fontSize: 1, fontStyle: "italic", my: 4 }}>
-          These notes are unpolished collections of thoughts, unfinished ideas,
-          and things I want to remember later. In the spirit of learning in
-          public, I'm sharing them here. Have fun exploring, if you want!
-        </Text>
-
         <div id="brainNote">
           <Heading as="h1" mb={3} sx={{ textTransform: "capitalize" }}>
             {note.title}
@@ -86,8 +79,14 @@ const BrainNote = ({ note, linkedNotes }) => {
             <MDXRenderer>{note.childMdx.body}</MDXRenderer>
           </div>
           {referenceBlock}
+          <Text sx={{ fontSize: 1, fontStyle: "italic", my: 4 }}>
+            These notes are unpolished collections of thoughts, unfinished
+            ideas, and things I want to remember later. In the spirit of
+            learning in public, I'm sharing them here. Have fun exploring, if
+            you want!
+          </Text>
 
-          <div sx={{ a: { color: "primary" }, color: "text" }}>
+          <div sx={{ mt: 5, a: { color: "primary" }, color: "text" }}>
             <Disqus config={{ identifier: note.slug, title: note.title }} />
           </div>
         </div>

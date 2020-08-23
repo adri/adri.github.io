@@ -121,7 +121,7 @@ Using [Mix](http://elixir-lang.github.io/getting-started/mix-otp/introduction-to
 
 I'm repeating a bit what I mentioned last year but I still want to stress the importance of running Erlang under the hood. The following comparison shows what I mean:
 
-<div style="max-width: 150px"><img alt="Erlang technology comparison" src="https://cloud.githubusercontent.com/assets/133832/21369162/f3bbf0aa-c705-11e6-8fb8-5f163eb47cd4.jpg" /></div>
+<div style="max-width: 500px"><img alt="Erlang technology comparison" src="./elixir-erlang-comparison.jpg" /></div>
 
 [Source](https://www.manning.com/books/elixir-in-action)
 

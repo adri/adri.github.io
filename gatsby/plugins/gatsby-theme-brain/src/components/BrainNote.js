@@ -56,9 +56,7 @@ const BrainNote = ({ note, linkedNotes }) => {
       <SEO title={`Notes on ${note.title}`} />
       <Container variant="narrow">
         <div id="brainNote">
-          <Heading as="h1" mb={3} sx={{ textTransform: "capitalize" }}>
-            {note.title}
-          </Heading>
+          <Heading variant="styles.h2">{note.title}</Heading>
           <div
             sx={{
               my: 4,

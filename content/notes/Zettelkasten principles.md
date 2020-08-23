@@ -1,4 +1,4 @@
-Niklas Luhmann wrote over 70 books and more than 400 scholarly articles using the [[Zettelkasten]] notetaking method to  learn better, think better, publish more, and be more creative.
+Niklas Luhmann wrote over 70 books and more than 400 scholarly articles using the [[Zettelkasten]] note taking method to  learn better, think better, publish more, and be more creative.
 
 ### Principles
 Luhmann linked his notes together. Notes are no longer just grouped together, but their connections are explicitly tracked. This creates a web of ideas.
@@ -16,7 +16,8 @@ Luhmann linked his notes together. Notes are no longer just grouped together, bu
 11. **Keep adding notes**: The system doens't break with more notes. Add as many as possible.
 
 ### Followed by
-[[Zettelkasten personal interpretation]]
+- [[Zettelkasten personal interpretation]]
+- The tool I use to write notes is [[Obsidian]] because it supports linking easily and can be modified to my liking
 
 ### Sources
 - [Zettelkasten — How One German Scholar Was So Freakishly Productive

@@ -1,5 +1,4 @@
-
-Soft fluffy bread rolls with a crunchy topping.	[[Dutch cuisine]]. Also tijgerbrood or tijgerbol. Hydration 66%.
+[[Recipe]] for soft fluffy bread rolls with a crunchy topping.	[[Dutch cuisine]]. Also tijgerbrood or tijgerbol. Hydration 66%.
 
 ![[tiger-bread-rolls.jpg]]
 

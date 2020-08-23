@@ -32,7 +32,11 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
-        gatsbyRemarkPlugins: [`gatsby-remark-line-breaks`, gatsbyRemarkImages],
+        gatsbyRemarkPlugins: [
+          `gatsby-remark-line-breaks`,
+          `gatsby-remark-external-links`,
+          gatsbyRemarkImages,
+        ],
         plugins: [`gatsby-remark-line-breaks`, gatsbyRemarkImages],
       },
     },
@@ -73,7 +77,7 @@ module.exports = {
         rootPath: "/notes",
         rootNote: "notes",
         linkifyHashtags: true,
-        hideDoubleBrackets: false,
+        hideDoubleBrackets: true,
         mdxOtherwiseConfigured: true,
       },
     },

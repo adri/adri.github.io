@@ -15,14 +15,35 @@ const theme = merge(defaultTheme, {
     },
   },
   styles: {
-    code: {
-      backgroundColor: tailwind.colors.gray[3],
-    },
     header: {
       mb: "1",
       backgroundColor: "red",
       borderBottom: `0px`,
     },
+    code: {
+      color: `text`,
+      backgroundColor: `secondary`,
+    },
+    p: {
+      fontSize: ["1.1rem", "1.1rem", "1.2rem"],
+    },
+    ul: {
+      li: {
+        fontSize: ["1.1rem", "1.1rem", "1.2rem"],
+      },
+    },
+    ol: {
+      li: {
+        fontSize: ["1.1rem", "1.1rem", "1.2rem"],
+      },
+    },
+
+    // a: {
+    //   '[href^="http://"]': {
+    //     backgroundColor: "red",
+    //     paddingRight: "13px",
+    //   },
+    // },
   },
 });
 

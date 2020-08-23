@@ -4,7 +4,7 @@ title: "Learning Elixir: 1 year later"
 slug: /post/learning-elixir-1-year-later
 summary: One year ago I dived into learning Elixir. It's time for a retrospective.
 categories: elixir, side-project, graphql, learning
-image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
+banner: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
 date: 2017-12-13
 published: true
 ---

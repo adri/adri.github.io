@@ -4,7 +4,7 @@ title: Learning How to Learn – Online Course Notes
 slug: /post/online-course-learning-how-to-learn
 summary: My notes for the online course “Learning How to Learn”.
 categories: Learning
-image: https://cloud.githubusercontent.com/assets/133832/21652211/181e760a-d2ac-11e6-90cc-5fda12c231f7.jpeg
+banner: https://cloud.githubusercontent.com/assets/133832/21652211/181e760a-d2ac-11e6-90cc-5fda12c231f7.jpeg
 date: 2017-01-03
 ---
 

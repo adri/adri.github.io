@@ -4,7 +4,7 @@ title: "Learning Elixir: My side-project"
 slug: "/post/learning-elixir-second-side-project-part1"
 summary: Learnings from starting on a side-project written in Elixir.
 categories: elixir, side-project
-image: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
+banner: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
 published: true
 date: 2017-07-06
 ---

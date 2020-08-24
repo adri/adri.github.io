@@ -17,7 +17,7 @@
 ### Databases
 - [[MySQL Choose Index Column Order]]
 - [[MySQL Optimizer Trace to debug slow queries]]
-- [[Export]]
+- [[Export a MySQL table]]
 
 ### Infrastructure
 - [[Use the Terraform EKS module without Kubernetes access]]

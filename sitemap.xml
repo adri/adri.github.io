@@ -37,7 +37,6 @@
 <url> <loc>https://adrian-philipp.com/notes/stigmergy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/notes-database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/mysql-choose-index-column-order</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com/notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/mysql-optimizer-trace-to-debug-slow-queries</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/post-a-request-to-php-fpm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -61,6 +60,7 @@
 <url> <loc>https://adrian-philipp.com/notes/recipe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/dutch-cuisine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/performance</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com/notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/zettelkasten</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/obsidian</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

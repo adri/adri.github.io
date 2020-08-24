@@ -47,9 +47,9 @@
 <url> <loc>https://adrian-philipp.com/notes/tiger-bread-rolls-recipe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/sla-sli-slo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/scalability-of-software-systems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com/notes/sre</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/scale-kubernetes-pods-based-on-domain-events</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/security-of-software-systems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com/notes/sre</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/solve-problems-with-the-inversion-principle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/zettelkasten-personal-interpretation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/idea</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -66,6 +66,7 @@
 <url> <loc>https://adrian-philipp.com/notes/performance</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/zettelkasten</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/obsidian</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com/notes/terrafo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/dont-use-tags-for-note-organization</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/event-information</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

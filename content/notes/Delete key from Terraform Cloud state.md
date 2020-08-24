@@ -1,4 +1,4 @@
-Sometimes it can be necessary to change a key in the Terraform Cloud state without changing the terraform files. 
+Sometimes it can be necessary to change a key in the Terraform Cloud state without changing the Terraform files. 
 
 1. Change the `backend.tf` definition to:
 ```

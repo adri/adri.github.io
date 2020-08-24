@@ -45,6 +45,7 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         mdx: false,
+        showLineNumbers: false,
         blogPath: "/posts/",
         postsPath: "../content/posts/",
         formatString: "YYYY-MM-DD",

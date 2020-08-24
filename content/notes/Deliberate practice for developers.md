@@ -8,7 +8,7 @@
 - Running PHPUnit > Manually scrolling up 
   => Changed PHPStorm setting but still doesn't work
 - Debugger not setup when testing
-	=> Configured xdebug only in debug PHPUnit (but sometimes doens't work)
+	=> Configured xdebug only in debug PHPUnit (but sometimes doesn't work)
 
 ### Sources
 * https://danluu.com/p95-skill/

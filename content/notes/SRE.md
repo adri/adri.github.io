@@ -19,6 +19,6 @@
 - [[MySQL Optimizer Trace to debug slow queries]]
 
 ### Infrastructure
-- [[terrafo]]
+- [[terraform]]
 
 #published

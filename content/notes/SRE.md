@@ -20,6 +20,6 @@
 
 ### Infrastructure
 - [[Use the Terraform EKS module without Kubernetes access]]
-- [[T]]
+- [[Delete key from Terraform Cloud state]]
 
 #published

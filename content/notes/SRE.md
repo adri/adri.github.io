@@ -19,6 +19,6 @@
 - [[MySQL Optimizer Trace to debug slow queries]]
 
 ### Infrastructure
-- [[terraform]]
+- [[Use the Terraform EKS module without Kubernetes access]]
 
 #published

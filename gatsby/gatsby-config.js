@@ -25,7 +25,7 @@ module.exports = {
     siteDescription: `This blog is about passions of Adrian`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@adrianphilipp`,
+    author: `@adrian_philipp`,
   },
   plugins: [
     {
@@ -62,7 +62,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/adrianphilipp`,
+            url: `https://twitter.com/adrian_philipp`,
           },
           {
             name: `Github`,

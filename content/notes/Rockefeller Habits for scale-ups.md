@@ -9,7 +9,7 @@ The key ideas are for me:
 
 ### Habits
 1. The executive team is healthy and aligned
-2. Everyone is aligned with the #1 thing that needs to be accomplished to move the company forward this quarter
+2. Everyone is aligned with the most important thing that needs to be accomplished to move the company forward this quarter
 3. Communication rhythm is established and information moves through the organization quickly
 4. Every facet of the organization has a person assigned with accountability for ensuring goals are mete
 5. Ongoing employee input is collected to identify obstacles and opportunities

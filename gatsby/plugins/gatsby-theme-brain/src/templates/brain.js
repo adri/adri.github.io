@@ -3,11 +3,11 @@ import { graphql } from "gatsby";
 import BrainNote from "../components/BrainNote";
 
 export default (props) => {
-  return <BrainNote note={props.data.brainNote} />;
+  return <BrainNote note={props.data.brainNote} linkedNotes={[]} />;
 };
 
 export const query = graphql`
-  query AdrianBrainNoteBySlug($slug: String!) {
+  query AdrianBrainNoteBySlug($slug: String!, $references: [String]) {
     brainNote(slug: { eq: $slug }) {
       slug
       title
@@ -22,6 +22,15 @@ export const query = graphql`
       childMdx {
         body
         excerpt
+      }
+    }
+    allBrainNote(filter: { slug: { in: $references } }) {
+      nodes {
+        slug
+        title
+        childMdx {
+          excerpt
+        }
       }
     }
   }

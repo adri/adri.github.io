@@ -6,12 +6,12 @@ import { Container, Heading, Text, Link as TLink, jsx, Box } from "theme-ui";
 import { Link } from "gatsby";
 import Portal from "@reach/portal";
 import SEO from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo";
-import { Disqus } from "gatsby-plugin-disqus";
+import { Helmet } from "react-helmet";
 
 const px = [`32px`, `16px`, `8px`, `4px`];
 const shadow = px.map((v) => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`);
 
-const BrainNote = ({ note, linkedNotes }) => {
+const BrainNote = ({ note }) => {
   let references = [];
   let referenceBlock;
 
@@ -27,21 +27,6 @@ const BrainNote = ({ note, linkedNotes }) => {
     );
   }
 
-  if (false && note.inboundReferencePreviews != null) {
-    references = references.concat(
-      note.inboundReferencePreviews.map((ref) => (
-        <Box mb={4} as="article">
-          <div dangerouslySetInnerHTML={{ __html: ref.previewHtml }} />
-          <em>source:</em>{" "}
-          <TLink as={Link} to={`/notes/${ref.source}`}>
-            {" "}
-            {ref.source}
-          </TLink>
-        </Box>
-      ))
-    );
-  }
-
   if (references.length > 0) {
     referenceBlock = (
       <Box mt={5}>
@@ -53,7 +38,14 @@ const BrainNote = ({ note, linkedNotes }) => {
 
   return (
     <Layout>
-      <SEO title={`Notes on ${note.title}`} />
+      <SEO title={`${note.title}`} />
+      <Helmet>
+        <script
+          src="https://hypothes.is/embed.js"
+          type="text/javascript"
+          async
+        />
+      </Helmet>
       <Container variant="narrow">
         <div id="brainNote">
           <Heading variant="styles.h2">{note.title}</Heading>
@@ -83,37 +75,7 @@ const BrainNote = ({ note, linkedNotes }) => {
             learning in public, I'm sharing them here. Have fun exploring, if
             you want!
           </Text>
-
-          <div sx={{ mt: 5, a: { color: "primary" }, color: "text" }}>
-            <Disqus config={{ identifier: note.slug, title: note.title }} />
-          </div>
         </div>
-        {false &&
-          linkedNotes &&
-          linkedNotes
-            .filter(
-              (ln) =>
-                !(note.inboundReferences || []).includes(ln.slug) &&
-                !!ln.childMdx.excerpt
-            )
-            .map((ln) => (
-              <Portal key={ln.slug}>
-                <div
-                  sx={{
-                    position: "fixed",
-                    width: 250,
-                    backgroundColor: "white",
-                    p: 3,
-                    boxShadow:
-                      "0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05)",
-                  }}
-                  id={`notes/${ln.slug}`}
-                >
-                  <Heading as="h4">{ln.title}</Heading>
-                  <Text sx={{ fontSize: "0" }}>{ln.childMdx.excerpt}</Text>
-                </div>
-              </Portal>
-            ))}
       </Container>
     </Layout>
   );

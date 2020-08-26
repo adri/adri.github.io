@@ -1,4 +1,4 @@
-A way to measure stuff. Used by [[Site Reliability Engineering]]s and others in a company.
+A way to measure stuff. Used by [[Site Reliability Engineering]] and others in a company.
 
 ### Sources
 - [Grafana Dashboard](https://grafana.com/grafana/dashboards/8793)

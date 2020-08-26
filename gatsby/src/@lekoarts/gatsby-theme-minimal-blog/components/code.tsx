@@ -4,9 +4,7 @@ import { Prism } from "prism-react-renderer";
 (typeof global !== "undefined" ? global : window).Prism = Prism;
 require("prismjs/components/prism-elixir");
 import Highlight, { defaultProps } from "prism-react-renderer";
-import loadable from "@loadable/component";
 import theme from "prism-react-renderer/themes/nightOwl";
-import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config";
 import { Language } from "@lekoarts/gatsby-theme-minimal-blog/src/types";
 
 type CodeProps = {
@@ -52,18 +50,6 @@ const calculateLinesToHighlight = (meta: string) => {
   };
 };
 
-const LazyLiveProvider = loadable(async () => {
-  const Module = await import(`react-live`);
-  const { LiveProvider, LiveEditor, LiveError, LivePreview } = Module;
-  return (props: any) => (
-    <LiveProvider {...props}>
-      <LiveEditor data-name="live-editor" />
-      <LiveError />
-      <LivePreview data-name="live-preview" />
-    </LiveProvider>
-  );
-});
-
 const Code = ({
   codeString,
   noLineNumbers = false,
@@ -71,7 +57,6 @@ const Code = ({
   metastring = ``,
   ...props
 }: CodeProps) => {
-  // const { showLineNumbers } = useMinimalBlogConfig();
   const showLineNumbers = false;
 
   const [language, { title = `` }] = getParams(blockClassName);
@@ -80,9 +65,6 @@ const Code = ({
   const hasLineNumbers =
     !noLineNumbers && language !== `noLineNumbers` && showLineNumbers;
 
-  if (props[`react-live`]) {
-    return <LazyLiveProvider code={codeString} noInline theme={theme} />;
-  }
   return (
     <Highlight
       {...defaultProps}

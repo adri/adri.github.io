@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `Adrian Philipp`,
     siteTitleAlt: `Adrian Philipp`,
     siteHeadline: `Adrian Philipp`,
-    siteUrl: `https://www.adrian-philipp.com`,
+    siteUrl: `https://adrian-philipp.com`,
     siteDescription: `This blog and notes are about passions of Adrian`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,

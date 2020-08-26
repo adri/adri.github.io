@@ -6,6 +6,7 @@ module.exports = ({ actions }) => {
       title: String!
       slug: String!
       rawContent: String
+      modifiedTime: String
       content: String
       noteTemplate: String
       aliases: [String]
@@ -13,7 +14,7 @@ module.exports = ({ actions }) => {
       outboundReferenceNotes: [BrainNote] @link(from: "outboundReferenceNotes___NODE")
       inboundReferences: [String]
       inboundReferenceNotes: [BrainNote] @link(from: "inboundReferenceNotes___NODE")
-      inboundReferencePreview: [InboundReferencePreview]
+      inboundReferencePreviews: [InboundReferencePreview]
       externalInboundReferences: [ExternalInboundReference]
       externalOutboundReferences: [ExternalOutboundReference]
       childMdx: Mdx

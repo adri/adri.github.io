@@ -1,3 +1,4 @@
+const { execSync } = require("child_process");
 const matter = require("gray-matter");
 const getMarkdownNotes = require("./get-markdown-notes");
 const insertLinks = require("./insert-links");
@@ -370,10 +371,15 @@ function generateNodes(
       pluginOptions
     );
 
+    // const gitModifiedTime = note.fullPath
+    //   ? execSync(`git log -1 --pretty=format:%aI "${note.fullPath}"`).toString()
+    //   : "";
+
     const brainNoteNode = {
       id: createNodeId(`${slug} >>> BrainNote`),
       title: note.title,
       slug: slug,
+      modifiedTime: "",
       content: newRawContent,
       rawContent: newRawContent,
       absolutePath: note.fullPath,

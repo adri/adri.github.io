@@ -16,7 +16,6 @@ const components = {
   ),
   a: ({ href, children, ...props }) => {
     if (href.startsWith("https://")) {
-      console.log(href);
       return (
         <Link variant="external" href={href} {...props}>
           {children}

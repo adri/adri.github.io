@@ -3,17 +3,6 @@ require(`dotenv`).config({
 });
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
-const gatsbyRemarkImages = {
-  resolve: `gatsby-remark-images`,
-  options: {
-    maxWidth: 960,
-    quality: 90,
-    linkImagesToOriginal: false,
-    tracedSVG: true,
-    backgroundColor: "transparent",
-    withWebp: true,
-  },
-};
 
 module.exports = {
   siteMetadata: {
@@ -21,8 +10,8 @@ module.exports = {
     siteTitle: `Adrian Philipp`,
     siteTitleAlt: `Adrian Philipp`,
     siteHeadline: `Adrian Philipp`,
-    siteUrl: `https://adrian-philipp.com`,
-    siteDescription: `This blog is about passions of Adrian`,
+    siteUrl: `https://www.adrian-philipp.com`,
+    siteDescription: `This blog and notes are about passions of Adrian`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@adrian_philipp`,
@@ -35,9 +24,18 @@ module.exports = {
         gatsbyRemarkPlugins: [
           `gatsby-remark-line-breaks`,
           `gatsby-remark-external-links`,
-          gatsbyRemarkImages,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              backgroundColor: "transparent",
+              linkImagesToOriginal: true,
+              maxWidth: 960,
+              quality: 90,
+              tracedSVG: true,
+              withWebp: true,
+            },
+          },
         ],
-        plugins: [`gatsby-remark-line-breaks`, gatsbyRemarkImages],
       },
     },
     {
@@ -135,7 +133,7 @@ module.exports = {
       options: {
         name: `Adrian Philipp`,
         short_name: `adrian-philipp`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: ` I’m a software and site reliability engineer. My drive is to make technology easy to use and simple to develop.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,

@@ -7,16 +7,13 @@ export default (props) => {
 };
 
 export const query = graphql`
-  query AdrianBrainNoteBySlug($slug: String!, $references: [String]) {
+  query AdrianBrainNoteBySlug($slug: String!) {
     brainNote(slug: { eq: $slug }) {
       slug
       title
       inboundReferenceNotes {
         title
         slug
-        childMdx {
-          excerpt
-        }
       }
       inboundReferences
       childMdx {
@@ -24,14 +21,17 @@ export const query = graphql`
         excerpt
       }
     }
-    allBrainNote(filter: { slug: { in: $references } }) {
-      nodes {
-        slug
-        title
-        childMdx {
-          excerpt
-        }
-      }
-    }
   }
 `;
+/*
+, $references: [String]
+allBrainNote(filter: { slug: { in: $references } }) {
+  nodes {
+    slug
+    title
+    childMdx {
+      excerpt
+    }
+  }
+}
+*/

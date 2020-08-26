@@ -62,7 +62,6 @@
 <url> <loc>https://www.adrian-philipp.com/notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.adrian-philipp.com/notes/notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.adrian-philipp.com/notes/rockefeller-habits-for-scale-ups</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.adrian-philipp.com/notes/sre</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.adrian-philipp.com/notes/scale-kubernetes-pods-based-on-domain-events</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.adrian-philipp.com/notes/solve-problems-with-the-inversion-principle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.adrian-philipp.com/notes/stigmergy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

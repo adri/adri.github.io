@@ -4,9 +4,7 @@ import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
 import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout";
 import { Container, Heading, Text, Link as TLink, jsx, Box } from "theme-ui";
 import { Link } from "gatsby";
-import Portal from "@reach/portal";
 import SEO from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo";
-import { Helmet } from "react-helmet";
 
 const px = [`32px`, `16px`, `8px`, `4px`];
 const shadow = px.map((v) => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`);
@@ -38,14 +36,7 @@ const BrainNote = ({ note }) => {
 
   return (
     <Layout>
-      <SEO title={`${note.title}`} />
-      <Helmet>
-        <script
-          src="https://hypothes.is/embed.js"
-          type="text/javascript"
-          async
-        />
-      </Helmet>
+      <SEO title={`${note.title}`} description={`${note.childMdx.excerpt}`} />
       <Container variant="narrow">
         <div id="brainNote">
           <Heading variant="styles.h2">{note.title}</Heading>

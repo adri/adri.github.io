@@ -90,7 +90,6 @@ module.exports = {
         shortname: `codingnightmare`,
       },
     },
-    `gatsby-plugin-force-trailing-slashes`,
     {
       resolve: "gatsby-plugin-flexsearch",
       options: {

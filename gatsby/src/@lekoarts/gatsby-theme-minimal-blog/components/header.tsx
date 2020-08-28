@@ -1,15 +1,25 @@
 /** @jsx jsx */
-import { jsx, useColorMode } from "theme-ui";
+import {
+  jsx,
+  Box,
+  Heading,
+  MenuButton,
+  IconButton,
+  Close as CloseButton,
+  Link as TLink,
+  useColorMode,
+} from "theme-ui";
 import { Flex } from "@theme-ui/components";
+import { useState } from "react";
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config";
 import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/colormode-toggle";
 import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation";
-import HeaderTitle from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-title";
-import HeaderExternalLinks from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-external-links";
 
-const Header = () => {
+const Header = ({ title = null }) => {
   const { navigation: nav } = useMinimalBlogConfig();
   const [colorMode, setColorMode] = useColorMode();
+  const [navState, setNavState] = useState("closed");
+  const { externalLinks } = useMinimalBlogConfig();
   const isDark = colorMode === `dark`;
   const toggleColorMode = (e: any) => {
     e.preventDefault();
@@ -18,18 +28,13 @@ const Header = () => {
 
   return (
     <header sx={{ mb: [1, 2] }}>
-      <Flex sx={{ alignItems: `center`, justifyContent: `space-between` }}>
-        <HeaderTitle />
-        <ColorModeToggle isDark={isDark} toggle={toggleColorMode} />
-      </Flex>
       <div
         sx={{
           boxSizing: `border-box`,
-          display: `flex`,
-          variant: `dividers.bottom`,
+          // variant: `dividers.bottom`,
           alignItems: `center`,
           justifyContent: `space-between`,
-          mt: 3,
+          // mt: 3,
           color: `secondary`,
           a: {
             color: `secondary`,
@@ -37,11 +42,48 @@ const Header = () => {
             borderBottomWidth: "0px",
           },
           flexFlow: `wrap`,
+          display: navState === "open" ? "flex" : "none",
         }}
       >
         <Navigation nav={nav} />
-        <HeaderExternalLinks />
+        <Flex sx={{ alignItems: "center", "a:not(:first-of-type)": { ml: 2 } }}>
+          <ColorModeToggle isDark={isDark} toggle={toggleColorMode} />
+          {navState == "open" && (
+            <CloseButton
+              sx={{
+                cursor: "pointer",
+                width: "3rem",
+                height: "3rem",
+                justifyContent: "flex-end",
+              }}
+              onClick={() => setNavState("closed")}
+            />
+          )}
+        </Flex>
       </div>
+
+      <Flex sx={{ alignItems: `flex-start`, justifyContent: `space-between` }}>
+        {title ? (
+          <Heading variant="styles.h2" sx={{ mt: 2 }}>
+            {title}
+          </Heading>
+        ) : (
+          <p></p>
+        )}
+
+        {navState === "closed" && (
+          <MenuButton
+            sx={{
+              cursor: "pointer",
+              width: "3rem",
+              height: "3rem",
+              justifyContent: "flex-end",
+            }}
+            onClick={() => setNavState("open")}
+            aria-label="Toggle Menu"
+          />
+        )}
+      </Flex>
     </header>
   );
 };

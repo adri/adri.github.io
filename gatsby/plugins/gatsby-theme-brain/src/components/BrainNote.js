@@ -1,9 +1,10 @@
 /** @jsx jsx */
 import React from "react";
 import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
-import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout";
+import Layout from "../../../../src/@lekoarts/gatsby-theme-minimal-blog/components/layout";
 import { Container, Heading, Text, Link as TLink, jsx, Box } from "theme-ui";
 import { Link } from "gatsby";
+import NoteInfo from "../../../../src/@lekoarts/gatsby-theme-minimal-blog/components/note-info";
 import SEO from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo";
 
 const px = [`32px`, `16px`, `8px`, `4px`];
@@ -35,11 +36,11 @@ const BrainNote = ({ note }) => {
   }
 
   return (
-    <Layout>
+    <Layout title={note.title}>
       <SEO title={`${note.title}`} description={`${note.childMdx.excerpt}`} />
       <Container variant="narrow">
         <div id="brainNote">
-          <Heading variant="styles.h2">{note.title}</Heading>
+          <NoteInfo timeToRead={note.childMdx.timeToRead} date="" />
           <div
             sx={{
               my: 4,

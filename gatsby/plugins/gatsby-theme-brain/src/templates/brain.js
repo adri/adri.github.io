@@ -19,6 +19,7 @@ export const query = graphql`
       childMdx {
         body
         excerpt
+        timeToRead
       }
     }
   }

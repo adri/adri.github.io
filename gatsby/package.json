@@ -23,6 +23,7 @@
     "gatsby": "^2.20.36",
     "gatsby-plugin-disqus": "^1.2.2",
     "gatsby-plugin-flexsearch": "^1.0.3",
+    "gatsby-plugin-force-trailing-slashes": "^1.0.4",
     "gatsby-plugin-manifest": "^2.2.3",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-sitemap": "^2.2.19",

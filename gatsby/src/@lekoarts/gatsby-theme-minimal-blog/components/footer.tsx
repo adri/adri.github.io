@@ -17,11 +17,11 @@ const Footer = () => {
           variant: `links.secondary`,
         },
         flexDirection: [`column`, `column`, `row`],
-        variant: `dividers.top`,
+        // variant: `dividers.top`,
       }}
     >
       <div>
-        &copy; {new Date().getFullYear()} by {siteTitle}.
+        &copy; {new Date().getFullYear()} by {siteTitle}
       </div>
     </footer>
   );

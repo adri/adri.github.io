@@ -49,12 +49,16 @@ module.exports = {
         formatString: "YYYY-MM-DD",
         navigation: [
           {
+            title: `Home`,
+            slug: `/`,
+          },
+          {
             title: `Posts`,
-            slug: `/posts`,
+            slug: `/posts/`,
           },
           {
             title: `Notes`,
-            slug: `/notes`,
+            slug: `/notes/`,
           },
         ],
         externalLinks: [
@@ -86,6 +90,7 @@ module.exports = {
         shortname: `codingnightmare`,
       },
     },
+    `gatsby-plugin-force-trailing-slashes`,
     {
       resolve: "gatsby-plugin-flexsearch",
       options: {

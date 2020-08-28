@@ -37,7 +37,7 @@ const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => (
       sx={{
         color: `secondary`,
         mt: 1,
-        mb: 5,
+        mb: [3, 5],
         a: { color: `secondary` },
         fontSize: [1, 1, 2],
       }}

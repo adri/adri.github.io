@@ -29,7 +29,7 @@ const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => (
     <TLink
       as={Link}
       to={post.slug}
-      sx={{ fontSize: [1, 2, 3], fontWeight: "bold", color: `text` }}
+      sx={{ fontSize: [2, 2, 3], fontWeight: "bold", color: `text` }}
     >
       {post.title}
     </TLink>

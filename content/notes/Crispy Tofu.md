@@ -21,7 +21,6 @@ When the water is still in the outside of the tofu, tasteful fluids like soy sau
 - Arrowroot works well, but the outer covering can turn a little slippery if added dish containing a lot of moisture (like curry)
 - Tapioca is not tested yet
 
-
 ### Source 
 [How to make crispy baked tofu](https://cookieandkate.com/how-to-make-crispy-baked-tofu/)
 

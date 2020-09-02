@@ -23,4 +23,4 @@ It depends on the use-case which way is the best. Always fetching all informatio
 - [Events: Fat or Thin](https://codesimple.blog/2019/02/16/events-fat-or-thin/)
 
 
-#published #ddd #eventstorming 
+#published

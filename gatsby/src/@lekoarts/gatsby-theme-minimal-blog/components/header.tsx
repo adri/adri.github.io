@@ -9,7 +9,7 @@ import {
 import { Flex } from "@theme-ui/components";
 import { useState } from "react";
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config";
-import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/colormode-toggle";
+import ColorModeToggle from "./colormode-toggle";
 import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation";
 import { SearchButton } from "./search-button";
 

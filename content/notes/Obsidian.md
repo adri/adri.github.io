@@ -4,6 +4,10 @@ Note taking app that works on plain-text files. It can be used to build a knowle
 Because then it's nice and minimal.
 
 ```css
+.theme-dark {
+  --background-secondary-alt: #202020;
+}
+
 /* Auto collapses side panels */
 .app-container.is-left-sidedock-collapsed .side-dock-ribbon.mod-left.is-collapsed, 
 .app-container.is-right-sidedock-collapsed .side-dock-ribbon.mod-right.is-collapsed {

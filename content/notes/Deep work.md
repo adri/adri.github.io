@@ -31,6 +31,7 @@ Much unhappiness, Newport contends, comes from frantically switching between sha
 - Kanban combined with little pair programming. Little interference [blog post](http://www.brightball.com/articles/reality-driven-development-fixing-project-management-in-software)
 - 📖 Book review [blog post](https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/)
 
-### Ne
+### Next
+- [[Deliberate practice]]
 
 #published 

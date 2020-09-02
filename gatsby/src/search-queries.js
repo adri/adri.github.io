@@ -1,9 +1,4 @@
-const escapeStringRegexp = require("escape-string-regexp");
-
-const pagePath = `content`;
-const indexName = process.env.GATSBY_ALGOLIA_INDEX_NAME;
-
-const pageQuery = `{
+const indexQuery = `{
   pages: allMdxPost {
     nodes {
       id
@@ -12,9 +7,6 @@ const pageQuery = `{
       excerpt(pruneLength:5000)
     }
   }
-}`;
-
-const notesQuery = `{
   notes: allBrainNote {
     nodes {
       id
@@ -45,16 +37,11 @@ function noteToAlgoliaRecord({ id, childMdx, slug, ...fields }) {
 
 const queries = [
   {
-    query: pageQuery,
-    transformer: ({ data }) => data.pages.nodes.map(pageToAlgoliaRecord),
-    indexName,
-    settings: { attributesToSnippet: [`excerpt:20`] },
-  },
-
-  {
-    query: notesQuery,
-    transformer: ({ data }) => data.notes.nodes.map(noteToAlgoliaRecord),
-    indexName,
+    query: indexQuery,
+    transformer: ({ data }) => [
+      ...data.pages.nodes.map(pageToAlgoliaRecord),
+      ...data.notes.nodes.map(noteToAlgoliaRecord),
+    ],
     settings: { attributesToSnippet: [`excerpt:20`] },
   },
 ];

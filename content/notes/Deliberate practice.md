@@ -9,6 +9,7 @@ It depends on the problem. Ideas:
 
 ### Next
 [[Deliberate practice for developers]]
+[[Deep work]]
 
 ### Sources
 - [How to Use Deliberate Practice to Reach the Top 1% of Your Field](https://www.nateliason.com/blog/deliberate-practice)

@@ -1,12 +1,9 @@
 /** @jsx jsx */
 import {
   jsx,
-  Box,
   Heading,
   MenuButton,
-  IconButton,
   Close as CloseButton,
-  Link as TLink,
   useColorMode,
 } from "theme-ui";
 import { Flex } from "@theme-ui/components";
@@ -14,8 +11,9 @@ import { useState } from "react";
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config";
 import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/colormode-toggle";
 import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation";
+import { SearchButton } from "./search-button";
 
-const Header = ({ title = null }) => {
+const Header = ({ title = null, hideSearch = false }) => {
   const { navigation: nav } = useMinimalBlogConfig();
   const [colorMode, setColorMode] = useColorMode();
   const [navState, setNavState] = useState("closed");
@@ -48,6 +46,7 @@ const Header = ({ title = null }) => {
         <Navigation nav={nav} />
         <Flex sx={{ alignItems: "center", "a:not(:first-of-type)": { ml: 2 } }}>
           <ColorModeToggle isDark={isDark} toggle={toggleColorMode} />
+          {hideSearch === false && <SearchButton />}
           {navState == "open" && (
             <CloseButton
               sx={{
@@ -72,16 +71,18 @@ const Header = ({ title = null }) => {
         )}
 
         {navState === "closed" && (
-          <MenuButton
-            sx={{
-              cursor: "pointer",
-              width: "3rem",
-              height: "3rem",
-              justifyContent: "flex-end",
-            }}
-            onClick={() => setNavState("open")}
-            aria-label="Toggle Menu"
-          />
+          <div sx={{ display: "grid" }}>
+            <MenuButton
+              sx={{
+                cursor: "pointer",
+                width: "3rem",
+                height: "3rem",
+                justifyContent: "flex-end",
+              }}
+              onClick={() => setNavState("open")}
+              aria-label="Toggle Menu"
+            />
+          </div>
         )}
       </Flex>
     </header>

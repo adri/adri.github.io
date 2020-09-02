@@ -1,90 +1,95 @@
 /** @jsx jsx */
-import React, { Component } from "react";
-import { Link } from "gatsby";
+import { createRef, default as React, useState } from "react";
 import { jsx, Link as TLink } from "theme-ui";
+import algoliasearch from "algoliasearch/lite";
+import { Link } from "gatsby";
+import {
+  InstantSearch,
+  Highlight,
+  Snippet,
+  connectHits,
+  connectSearchBox,
+  PoweredBy,
+} from "react-instantsearch-dom";
 
-// Search component
-class Search extends Component {
-  state = {
-    query: "",
-    results: [],
-  };
+const searchClient = algoliasearch(
+  process.env.GATSBY_ALGOLIA_APP_ID,
+  process.env.GATSBY_ALGOLIA_SEARCH_KEY
+);
 
-  render() {
-    const ResultList = () => {
-      if (this.state.results.length > 0) {
-        return this.state.results.map((page, i) => (
-          <div className="item-search" key={i}>
-            <TLink as={Link} to={page.slug} className="link">
-              <h4>{this.getHighlightedText(page.title, this.state.query)}</h4>
-            </TLink>
-          </div>
-        ));
-      } else if (this.state.query.length > 0) {
-        return "No results for ";
-      } else {
-        return "";
-      }
-    };
+const Hit = ({ hit }) => (
+  <div>
+    <TLink
+      as={Link}
+      to={hit.slug}
+      sx={{ fontSize: [2, 2, 3], fontWeight: "bold", color: `text` }}
+    >
+      <Highlight attribute="title" hit={hit} tagName="mark" />
+    </TLink>
+    <p
+      sx={{
+        color: `secondary`,
+        mt: 1,
+        mb: [3, 4],
+        a: { color: `secondary` },
+        fontSize: [1, 1, 2],
+      }}
+    >
+      <Snippet attribute="excerpt" hit={hit} tagName="mark" />
+    </p>
+  </div>
+);
 
-    return (
-      <div className={this.props.classNames}>
-        <input
-          className="search__input"
-          type="text"
-          onChange={this.search}
-          placeholder={"Search"}
-        />
-        <div className="search__list">
-          <ResultList />
-        </div>
-      </div>
-    );
-  }
+const Hits = ({ hits }) => (
+  <div>
+    {hits.map((hit) => (
+      <Hit key={hit.objectID} hit={hit} />
+    ))}
+  </div>
+);
 
-  getHighlightedText(text, query) {
-    const sanitizedKeyword = query.replace(/\W/g, "");
-    const regexForContent = new RegExp(sanitizedKeyword, "gi");
+const CustomHits = connectHits(Hits);
 
-    return text.replace(regexForContent, "<em>$&</em>");
-  }
+const SearchBox = connectSearchBox(
+  ({
+    refine,
+    createURL,
+    isSearchStalled,
+    currentRefinement,
+    indexContextValue,
+    ...rest
+  }) => (
+    <form sx={{ mb: [3, 4] }}>
+      <input
+        sx={{
+          outline: "none",
+          borderRadius: 16,
+          backgroundColor: "muted",
+          color: "text",
+          p: 3,
+          border: 0,
+        }}
+        type="text"
+        placeholder="Search here..."
+        aria-label="Search"
+        onChange={(e) => refine(e.target.value)}
+        {...rest}
+      />
+    </form>
+  )
+);
 
-  getSearchResults(query) {
-    // adicionar variável para língua
-    var index = window.__FLEXSEARCH__.en.index;
-    var store = window.__FLEXSEARCH__.en.store;
-    if (!query || !index) {
-      return [];
-    } else {
-      var results = [];
-      // search the indexed fields
-      Object.keys(index).forEach((idx) => {
-        results.push(
-          ...index[idx].values.search(query, { suggest: true, limit: 10 })
-        ); // more search options at https://github.com/nextapps-de/flexsearch#index.search
-      });
-
-      // find the unique ids of the nodes
-      results = Array.from(new Set(results));
-
-      // return the corresponding nodes in the store
-      var nodes = store
-        .filter((node) => (results.includes(node.id) ? node : null))
-        .map((node) => node.node);
-
-      return nodes;
-    }
-  }
-
-  search = (event) => {
-    const query = event.target.value;
-    if (this.state.query.length > 0) {
-      const results = this.getSearchResults(query);
-      this.setState({ results: results, query: query });
-    } else {
-      this.setState({ results: [], query: query });
-    }
-  };
-}
+const Search = function Search() {
+  return (
+    <InstantSearch
+      indexName={process.env.GATSBY_ALGOLIA_INDEX_NAME}
+      searchClient={searchClient}
+    >
+      <SearchBox autoFocus={true} />
+      <CustomHits />
+      <PoweredBy />
+    </InstantSearch>
+  );
+};
 
 export default Search;

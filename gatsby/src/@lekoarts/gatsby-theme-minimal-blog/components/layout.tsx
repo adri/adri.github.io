@@ -13,9 +13,15 @@ type LayoutProps = {
   children: React.ReactNode;
   title?: string;
   className?: string;
+  hideSearch?: boolean;
 };
 
-const Layout = ({ children, title = null, className = `` }: LayoutProps) => (
+const Layout = ({
+  children,
+  title = null,
+  className = ``,
+  hideSearch = false,
+}: LayoutProps) => (
   <React.Fragment>
     <Global
       styles={(theme) => ({
@@ -48,7 +54,7 @@ const Layout = ({ children, title = null, className = `` }: LayoutProps) => (
     <SEO />
     <SkipNavLink>Skip to content</SkipNavLink>
     <Container>
-      <Header title={title} />
+      <Header title={title} hideSearch={hideSearch} />
       <Box id="skip-nav" sx={{ ...CodeStyles }} className={className}>
         {children}
       </Box>

@@ -91,44 +91,11 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-flexsearch",
+      resolve: `gatsby-plugin-algolia`,
       options: {
-        languages: ["en"],
-        type: "MarkdownRemark", // Filter the node types you want to index
-        // Fields to index.
-        fields: [
-          {
-            name: "title",
-            indexed: true, // If indexed === true, the field will be indexed.
-            store: true, // In case you want to make the field available in the search results.
-            resolver: "frontmatter.title",
-            // Attributes for indexing logic. Check https://github.com/nextapps-de/flexsearch#presets for details.
-            attributes: {
-              encode: "advanced",
-              tokenize: "forward",
-              threshold: 1,
-              depth: 3,
-            },
-          },
-          {
-            name: "description",
-            indexed: true,
-            store: false,
-            resolver: "frontmatter.description",
-            attributes: {
-              encode: "advanced",
-              tokenize: "forward",
-              threshold: 0,
-              depth: 3,
-            },
-          },
-          {
-            name: "slug",
-            indexed: false,
-            store: true,
-            resolver: "fields.slug",
-          },
-        ],
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/search-queries"),
       },
     },
     `gatsby-plugin-sitemap`,

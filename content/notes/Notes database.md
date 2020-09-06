@@ -18,4 +18,4 @@ Where do I read/watch/hear information that I want to keep?
 - [[Import notes from Website highlights]] (what tool?)?
 - Import photos? https://www.npmjs.com/package/osx-photostream
 
-#published #idea 
+#published 

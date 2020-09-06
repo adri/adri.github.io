@@ -19,6 +19,7 @@ jobs:
           # A list of files, directories, and wildcard patterns to cache and restore
           path: |
             ./gatsby/.cache
+            ./gatsby/public
             **/node_modules
           # An explicit key for restoring and saving the cache
           key: ${{ runner.os }}

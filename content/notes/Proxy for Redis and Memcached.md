@@ -2,6 +2,8 @@ Because PHP doesn't have connection pools and needs to create new connections fo
 
 ### Twemproxy
 
+QUote
+
 > The deployment of twemproxy was a great success. We eliminated all timeout and connection errors that were left (without buying new hardware).
 
 [Learn Redis the hard way blog post](https://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production/)

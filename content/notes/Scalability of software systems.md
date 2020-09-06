@@ -2,6 +2,9 @@
 ### Kubernetes
 - [[Scale Kubernetes pods based on domain events]]
 
+### PHP
+- [[Proxy for Redis and Memcached]] to reduce connections from PHP
+
 ### Sources
 - [USL Scalability measure](http://www.perfdynamics.com/Manifesto/USLscalability.html)
 - [sled theoretical performance guide](http://sled.rs/perf)

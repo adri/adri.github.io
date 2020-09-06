@@ -1,6 +1,6 @@
 Because PHP doesn't have connection pools and needs to create new connections for every request.
 
-## Twemproxy
+### Twemproxy
 
 > The deployment of twemproxy was a great success. We eliminated all timeout and connection errors that were left (without buying new hardware).
 

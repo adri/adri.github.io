@@ -6,7 +6,7 @@ Collect notes from all sorts of sources into one big linked "database". Over tim
 - [[Feynman technique to learn things]]
 - [[Building a second brain]]
 
-
+### Data
 
 
 ### Imports

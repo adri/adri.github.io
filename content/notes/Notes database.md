@@ -6,6 +6,9 @@ Collect notes from all sorts of sources into one big linked "database". Over tim
 - [[Feynman technique to learn things]]
 - [[Building a second brain]]
 
+
+
+
 ### Imports
 Where do I read/watch/hear information that I want to keep?
 - [[Import notes from Kindle]] 

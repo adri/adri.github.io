@@ -10,6 +10,7 @@ Collect notes from all sorts of sources into one big linked "database". Over tim
 Where do I read/watch/hear information that I want to keep?
 - [[Import notes from Kindle]] 
 - [[Import notes from Instapaper]]
+- Import youtube watch history?
 - [[Import Twitter likes]]
 - [[Import Github stars]]
 - Import messages from iMessage? https://github.com/song940/imessage

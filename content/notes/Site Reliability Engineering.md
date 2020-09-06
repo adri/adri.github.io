@@ -22,6 +22,7 @@
 ### Infrastructure
 - [[Use the Terraform EKS module without Kubernetes access]]
 - [[Delete key from Terraform Cloud state]]
+- [[View Zalando Skipper routes]]
 
 #published
 

@@ -34,7 +34,12 @@ jobs:
             ~/gatsby/node_modules
           # An explicit key for restoring and saving the cache
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}   
-      - name: Install dependencise
+          
+      - name: Setup git
+        run: |
+            git config --global user.email "${{ secrets.EMAIL }}"
+            git config --global user.name "Adrian Philipp"
+      - name: Install dependencies
         run: cd gatsby && yarn install
       - name: Deploy website
         run: cd gatsby && yarn run deploy

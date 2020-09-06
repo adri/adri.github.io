@@ -2,7 +2,7 @@ Because PHP doesn't have connection pools and needs to create new connections fo
 
 ### Twemproxy
 
-Quotes from 
+Quotes from companies that use it:
 
 > The deployment of twemproxy was a great success. We eliminated all timeout and connection errors that were left (without buying new hardware).
 

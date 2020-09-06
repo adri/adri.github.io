@@ -16,6 +16,5 @@ Where do I read/watch/hear information that I want to keep?
 - Import browser history? http://2016.padjo.org/tutorials/sqlite-your-browser-history/
 - [[Import notes from Website highlights]] (what tool?)?
 - Import photos? https://www.npmjs.com/package/osx-photostream
-- Import youtube watch history?
 
 #published #idea 

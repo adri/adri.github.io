@@ -21,7 +21,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-     
+      - uses: styfle/cancel-workflow-action@0.5.0
+        name: Cancel Previous Runs
+        with:
+          access_token: ${{ github.token }}
       - name: Cache
         uses: actions/cache@v2.1.1
         with:
@@ -31,13 +34,10 @@ jobs:
             ~/gatsby/node_modules
           # An explicit key for restoring and saving the cache
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}   
-
       - name: Install dependencise
         run: cd gatsby && yarn install
-        
       - name: Deploy website
-        run: yarn run deploy
-          
+        run: cd gatsby && yarn run deploy
     env:
       # This is necessary in order to push a commit to the repo
       GH_TOKEN: ${{ secrets.GH_TOKEN }}

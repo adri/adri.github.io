@@ -30,7 +30,7 @@ Optimizer traces are JSON encoded. Best to copy the structure in a JSON viewer. 
 - `join_execution` shows any optimizations during execution. The optimizer can overwrite an execution plan with heuristics e.g. `reconsidering_access_paths_for_index_ordering`.
 
 ### Sources
-- [MySQL]
+- [MySQL docs](https://dev.mysql.com/doc/internals/en/optimizer-tracing-typical-usage.html)
 - https://mariadb.com/kb/en/optimizer-trace-guide/
 
 #published #performance #tool 

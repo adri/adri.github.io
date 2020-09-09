@@ -18,6 +18,7 @@ When feeding the motherdough, influence the balance with:
 Maturity is about when to use the mother culture for the dough. A dough should be active when used for baking. Use it at it's peak rise for less sourness, or let it shrink again to develop more LAB and increase sourness.
 
 ![[sourdough-maturity-time-populations.jpg]]
+![[sourdo]]
 
 ### Sources
 1. [Brod and Taylor Part 1](https://brodandtaylor.com/blogs/recipes/make-sourdough-more-sour)

@@ -21,6 +21,6 @@ When the water is still in the outside of the tofu, tasteful fluids like soy sau
 - Tapioca is not tested yet
 
 ### Source 
-[How to make crispy baked tofu](https://cookieandkate.com/how-to-make-crispy-baked-tofu/)
+- [How to make crispy baked tofu](https://cookieandkate.com/how-to-make-crispy-baked-tofu/)
 
 #published

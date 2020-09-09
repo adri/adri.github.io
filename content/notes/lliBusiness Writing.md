@@ -17,7 +17,7 @@ Notes on a business writing course.
 - **Easy**: to find and understand
 
 ## Structure
-1. State purpose:
+1. State **purpose**:
     - Clearly stated subject line
     - Signal word (e.g. procedure, request for, warning about, proposal to, …)
     - Do, why, know

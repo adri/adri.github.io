@@ -27,6 +27,7 @@
 <url> <loc>https://adrian-philipp.com/post/rebuy-csv</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/post/graphdb</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/building-adaptive-systems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com/notes/how-to-make-sourdough-more-or-less-sour</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/mysql-optimizer-trace-to-debug-slow-queries</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/proxy-for-redis-and-memcached</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/published</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -51,7 +52,6 @@
 <url> <loc>https://adrian-philipp.com/notes/feynman-technique-to-learn-things</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/get-php-fpm-opcache-statistics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/get-keys-in-a-memcached-database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com/notes/how-to-make-sourdough-more-or-less-sour</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/import-github-stars</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/import-twitter-likes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/import-notes-from-instapaper</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

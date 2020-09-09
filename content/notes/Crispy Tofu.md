@@ -2,7 +2,7 @@ Tofu is a nice protein alternative to meat. However it can be quite bland and so
 
 ### How to
 1. Choose the extra firm tofu
-2. Cut in cubes and squeece moisture out
+2. Cut in cubes and squeeze moisture out
 3. Marinade in soy sauce, sesame oil and starch
 4. Bake it in the oven for 25-30 minutes
 

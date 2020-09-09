@@ -13,7 +13,7 @@ Because when baking in a pan, the tofu can stick to the pan. When moving the tof
 When the water is still in the outside of the tofu, tasteful fluids like soy sauce are not soaked up well. Also without the water, the outside can be baked crispier.
 
 ### Why starch?
- The starch makes the edges extra crispy. Idea from [The Kitchn](https://www.thekitchn.com/how-to-make-crispy-tofu-without-deepfrying-cooking-lessons-from-the-kitchn-201265)). 
+ The starch makes the edges extra crispy. Idea from [The Kitchn](https://www.thekitchn.com/how-to-make-crispy-tofu-without-deepfrying-cooking-lessons-from-the-kitchn-201265). 
 
 ### Which starch?
 - Cornstarch is a more processed ingredient, but it yields the crispiest results

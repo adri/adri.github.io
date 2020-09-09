@@ -26,7 +26,7 @@ Signals used to set limits:
 - Additive Increase Multiplicative Decrease: Success: limit + 1, Backoff: limit * 0,95 
 
 ### Source 
-- [Youtube](https://www.youtube.com/watch?v=-oQl1xv0hDk)
+- [Youtube talk](https://www.youtube.com/watch?v=-oQl1xv0hDk)
 - [Regulartor elixir library](https://github.com/keathley/regulator)
 
 #published 

@@ -31,6 +31,6 @@ Optimizer traces are JSON encoded. Best to copy the structure in a JSON viewer. 
 
 ### Sources
 - [MySQL docs](https://dev.mysql.com/doc/internals/en/optimizer-tracing-typical-usage.html)
-- [MariaD]
+- [MariaDB docs]()
 
 #published #performance #tool 

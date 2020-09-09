@@ -13,8 +13,8 @@ requests = rps * ms
 ### Overload mitigation
 Arrival rate and processing time need be be under control. The only way to do this is to drop requests.
 
-- Load shedding: Upstream or downstream service drops requests
-- Autoscaling: It's not a solution. Adding more capacity helps. However the limit is just moved. Only using CPU for scaling is not enough. 
+- **Load shedding**: Upstream or downstream service drops requests
+- **Autoscaling**: It's not a solution. Adding more capacity helps. However the limit is just moved. Only using CPU for scaling is not enough. 
 - Cirquit breakers: Only a partial solution as they stop all traffic to the downsteam service, even though some traffic could still be handled.
 
 ### Adaptive concurrency

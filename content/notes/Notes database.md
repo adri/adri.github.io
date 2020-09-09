@@ -6,7 +6,6 @@ Techniques to organize knowledge and increase creative output.
 - [[Zettelkasten principles]]
 - [[Don't use tags for note organization]]
 - [[Feynman technique to learn things]]
-- [[Building a second brain]]
 
 ### Choosing the right format
 The most future proof format for data is **plain text**. For example in the form of CSV, Markdown, YAML and so on. Technology changes fast, databases and SAAS business come and go. The source of truth should always be plain text, so that the data is available for many years. Exporting the notes into a website or database is fine, as long as the source format is plain text. 

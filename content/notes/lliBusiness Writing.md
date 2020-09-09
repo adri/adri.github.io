@@ -34,14 +34,14 @@ Notes on a business writing course.
 
 ## Revise
 1. Clear
-- Follow Structure
+	- Follow Structure
 2. Concise
-- Use lists
-- Use active voice, e.g. staff attended meeting vs was meeting attended by staff 
-- Use simple, strong verbs
-- Avoid wordy and redundant phrases, e.g. as matter of fact vs in fact
-3. Correct 
-- Use autocorrect
-- Don’t trust spell checks
+3undefinedUse lists
+4undefinedUse active voice, e.g. staff attended meeting vs was meeting attended by staff 
+5undefinedUse simple, strong verbs
+6undefinedAvoid wordy and redundant phrases, e.g. as matter of fact vs in fact
+7. Correct 
+8undefinedUse autocorrect
+9undefinedDon’t trust spell checks
 
 #published

@@ -38,7 +38,7 @@ Notes on a business writing course.
 2. Concise
 		- Use lists
 		- Use active voice, e.g. staff attended meeting vs was meeting attended by staff 
-5undefinedUse simple, strong verbs
+		- Use simple, strong verbs
 6undefinedAvoid wordy and redundant phrases, e.g. as matter of fact vs in fact
 7. Correct 
 8undefinedUse autocorrect

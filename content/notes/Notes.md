@@ -4,5 +4,6 @@ Outline notes 📔
 - Building a [[Notes database]]
 - [[Site Reliability Engineering]]
 - [[Baking bread]]
+- [[Cooking]]
 
 #published 

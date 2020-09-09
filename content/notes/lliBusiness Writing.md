@@ -12,9 +12,9 @@ Notes on a business writing course.
 - Risk
 
 ## What is good writing?
-- Quick: Information designed for speed
-- Organized
-- Easy: to find and understand
+- **Quick**: Information designed for speed
+- **Organized**
+- **Easy**: to find and understand
 
 ## Structure
 1. State purpose:

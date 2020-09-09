@@ -42,6 +42,6 @@ Notes on a business writing course.
 		- Avoid wordy and redundant phrases, e.g. as matter of fact vs in fact
 3. Correct 
 		- Use autocorrect
-9undefinedDon’t trust spell checks
+		- Don’t trust spell checks
 
 #published

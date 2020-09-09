@@ -40,8 +40,8 @@ Notes on a business writing course.
 		- Use active voice, e.g. staff attended meeting vs was meeting attended by staff 
 		- Use simple, strong verbs
 		- Avoid wordy and redundant phrases, e.g. as matter of fact vs in fact
-1. Correct 
-8undefinedUse autocorrect
+3. Correct 
+		- Use autocorrect
 9undefinedDon’t trust spell checks
 
 #published

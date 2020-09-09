@@ -1,8 +1,6 @@
----
-source_link: https://www.youtube.com/watch?v=-oQl1xv0hDk
----
-
 [[Talk]] by [[Chris Keathley]]
+
+![](https://www.youtube.com/watch?v=-oQl1xv0hDk)
 
 ### Little's law
 ```

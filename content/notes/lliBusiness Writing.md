@@ -21,14 +21,14 @@ Notes on a business writing course.
     - Clearly stated subject line
     - Signal word (e.g. procedure, request for, warning about, proposal to, …)
     - Do, why, know
-2. List key points:
+2. List **key points**:
     - Support purpose
     - Provide more information 
     - Start with a verb 
     - Write “headline style”
-3. Expand key points 
+3. **Expand** key points 
     - only if needed
-4. Restate purpose
+4. Restate **purpose**
     - if text is long, no new information
     - contact information if needed
 

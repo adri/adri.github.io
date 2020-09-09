@@ -1,4 +1,3 @@
-
 Tofu is a nice protein alternative to meat. However it can be quite blant and soft. That's why it's nice to use some soy sauce and sesame oil and bake it crispy. 
 
 ### How to

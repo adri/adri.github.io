@@ -1,4 +1,4 @@
 
-- [[Crispy Tofu]]
+- How to make [[Crispy Tofu]]
 
 #published 

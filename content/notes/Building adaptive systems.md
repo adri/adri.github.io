@@ -27,6 +27,6 @@ Signals used to set limits:
 
 ### Source 
 - [Youtube talk](https://www.youtube.com/watch?v=-oQl1xv0hDk)
-- [Regulartor elixir library](https://github.com/keathley/regulator)
+- [Regulartor Elixir library](https://github.com/keathley/regulator)
 
 #published 

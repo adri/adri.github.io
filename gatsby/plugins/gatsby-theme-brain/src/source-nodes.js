@@ -377,6 +377,7 @@ function generateNodes(
 
     const brainNoteNode = {
       id: createNodeId(`${slug} >>> BrainNote`),
+      dir: path.resolve(pluginOptions.notesDirectory),
       title: note.title,
       slug: slug,
       modifiedTime: "",
@@ -528,7 +529,12 @@ function processMarkdownNotes(
   const additionalNoteTypes = pluginOptions.additionalNoteTypes || {};
 
   markdownNotes.forEach(({ title, slug, fullPath, rawFile }) => {
-    let fileContents = matter(rawFile);
+    // Replace embeddedd image syntax
+    // e.g. ![[image.png]] -> ![](./image.png)
+    const imageRegex = /(!\[\[(.*)?\]\])/g;
+    const rawFileWithImages = rawFile.replace(imageRegex, "![]($2)");
+
+    let fileContents = matter(rawFileWithImages);
     let content = fileContents.content;
     let frontmatter = fileContents.data;
     var tree = unified().use(markdown).parse(content);
@@ -561,7 +567,8 @@ function processMarkdownNotes(
 
     // Find matches for content between double brackets
     // e.g. [[Test]] -> Test
-    const regex = /(?<=\[\[).*?(?=\]\])/g;
+    // Does not match embedded contnet ![[Test]] -> !Test
+    const regex = /(?<=[^!]\[\[).*?(?=\]\])/g;
     let outboundReferences = [...content.matchAll(regex)] || [];
     if (pluginOptions.linkifyHashtags) {
       const hashtagRegexExclusive = /(?<=(^|\s)#)\w*\b/g;
@@ -615,6 +622,7 @@ function processMarkdownNotes(
         });
       }
     });
+
     allReferences.push({
       source: slug,
       references: internalReferences,
@@ -627,8 +635,8 @@ function processMarkdownNotes(
 
     slugToNoteMap[slug] = {
       title: title,
-      content: rawFile,
-      rawContent: rawFile,
+      content: rawFileWithImages,
+      rawContent: rawFileWithImages,
       fullPath: fullPath,
       frontmatter: frontmatter,
       aliases: aliases,

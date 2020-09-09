@@ -20,6 +20,14 @@ module.exports = ({
       resolve: `gatsby-plugin-mdx`,
     },
     "gatsby-transformer-remark",
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: notesDirectory,
+        path: notesDirectory,
+      },
+    },
     generateRSS && {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -52,7 +60,7 @@ module.exports = ({
             query: `
             {
               notes: allBrainNote(
-                filter: {childMdx: {frontmatter: {syndicate: {eq: true}}}}, 
+                filter: {childMdx: {frontmatter: {syndicate: {eq: true}}}},
                 sort: {fields: childMdx___frontmatter___date, order: DESC}
               ) {
                 nodes {

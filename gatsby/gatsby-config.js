@@ -18,12 +18,36 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "./plugins/gatsby-theme-brain",
+      options: {
+        notesDirectory: `../content/notes/`,
+        rootPath: "/notes",
+        rootNote: "notes",
+        linkifyHashtags: true,
+        hideDoubleBrackets: true,
+        mdxOtherwiseConfigured: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           `gatsby-remark-line-breaks`,
           `gatsby-remark-external-links`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              backgroundColor: "transparent",
+              linkImagesToOriginal: true,
+              maxWidth: 960,
+              quality: 90,
+              tracedSVG: true,
+              withWebp: true,
+            },
+          },
+        ],
+        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -73,17 +97,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: "./plugins/gatsby-theme-brain",
-      options: {
-        notesDirectory: `../content/notes/`,
-        rootPath: "/notes",
-        rootNote: "notes",
-        linkifyHashtags: true,
-        hideDoubleBrackets: true,
-        mdxOtherwiseConfigured: true,
-      },
-    },
+
     {
       resolve: `gatsby-plugin-disqus`,
       options: {

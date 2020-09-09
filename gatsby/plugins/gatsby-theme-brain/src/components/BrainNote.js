@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from "react";
 import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
 import Layout from "../../../../src/@lekoarts/gatsby-theme-minimal-blog/components/layout";
 import { Container, Heading, Text, Link as TLink, jsx, Box } from "theme-ui";

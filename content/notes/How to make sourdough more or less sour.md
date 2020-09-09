@@ -20,7 +20,7 @@ Maturity is about when to use the mother culture for the dough. A motherdough sh
 ![[sourdough-maturity-time-populations.jpg]]
 
 ### Sources
-1. https://brodandtaylor.com/blogs/recipes/make-sourdough-more-sour
-2. https://brodandtaylor.com/blogs/recipes/make-sourdough-more-or-less-sour-part-2
+1. [Brod and Taylor Part 1](https://brodandtaylor.com/blogs/recipes/make-sourdough-more-sour)
+2. [Brod and Taylor Part 2](https://brodandtaylor.com/blogs/recipes/make-sourdough-more-or-less-sour-part-2)
 
 #published 

@@ -18,9 +18,9 @@ Notes on a business writing course.
 
 ## Structure
 1. State purpose:
-    - Clearly stated subject line
-    - Signal word (e.g. procedure, request for, warning about, proposal to, …)
-    - Do, why, know
+        - Clearly stated subject line
+        - Signal word (e.g. procedure, request for, warning about, proposal to, …)
+        - Do, why, know
 2. List key points:
     - Support purpose
     - Provide more information 

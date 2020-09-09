@@ -5,7 +5,6 @@
 
 ![[../attachments/sourdough-acidity-key-factors.png]]
 
-
 ## Mother Culture
 The balance between yeast and lactobacilli (LAB) influences the sourness. More LAB means more acid producers, so a more sour bread.
 

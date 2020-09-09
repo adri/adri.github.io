@@ -29,8 +29,8 @@ Notes on a business writing course.
 3. Expand key points 
         - only if needed
 4. Restate purpose
-    - if text is long, no new information
-    - contact information if needed
+        - if text is long, no new information
+        - contact information if needed
 
 ## Revise
 1. Clear

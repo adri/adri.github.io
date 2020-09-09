@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{w2l6:function(n,o,c){"use strict";c.r(o);var t=c("2A+t"),e=c("izhR"),a=c("bz+c");o.default=function(){return Object(t.c)(a.a,null,Object(t.c)(e.g,{variant:"styles.h2"},"Not found"),Object(t.c)("p",{sx:{color:"secondary",mt:2,a:{color:"secondary"},fontSize:[1,1,2]}},"Page was not found."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-289027710d2147c06518.js.map

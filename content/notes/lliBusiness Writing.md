@@ -36,7 +36,7 @@ Notes on a business writing course.
 1. Clear
 		- Follow Structure
 2. Concise
-3undefinedUse lists
+		Use lists
 4undefinedUse active voice, e.g. staff attended meeting vs was meeting attended by staff 
 5undefinedUse simple, strong verbs
 6undefinedAvoid wordy and redundant phrases, e.g. as matter of fact vs in fact

@@ -1,6 +1,6 @@
 [[Talk]] by [[Chris Keathley]]
 
-![](https://www.youtube.com/watch?v=-oQl1xv0hDk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-oQl1xv0hDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Little's law
 ```

@@ -1,7 +1,7 @@
 ### Key factors
-1. Maturity: more acid producers (LAB) means more sour
-2. Temperature: higher temperature means more sour
-3. Type of flour: more whole grain or rye means more sour
+1. **Maturity**: more acid producers (LAB) means more sour
+2. **Temperature**: higher temperature means more sour
+3. **Type of flour**: more whole grain or rye means more sour
 
 ![[sourdough-acidity-key-factors.png]]
 

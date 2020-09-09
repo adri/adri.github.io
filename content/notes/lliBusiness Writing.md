@@ -16,7 +16,7 @@ Notes on a business writing course.
 - **Organized**
 - **Easy**: to find and understand
 
-## Structure
+### Structure
 1. State **purpose**:
     - Clearly stated subject line
     - Signal word (e.g. procedure, request for, warning about, proposal to, …)
@@ -32,7 +32,7 @@ Notes on a business writing course.
     - if text is long, no new information
     - contact information if needed
 
-## Revise
+### Revise
 1. Clear
     - Follow Structure
 2. Concise

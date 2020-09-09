@@ -27,7 +27,7 @@ The mixture holds up to 2 days in the fridge. Salt can be added to increase this
 In a dough the water roux should amount to at most 1-10% of the flour.
 
 ### Source
-- https://broodsmakelijk.nl/vraag-het-broodsmakelijk/welke-broodverbeteraar-voor-welk-brood 
+- [broodsmakelijk.nl Which ingredient for which sort of braed](https://broodsmakelijk.nl/vraag-het-broodsmakelijk/welke-broodverbeteraar-voor-welk-brood) 
 - [Bäckerlatein Ascorbinsäure](https://www.baeckerlatein.de/ascorbinsaeure/)
 - [Vitamin C in sanddorn juice](https://www.zentrum-der-gesundheit.de/artikel/sanddorn)
 - [Vitamin C in acrelakirschpulver](https://www.zentrum-der-gesundheit.de/acerola-kirsche.html)

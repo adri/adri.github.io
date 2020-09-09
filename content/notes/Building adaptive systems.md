@@ -15,7 +15,7 @@ Arrival rate and processing time need be be under control. The only way to do th
 
 - **Load shedding**: Upstream or downstream service drops requests
 - **Autoscaling**: It's not a solution. Adding more capacity helps. However the limit is just moved. Only using CPU for scaling is not enough. 
-- Cirquit breakers: Only a partial solution as they stop all traffic to the downsteam service, even though some traffic could still be handled.
+- **Circuit breakers**: Only a partial solution as they stop all traffic to the downsteam service, even though some traffic could still be handled.
 
 ### Adaptive concurrency
 Dynamically find out the limits of sending and receiving systems and use load shedding.

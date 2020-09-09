@@ -34,7 +34,7 @@ Notes on a business writing course.
 
 ## Revise
 1. Clear
-		- Follow Structure
+    - Follow Structure
 2. Concise
 		- Use lists
 		- Use active voice, e.g. staff attended meeting vs was meeting attended by staff 

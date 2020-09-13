@@ -17,7 +17,7 @@ Where do I read/watch/hear information that I want to keep?
 - Import youtube watch history?
 - [[Import Twitter likes]]
 - [[Import Github stars]]
-- Import messages from iMessage? https://github.com/song940/imessage
+- Import messages from iMessage?
 - Import browser history? http://2016.padjo.org/tutorials/sqlite-your-browser-history/
 - [[Import notes from Website highlights]] (what tool?)?
 - Import photos? https://www.npmjs.com/package/osx-photostream

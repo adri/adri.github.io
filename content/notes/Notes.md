@@ -3,7 +3,7 @@ Start exploring my notes and ideas from outline notes like this. These are colle
 Outline notes 📔 
 - Building a [[Notes database]]
 - [[Site Reliability Engineering]]
-- [[S]]
+- [[Software ]]
 - [[Baking bread]]
 - [[Cooking]]
 

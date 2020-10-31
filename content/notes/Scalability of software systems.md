@@ -7,8 +7,6 @@
 
 ### PHP
 - [[Proxy for Redis and Memcached]] to reduce connections from PHP
-
-### Databases
 - [[Improve performance and scalability with connection pooling]]
 
 ### Sources

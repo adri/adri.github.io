@@ -1,4 +1,5 @@
-### Ar
+### Architecture
+-
 
 ### Queuing 
 - [[Building adaptive systems]]

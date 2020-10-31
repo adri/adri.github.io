@@ -1,4 +1,4 @@
-### Domain Driven
+### Domain Driven Design
 - [[Avoid type fields in domain models]]
 - [[Fat vs thin domain events]]
 

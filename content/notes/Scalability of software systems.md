@@ -1,5 +1,5 @@
 ### Architecture
--
+- [[How to split a monolith]]
 
 ### Queuing 
 - [[Building adaptive systems]]

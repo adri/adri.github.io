@@ -6,5 +6,4 @@ By keeping a pool of active connections, the connection time can be reduced whic
 - [Improve database performance with connection pooling](https://stackoverflow.blog/2020/10/14/improve-database-performance-with-connection-pooling/)
 - [AMQProxy](https://github.com/cloudamqp/amqproxy)
 
-
 #published 

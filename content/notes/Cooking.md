@@ -1,5 +1,5 @@
 ### Techniques
 - How to make [[Crispy Tofu]]
-- [[P]]
+- [[How to shape a Neapolitan pizza]]
 
 #published 

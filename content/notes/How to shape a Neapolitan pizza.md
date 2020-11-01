@@ -1,4 +1,3 @@
-
 ### Why this technique?
 - Even thick dough
 - Small edge with air pockets

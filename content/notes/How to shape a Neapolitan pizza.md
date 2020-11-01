@@ -20,6 +20,6 @@
 	![[pizza-stretch-throw-right-hand.png]]
 
 ### Source
-- [Video ](https://youtu.be/EI4RoemHe5M?t=915)
+- [The BreVideo](https://youtu.be/EI4RoemHe5M?t=915)
 
 #published

@@ -21,6 +21,6 @@
 
 ### Source
 - [The Bread Code video](https://youtu.be/EI4RoemHe5M?t=915)
-- [](https://www.youtube.com/watch?v=YbkHihvXCPg&list=PLURsDaOr8hWUl0Kli7wG74qhtIXGTHHhZ)
+- [I Try to Master The Pizza "Slapping" Technique](https://www.youtube.com/watch?v=YbkHihvXCPg&list=PLURsDaOr8hWUl0Kli7wG74qhtIXGTHHhZ)
 
 #published

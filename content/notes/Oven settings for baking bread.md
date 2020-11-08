@@ -10,7 +10,7 @@ Unless the oven has a steam function use the static upper and lower heat setting
 Because each oven is different, the temperature setting has to be adjusted after gaining some experience. The temperature at the middle (core) of the bread (roll) after baking should be:
 
 * 95-98°C for sourdough breads
-* 88°C for soft dinner ro
+* 88°C for soft dinner rolls
 
 
 ### Source

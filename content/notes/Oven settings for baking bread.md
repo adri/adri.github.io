@@ -15,6 +15,6 @@ Because each oven is different, the temperature setting has to be adjusted after
 ### Source
 - [Rezepthinweise: Backen](https://www.ploetzblog.de/rezepthinweise/)
 - [Using a thermometer with yeast bread](https://www.kingarthurbaking.com/blog/2017/04/07/using-a-thermometer-with-yeast-bread)
-- [Chef Todd’s Doneness Cooking Chart]
+- [Chef Todd’s Doneness Cooking Chart](https://cookingwithcheftodd.files.wordpress.com/2013/07/chef-todd_s-doneness-cooking-chart-baked-goods.pdf)
 
 #published 

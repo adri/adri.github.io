@@ -11,7 +11,6 @@ Because each oven is different, the temperature setting has to be adjusted after
 * 95-98°C for sourdough breads
 * 88°C for soft dinner rolls
 
-
 ### Source
 - [Rezepthinweise: Backen](https://www.ploetzblog.de/rezepthinweise/)
 - [Using a thermometer with yeast bread](https://www.kingarthurbaking.com/blog/2017/04/07/using-a-thermometer-with-yeast-bread)

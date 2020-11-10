@@ -1,5 +1,8 @@
 Note taking app that works on plain-text files. It can be used to build a knowledge database based on the [[Zettelkasten principles]].
 
+### Plugins
+[List of plugins](https://github.com/topics/obsidian-md?o=desc&s=updated)
+
 ### Custom CSS
 Because then it's nice and minimal.
 

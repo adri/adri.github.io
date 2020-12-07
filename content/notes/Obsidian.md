@@ -1,3 +1,5 @@
+Website: https://obsidian.md
+
 Note taking app that works on plain-text files. It can be used to build a knowledge database based on the [[Zettelkasten principles]].
 
 ### Plugins

@@ -35,12 +35,12 @@ Push an event to the client when you want to force a value on an input even thou
 
 ```elixir
   def handle_event(
-        "accept-suggestion",
-        %{"key" => "ArrowRight"},
-        %{assigns: %{suggestion: suggestion}} = socket
-      ) do
-    {:noreply, socket |> push_event("force-input-value", %{value: suggestion})}
-  end
+    "accept-suggestion",
+    %{"key" => "ArrowRight"},
+    %{assigns: %{suggestion: suggestion}} = socket
+  ) do
+{:noreply, socket |> push_event("force-input-value", %{value: suggestion})}
+end
 
 ```
 

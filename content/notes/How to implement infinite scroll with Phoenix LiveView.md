@@ -95,5 +95,5 @@ let liveSocket = new LiveSocket("/live", Socket, {hooks: {InfiniteScroll}, param
 - Elixir Forum [How can I implement an infinite scroll in liveview?](https://elixirforum.com/t/how-can-i-implement-an-infinite-scroll-in-liveview/30457/2)
 - Mozilla developer [Interaction Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 
-
+#PhoenixLiveView
 #published 

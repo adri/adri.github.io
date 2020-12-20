@@ -39,7 +39,7 @@ Push an event to the client when you want to force a value on an input even thou
     %{"key" => "ArrowRight"},
     %{assigns: %{suggestion: suggestion}} = socket
   ) do
-{:noreply, socket |> push_event("force-input-value", %{value: suggestion})}
+  {:noreply, socket |> push_event("force-input-value", %{value: suggestion})}
 end
 
 ```

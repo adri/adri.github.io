@@ -45,7 +45,7 @@ end
 ```
 
 ### Sources
-- Inspired by this comm
+- Inspired by this [comment](https://github.com/phoenixframework/phoenix_live_view/issues/624#issuecomment-585230754)
 
 #PhoenixLiveView
 #published

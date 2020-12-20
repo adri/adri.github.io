@@ -26,7 +26,7 @@ Add the hook to the input field:
 <input
     phx-hook="ForceInputValue"
     id="search-input"
-    value="<%= @query %>" />
+    value="<%= @query %>"
     name="query" />
 ```
 

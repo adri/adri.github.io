@@ -45,7 +45,7 @@ end
 ```
 
 ### Sources
-- 
+- Inspired by this comm
 
 #PhoenixLiveView
 #published

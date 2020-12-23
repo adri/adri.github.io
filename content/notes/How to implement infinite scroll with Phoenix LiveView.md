@@ -4,7 +4,7 @@ A performant way to react to scroll events is the Interaction Observer.
 The Interaction Observer observes if an element is visible within another element. In this case a element is added to the end of the list. When it becomes visible inside of the window element, a "load more" event is triggered.
 
 ### Phoenix LiveView
-In the the template, add  an HTML element **after** the list. The position of the element will be observed within the window.
+In the template, add  an HTML element **after** the list. The position of the element will be observed within the window.
 
 ```elixir
 defmodule DemoWeb.UserLive.IndexAutoScroll do

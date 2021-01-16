@@ -5,6 +5,9 @@ Note taking app that works on plain-text files. It can be used to build a knowle
 ### Plugins
 [List of plugins](https://github.com/topics/obsidian-md?o=desc&s=updated)
 
+- [[Obsidian charts examples]]
+- [[Obsidian Mermaid examples]]
+
 ### Custom CSS
 Because then it's nice and minimal.
 

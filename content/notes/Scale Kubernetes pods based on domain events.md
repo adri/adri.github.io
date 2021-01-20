@@ -35,7 +35,6 @@ It can be that the metric is sometimes showing up and sometimes missing. Some pr
             expr: sum(avg_over_time(notification_scheduled[1m])) or vector(0)
 ```
 
-
 ### HPA
 Kubernetes has a Horizontal Pod Autoscaler (HPA) which is responsible for scaling based on metrics. HPAs can use external metrics to scale. 
 A condition can be added to the HPA to scale when the target average value of a domain metrics is higher than x.

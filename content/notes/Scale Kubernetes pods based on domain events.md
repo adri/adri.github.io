@@ -50,6 +50,6 @@ A condition can be added to the HPA to scale when the target average value of a 
       targetAverageValue: 600
 ```
 
-The average  will go down eventually, then pods can be scaled down if other conditions allow it.
+The average will go down eventually, then pods can be scaled down if other conditions allow it.
 
 #published

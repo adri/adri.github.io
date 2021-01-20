@@ -78,6 +78,7 @@
 <url> <loc>https://adrian-philipp.com/notes/how-to-split-a-monolith</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/domain-events</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/how-does-http-request-smuggling-work</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com/notes/optimizing-auto-scaling-on-kubernetes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/agile-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com/notes/dutch-cuisine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

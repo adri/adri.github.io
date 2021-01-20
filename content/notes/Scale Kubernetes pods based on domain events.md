@@ -21,7 +21,7 @@ To check if it works, the raw external metrics can be retrieved like this:
 kubectl get --raw /apis/external.metrics.k8s.io/v1beta1/ | jq .
 ```
 
-This should list the new metric. If not, it can be that t
+This should list the new metric. If not, it can be that the 
 
 ```yaml
   - name: website

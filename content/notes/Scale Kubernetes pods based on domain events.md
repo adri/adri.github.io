@@ -14,6 +14,12 @@ The Prometheus query is made available as `notification_scheduled`
       as: "notification_scheduled"
     metricsQuery: 'website:notification_scheduled'
 ```
+
+To check if it works, 
+```bash
+kubectl get --raw /apis/external.metrics.k8s.io/v1beta1/ | jq .
+```
+
 ```yaml
   - name: website
     groups:

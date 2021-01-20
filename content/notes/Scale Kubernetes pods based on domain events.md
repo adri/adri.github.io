@@ -52,7 +52,7 @@ A condition can be added to the HPA to scale when the target average value of a 
 The average will go down eventually, then pods can be scaled down if other conditions allow it.
 
 ### Measure success
-When there is a notification spike, response times should stay constant b
+When there is a notification spike, response times should stay constant because more instances 
 
 ### Sources
 - [k8s-prometheus-adapter](https://github.com/DirectXMan12/k8s-prometheus-adapter)

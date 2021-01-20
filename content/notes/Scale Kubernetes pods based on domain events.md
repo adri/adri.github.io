@@ -11,6 +11,6 @@ For example:
 The average per minute will go down eventually, then pods can be scaled down if other conditions allow it.
 
 ### Domain events
-When a notification is sent out, count the number of devices and increase the `pending_notifications` metric.
+When a notification is sent out, count the number of devices and increase the `notifications` metric.
 
 #published

@@ -11,6 +11,6 @@ For example:
 - `avg(notifications_scheduled)` 100 -> keep replicas as is
 - `avg(notifications_scheduled)` 10000 -> scale up 10 pods
 
-The average per minute will go down eventually, then pods can be scaled down if other conditions allow it.
+The average  will go down eventually, then pods can be scaled down if other conditions allow it.
 
 #published

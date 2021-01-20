@@ -1,7 +1,19 @@
 Some [[Domain events]] can trigger many users hitting a website. For example when a notification about popular content is sent out to a large amount of devices. When the notifications are sent out, it is already clear that a scale-up is needed. Instead of waiting for users to hit the website and scaling-up then, why not scale before?
 
 ### Domain events
-Before a notification is sent out, count the number of devices and increase the `notifications_scheduled` counter.
+Before a notification is sent out, count the number of devices and increase the `notification_scheduled` counter.
+
+### Prometheus
+```yaml
+  - name: website
+    groups:
+      - name: website
+        interval: "1s"
+        rules:
+          - record: website:notification_scheduled
+            expr: sum(avg_over_time(notification_scheduled[1m])) or vector(0)
+```
+
 
 ### HPA
 Kubernetes has a Horizontal Pod Autoscaler (HPA) which is responsible for scaling based on metrics. HPAs can use external metrics to scale. 

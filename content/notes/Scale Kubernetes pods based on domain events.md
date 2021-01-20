@@ -6,7 +6,7 @@ Before a notification is sent out, count the number of devices and increase the 
 ### Prometheus
 To be able to scale based on metrics, the metric needs to be made available for Kubernetes. Using Prometheus that can be done using the [k8s-prometheus-adapter](https://github.com/DirectXMan12/k8s-prometheus-adapter). 
 
-The Prometheus query is made available as `notification_scheduled`
+The Prometheus query is made available as `notification_scheduled` in the k
 
 ```yaml
   - seriesQuery: '{__name__=~"^website:notification_scheduled$"}'

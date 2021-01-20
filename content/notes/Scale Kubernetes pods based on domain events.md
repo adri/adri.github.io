@@ -4,7 +4,8 @@ Some [[Domain events]] can trigger many users hitting a website. For example whe
 Before a notification is sent out, count the number of devices and increase the `notification_scheduled` counter.
 
 ### Prometheus
-To be able to scale based on metrics, 
+To be able to scale based on metrics, the metric needs to be made available for Kubernetes. Using Prometheus that can be done using the k8shttps://github.com/DirectXMan12/k8s-prometheus-adapter
+
 
 ```yaml
   - seriesQuery: '{__name__=~"^website:notification_scheduled$"}'

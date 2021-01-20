@@ -16,10 +16,6 @@ A condition can be added to the HPA to scale when the average value of a domain 
       # Example: Consider a spike of 10 000 notifications. 10 000 / targetAverageValue additional pods will be started.
       targetAverageValue: 600
 ```
-For example:
-- `avg(notifications_scheduled)` 0 -> keep replicas as is
-- `avg(notifications_scheduled)` 100 -> keep replicas as is
-- `avg(notifications_scheduled)` 10000 -> scale up 10 pods
 
 The average  will go down eventually, then pods can be scaled down if other conditions allow it.
 

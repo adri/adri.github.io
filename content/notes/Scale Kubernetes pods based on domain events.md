@@ -15,7 +15,8 @@ The Prometheus query is made available as `notification_scheduled`
     metricsQuery: 'website:notification_scheduled'
 ```
 
-To check if it works, the raw external met
+To check if it works, the raw external metrics can be retrieved like this:
+
 ```bash
 kubectl get --raw /apis/external.metrics.k8s.io/v1beta1/ | jq .
 ```

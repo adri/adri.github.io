@@ -54,8 +54,8 @@ The average will go down eventually, then pods can be scaled down if other condi
 ### Measure success
 When there is a notification spike, response times should stay constant because more instances are started to handle the traffic.
 - Request queuing duration
-- Amount of pods started 
 - Requests per minute
+- Amount of pods started 
 
 ### Sources
 - [k8s-prometheus-adapter](https://github.com/DirectXMan12/k8s-prometheus-adapter)

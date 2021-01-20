@@ -8,7 +8,6 @@ To be able to scale based on metrics, the metric needs to be made available for 
 
 The Prometheus query is made available as `notification_scheduled`
 
-
 ```yaml
   - seriesQuery: '{__name__=~"^website:notification_scheduled$"}'
     name:

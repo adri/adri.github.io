@@ -10,7 +10,7 @@ A condition can be added to the HPA to scale when the average value of a domain 
 ```yaml
   - type: External
     external:
-      metricName: notification_scheduled_adapter
+      metricName: notification_scheduled
       # The targetAverageValue controls the scaling factor.
       # Think of this like "how many notifications one pod can handle".
       # Example: Consider a spike of 10 000 notifications. 10 000 / targetAverageValue additional pods will be started.

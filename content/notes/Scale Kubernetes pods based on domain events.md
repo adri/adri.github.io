@@ -53,6 +53,7 @@ The average will go down eventually, then pods can be scaled down if other condi
 
 
 ### Sources
+- [k8s-prometheus-adapter](https://github.com/DirectXMan12/k8s-prometheus-adapter)
 - 
 
 #published

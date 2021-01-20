@@ -23,7 +23,7 @@ kubectl get --raw /apis/external.metrics.k8s.io/v1beta1/ | jq .
 
 This should list the new metric. If not, it can be that the metric is not available in Prometheus. The debug mode of the k8s-prometheus-adapter can help to find the exact query that is done. To enable the debug mode start the container with the argument `-v10`.
 
-It can be thatthe metric is sometimes showing up and sometimes missing. Some programming languages like PHP are stateless and don't register metrics beforehand. When a new deployment happens, all metrics are lost and only show up when triggered again. To get around that issue, 
+It can be thatthe metric is sometimes showing up and sometimes missing. Some programming languages like PHP are stateless and don't register metrics beforehand. When a new deployment happens, all metrics are lost and only show up when triggered again. To get around that issue, a rule can be definedPrometheus can 
 
 ```yaml
   - name: website

@@ -5,8 +5,11 @@ Before a notification is sent out, count the number of devices and increase the 
 
 ### Prometheus
 ```yaml
-
-``
+  - seriesQuery: '{__name__=~"^website:notification_scheduled$"}'
+    name:
+      as: "notification_scheduled_adapter"
+    metricsQuery: 'website:notification_scheduled'
+```
 ```yaml
   - name: website
     groups:

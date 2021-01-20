@@ -36,7 +36,7 @@ This should list the new metric. If not, it can be that the metric is not availa
 
 ### HPA
 Kubernetes has a Horizontal Pod Autoscaler (HPA) which is responsible for scaling based on metrics. HPAs can use external metrics to scale. 
-A condition can be added to the HPA to scale when the average value of a domain metrics is higher than x.
+A condition can be added to the HPA to scale when the target average value of a domain metrics is higher than x.
 
 ```yaml
   - type: External

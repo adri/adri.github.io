@@ -5,11 +5,12 @@ Kubernetes has a Horizontal Pod Autoscaler (HPA) which is responsible for scalin
 A condition can be added to the HPA to scale when the average value of a domain metrics is higher than x.
 For example:
 - `avg(pending_notifications)` 0 -> keep replicas as is
-- `avg(pending_notifications)` 100 -> keep replicas as is
-- `avg(pending_notifications)` 10000 -> scale up 10 pods
+- `avg(notifications_scheduled)` 100 -> keep replicas as is
+- `avg(notifications_scheduled)` 10000 -> scale up 10 pods
 
 The average per minute will go down eventually, then pods can be scaled down if other conditions allow it.
 
 ### Domain events
+When a notification is sent out, count the number of devices and increase the `notifications_scheduled` metric.
 
 #published

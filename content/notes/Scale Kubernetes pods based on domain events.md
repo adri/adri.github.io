@@ -4,7 +4,7 @@ Some [[Domain events]] can trigger many users hitting a website. For example whe
 Kubernetes has a Horizontal Pod Autoscaler (HPA) which is responsible for scaling based on metrics. HPAs can use external metrics to scale. 
 A condition can be added to the HPA to scale when the average value of a domain metrics is higher than x.
 For example:
-- `avg(pending_notifications)` 0 -> keep replicas as is
+- `avg(notifications_scheduled)` 0 -> keep replicas as is
 - `avg(notifications_scheduled)` 100 -> keep replicas as is
 - `avg(notifications_scheduled)` 10000 -> scale up 10 pods
 

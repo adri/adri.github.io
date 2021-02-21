@@ -25,5 +25,10 @@
 - [[View Zalando Skipper routes]]
 - [[Debug Zalando Skipper memory leaks]]
 
+
+### Links
+- [How they SRE](https://github.com/upgundecha/howtheysre)
+ > A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
+
 #published
 

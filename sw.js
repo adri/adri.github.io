@@ -1,4 +1,4 @@
-/**
+if(typeof __GATSBY_IPFS_PATH_PREFIX__ === 'undefined'){__GATSBY_IPFS_PATH_PREFIX__=''}/**
  * Welcome to your Workbox-powered service worker!
  *
  * You'll need to register this file in your web app and you should
@@ -26,27 +26,35 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-7a22abf14b9a44c1e5c7.js"
+    "url": "webpack-runtime-65ee3e65718070490873.js"
   },
   {
     "url": "framework-376edee25eb5f5cd8260.js"
   },
   {
-    "url": "app-865312a2cdca5c78fd6d.js"
+    "url": "app-63eb28c70f5973ea8382.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-d731f33f2b184998b449.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a88417a9c6ef689ab2eb551a73c34f3d"
+    "revision": "ffd9eaac3a445373d2373b305f0fca9a"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "c7047792c6f91b88e0d9abc0cd819e92"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "3f002bfa8c9f3169e04d5fa4e8a08a53"
   },
   {
     "url": "polyfill-118cb73b15f8ba765669.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "41e840aff20f33fb8de620970967cb48"
+    "revision": "5951fc7d642e1f1ed88086bf0698d18a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -65,12 +73,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/__GATSBY_IPFS_PATH_PREFIX__`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-865312a2cdca5c78fd6d.js`))) {
+  if (!resources || !(await caches.match(`/__GATSBY_IPFS_PATH_PREFIX__/app-63eb28c70f5973ea8382.js`))) {
     return await fetch(event.request)
   }
 
@@ -83,7 +91,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/__GATSBY_IPFS_PATH_PREFIX__/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 

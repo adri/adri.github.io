@@ -1,5 +1,5 @@
 
-- [[Building a Memex]]. A digital version of 
+- [[Building a Memex]]. A digital record 
 
 
 

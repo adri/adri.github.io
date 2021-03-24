@@ -6,6 +6,7 @@ summary: Learnings from starting on a side-project written in Elixir.
 categories: elixir, side-project
 banner: https://cloud.githubusercontent.com/assets/133832/21369161/f3b8dae6-c705-11e6-8f9e-2195ebb85a95.png
 published: true
+date: 2017-07-06
 ---
 
 I believe that to really learn a programming language, I have to get involved in a project. [Getting an overview of the Elixir language](/post/why-elixir-has-great-potential) was great. But to be able to learn about the details of Elixir and its ecosystem I needed a side-project.

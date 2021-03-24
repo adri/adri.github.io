@@ -96,7 +96,7 @@ When working with NodeJS or PHP I would have eventually used Redis or Memcached 
 
 **Phoenix Presence**
 
-![]
+![Synchronised list of team members]()
 <img src="https://user-images.githubusercontent.com/133832/27869498-69e461ec-61a0-11e7-975b-823c96f476d9.png" title="" style="max-width: 250px; float: right">
 Team&nbsp;members should be able to join and leave an estimation session. The state of team members should be synchronised across devices. [Phoenix Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html) was a perfect tool for this.
 

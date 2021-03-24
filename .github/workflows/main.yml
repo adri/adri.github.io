@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,13 +27,13 @@ jobs:
           path: |
             ./gatsby/.cache
             ./gatsby/public
-          key: ${{ runner.os }}-gatsby-v1-${{ hashFiles('./gatsby/.cache/**') }}
+          key: ${{ runner.os }}-gatsby-v2-${{ hashFiles('./gatsby/.cache/**') }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-v1-
+            ${{ runner.os }}-gatsby-v2-
       - name: Setup git
         run: |
-            git config --global user.email "${{ secrets.EMAIL }}"
-            git config --global user.name "Adrian Philipp"
+          git config --global user.email "${{ secrets.EMAIL }}"
+          git config --global user.name "Adrian Philipp"
       - name: Install dependencies
         run: cd gatsby && yarn install
       - name: Deploy website

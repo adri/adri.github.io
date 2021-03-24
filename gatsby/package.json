@@ -7,8 +7,8 @@
   "license": "MIT",
   "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
-    "build": "gatsby build",
-    "deploy": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages && gh-pages -d public -r https://$GH_TOKEN@github.com/adri/adri.github.io.git",
+    "build": "gatsby build --prefix-paths",
+    "deploy": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --prefix-paths --log-pages && gh-pages -d public -r https://$GH_TOKEN@github.com/adri/adri.github.io.git",
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
@@ -25,6 +25,7 @@
     "gatsby-plugin-algolia": "^0.11.2",
     "gatsby-plugin-disqus": "^1.2.2",
     "gatsby-plugin-force-trailing-slashes": "^1.0.4",
+    "gatsby-plugin-ipfs": "^2.0.2",
     "gatsby-plugin-manifest": "^2.2.3",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-sitemap": "^2.2.19",

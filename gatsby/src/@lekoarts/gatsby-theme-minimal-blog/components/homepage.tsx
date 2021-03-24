@@ -35,15 +35,15 @@ const Homepage = ({ posts }: PostsProps) => {
       <section sx={{ mb: [4, 5, 6], p: { fontSize: [1, 2, 3], mt: 3 } }}>
         <Hero />
       </section>
-      <Title text="Latest Posts">
+      <List>
+        <Bottom />
+      </List>
+      <Title text="Blog Posts">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>
           Read all posts
         </Link>
       </Title>
       <Listing posts={posts} showTags={false} />
-      <List>
-        <Bottom />
-      </List>
     </Layout>
   );
 };

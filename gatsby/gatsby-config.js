@@ -5,6 +5,7 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
+  pathPrefix: "__GATSBY_IPFS_PATH_PREFIX__",
   siteMetadata: {
     siteTitleAlt: `Adrian Philipp`,
     siteTitle: `Adrian Philipp`,
@@ -141,6 +142,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    "gatsby-plugin-ipfs",
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {

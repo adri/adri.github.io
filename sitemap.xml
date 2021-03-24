@@ -4,6 +4,7 @@
 <url> <loc>https://adrian-philipp.com./notes/avoid-type-fields-in-domain-models</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/baking-bread</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/blockchain-foundations</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/building-a-memex</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/building-adaptive-systems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/business-writing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/business</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -52,6 +53,7 @@
 <url> <loc>https://adrian-philipp.com./notes/scalability-of-software-systems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/scale-kubernetes-pods-based-on-domain-events</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/security-of-software-systems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/side-projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/site-reliability-engineering</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/software-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/solve-problems-with-the-inversion-principle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -67,6 +69,8 @@
 <url> <loc>https://adrian-philipp.com./notes/zettelkasten-zettel-types</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/llibusiness-writing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/published</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/google-cloud-ai-vision-api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/google-natural-language-api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/chris-keathley</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/postgresql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/tool</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -82,6 +86,7 @@
 <url> <loc>https://adrian-philipp.com./notes/how-to-split-a-monolith</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/optimizing-auto-scaling-on-kubernetes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/how-does-http-request-smuggling-work</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/picape</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/agile-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/dutch-cuisine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

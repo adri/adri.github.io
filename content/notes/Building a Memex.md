@@ -113,5 +113,4 @@ The code is on github: https://github.com/adri/memex
 - [The original 1945 Memex essay](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
 - [Building a Memex blog](https://hyfen.net/memex)
 
-
 #published 

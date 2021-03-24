@@ -141,4 +141,3 @@ Using Elixir has been fun. I'm far from being done learning about it. My ideas w
 - Try [Absinthe](http://absinthe-graphql.org) (GraphQL) with subscriptions
 - Try adding optional types and check them via [dialyxir](https://github.com/jeremyjh/dialyxir)
 - CI setup 
-- Refactor the frontend using React (maybe)

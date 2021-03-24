@@ -27,9 +27,9 @@ jobs:
           path: |
             ./gatsby/.cache
             ./gatsby/public
-          key: ${{ runner.os }}-gatsby-${{ hashFiles('./gatsby/.cache/**') }}
+          key: ${{ runner.os }}-gatsby-v1-${{ hashFiles('./gatsby/.cache/**') }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-
+            ${{ runner.os }}-gatsby-v1-
       - name: Setup git
         run: |
             git config --global user.email "${{ secrets.EMAIL }}"

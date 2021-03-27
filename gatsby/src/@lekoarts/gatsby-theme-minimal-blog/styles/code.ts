@@ -1,5 +1,9 @@
 import code from "@lekoarts/gatsby-theme-minimal-blog/src/styles/code";
 
+code[".gatsby-highlight"] = {
+  ...code[".gatsby-highlight"],
+  borderRadius: `10px`
+}
 code[".gatsby-highlight"]['pre[class~="language-elixir"]:before'] = {
   content: `"elixir"`,
   background: `#4e2a8e`,

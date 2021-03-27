@@ -50,6 +50,7 @@ Pre-building cache (worst case):
 1m 44s + 15 + 1 + 1 =  2m 1s  ~33% faster than current worst case
 
 ### Preload
+
 Without preload:
 ```bash
 hyperfine -r 1000 --warmup 10 "bash test.sh"
@@ -64,6 +65,5 @@ hyperfine -r 1000 --warmup 10 "bash test.sh"
   Range (min … max):    57.5 ms … 1074.3 ms    1000 runs
 ```
 
-⚠️  Something is wrong with preload, unclear what 
 
 #published 

@@ -66,5 +66,4 @@ hyperfine -r 1000 --warmup 10 "bash test.sh"
   Range (min … max):    57.5 ms … 1074.3 ms    1000 runs
 ```
 
-
 #published 

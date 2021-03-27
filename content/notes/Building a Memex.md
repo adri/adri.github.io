@@ -89,9 +89,9 @@ Most links or images on the internet don't work anymore after a few years. To co
      ```
 
 ### Memex UI
-The code is on github: https://github.com/adri/memex
-
-![[memex.png]]
+The code is on github: https://github.com/adri/memex.
+Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
+![Memex](memex.png)
 
 - [x] Infinite scroll
 - [x] Date facet adds filters

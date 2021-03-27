@@ -50,6 +50,8 @@ Pre-building cache (worst case):
 1m 44s + 15 + 1 + 1 =  2m 1s  ~33% faster than current worst case
 
 ### Preload
+⚠️  Something is wrong with preload, unclear what 
+
 
 Without preload:
 ```bash

@@ -6,6 +6,7 @@
 
 ### Kubernetes
 - [[Scale Kubernetes pods based on domain events]]
+- [[Optimizing auto-scaling on Kubernetes]]
 
 ### PHP
 - [[Proxy for Redis and Memcached]] to reduce connections from PHP

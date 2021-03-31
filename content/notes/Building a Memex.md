@@ -99,8 +99,8 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - [x] Search facet:value filters on facets instead of filter condition
 - [x] Automatically grow search field (fixed by making it bigger)
 - [x] Show surrounding 
-- Autocomplete to add filters 
-- Disable typo correction 
+- [ ] Autocomplete to add filters 
+- [ ] Disable typo correction 
 
 ### Inspiration 
 - https://www.algolia.com/doc/guides	/building-search-ui/resources/ui-and-ux-patterns/in-depth/query-suggestions/js/

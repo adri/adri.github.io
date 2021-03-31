@@ -32,7 +32,7 @@ Computers get smarter and can create links between documents that humans can't s
 ### Choosing the right format
 The most future proof format for data is **plain text**. For example in the form of JSON, CSV, Markdown, YAML and so on. Technology changes fast, databases come and go. The source of truth should always be plain text, so that the data is available for many years. Loading data into a database is fine, as long as the source format is plain text. 
 
-### Data is short lived
+### Data i short lived
 Most links or images on the internet don't work anymore after a few years. To combat this:
 - use archive.org to get back to a certain link
 - store every visit 

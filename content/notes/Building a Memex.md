@@ -18,16 +18,6 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - [ ] Autocomplete to add filters 
 - [ ] Disable typo correction 
 
-### Creating links between documents
-Computers get smarter and can create links between documents that humans can't see because of the large amount of data. A lot of informational value comes not just from the documents themselves but from the metadata about the document.
-
-- Metadata of images with OCR text and AI recognized entities like [[Google Cloud AI Vision API]]
-- Metadata of notes with AI detected named entities like [[Google Natural Language API]]
-- Metadata of videos with generated captions
-- Metadata of websites from SEO content or crawlers, for example:
-    - Participants of a meetup I joined
-    - Languages used in a Github project I liked
-- Metadata of payments with detected shops
 
 ### Data types
 - Websites I browsed (Safari) ✅

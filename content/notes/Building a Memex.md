@@ -58,7 +58,7 @@ Most links or images on the internet don't work anymore after a few years. To co
 - Commits I made (local git) 
 - People I met (Calendar?)
 - Songs I listened to (Music)
-- Slack messages I wrote (Slack https://github.com/AlekseyDurachenko/slack2sqlite)
+- Slack messages I wrote (Slack https://github.com/AlekseyDurachenko/slack2sqlite?)
 - Songs I listened to. Maybe with Applescript?
     ```applescript
     tell application "Music"

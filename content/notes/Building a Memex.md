@@ -4,6 +4,20 @@ The idea is to record everything I do. Similar to the quantified self movement w
 
 Andrew has written many interesting [blog posts](https://hyfen.net/memex/) while building a memex.  
 
+### Memex UI
+The code is on github: https://github.com/adri/memex.
+Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
+![Memex](memex.png)
+
+- [x] Infinite scroll
+- [x] Date facet adds filters
+- [x] Hover over facets and click to select date
+- [x] Search facet:value filters on facets instead of filter condition
+- [x] Automatically grow search field (fixed by making it bigger)
+- [x] Show surrounding 
+- [ ] Autocomplete to add filters 
+- [ ] Disable typo correction 
+
 ### Creating links between documents
 Computers get smarter and can create links between documents that humans can't see because of the large amount of data. A lot of informational value comes not just from the documents themselves but from the metadata about the document.
 

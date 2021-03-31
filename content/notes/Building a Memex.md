@@ -88,19 +88,6 @@ Most links or images on the internet don't work anymore after a few years. To co
             LEFT JOIN ZMTPODCAST ON ZMTEPISODE.ZPODCAST = ZMTPODCAST.Z_PK;
      ```
 
-### Memex UI
-The code is on github: https://github.com/adri/memex.
-Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
-![Memex](memex.png)
-
-- [x] Infinite scroll
-- [x] Date facet adds filters
-- [x] Hover over facets and click to select date
-- [x] Search facet:value filters on facets instead of filter condition
-- [x] Automatically grow search field (fixed by making it bigger)
-- [x] Show surrounding 
-- [ ] Autocomplete to add filters 
-- [ ] Disable typo correction 
 
 ### Inspiration 
 - https://www.algolia.com/doc/guides	/building-search-ui/resources/ui-and-ux-patterns/in-depth/query-suggestions/js/

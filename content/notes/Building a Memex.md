@@ -87,7 +87,9 @@ Most links or images on the internet don't work anymore after a few years. To co
     ```bash
         sqlite3 ~/Library/Group\ Containers/243LU875E5.groups.com.apple.podcasts/Documents/MTLibrary.sqlite
     ```
-        Example 
+    
+        Example SQL:
+        
     ```sql
         SELECT
             ZMTEPISODE.ZUUID AS episode_uuid,

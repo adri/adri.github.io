@@ -89,7 +89,7 @@ Most links or images on the internet don't work anymore after a few years. To co
 - use archive.org to get back to a certain link
 - store every visit 
 
-### Creating links between documents
+### Future: Creating links between documents
 Computers get smarter and can create links between documents that humans can't see because of the large amount of data. A lot of informational value comes not just from the documents themselves but from the metadata about the document.
 
 - Metadata of images with OCR text and AI recognized entities like [[Google Cloud AI Vision API]]

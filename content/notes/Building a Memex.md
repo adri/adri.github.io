@@ -15,8 +15,8 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - Search facet:value filters on facets instead of filter condition ✅
 - Automatically grow search field (fixed by making it bigger) ✅
 - Show surrounding ✅
-- [ ] Autocomplete to add filters 
-- [ ] Disable typo correction 
+- Autocomplete to add filters 
+- Disable typo correction 
 
 ### Data types
 - Websites I browsed (Safari) ✅

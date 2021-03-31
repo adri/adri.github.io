@@ -59,7 +59,7 @@ Most links or images on the internet don't work anymore after a few years. To co
 - People I met (Calendar?)
 - Songs I listened to (Music)
 - Slack messages I wrote (Slack https://github.com/AlekseyDurachenko/slack2sqlite)
-- Songs I listened to. Maybe with 
+- Songs I listened to. Maybe with Applescript?
     ```applescript
     tell application "Music"
         set recently_played to (tracks of playlist "Recently Played")

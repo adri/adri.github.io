@@ -9,12 +9,12 @@ The code is on github: https://github.com/adri/memex.
 Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 ![Memex](memex.png)
 
-- [x] Infinite scroll
-- [x] Date facet adds filters
-- [x] Hover over facets and click to select date
-- [x] Search facet:value filters on facets instead of filter condition
-- [x] Automatically grow search field (fixed by making it bigger)
-- [x] Show surrounding 
+- Infinite scroll ✅
+- Date facet adds filters ✅
+- Hover over facets and click to select date ✅
+- Search facet:value filters on facets instead of filter condition ✅
+- Automatically grow search field (fixed by making it bigger) ✅
+- Show surrounding ✅
 - [ ] Autocomplete to add filters 
 - [ ] Disable typo correction 
 

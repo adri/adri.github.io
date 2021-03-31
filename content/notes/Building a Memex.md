@@ -18,7 +18,6 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - [ ] Autocomplete to add filters 
 - [ ] Disable typo correction 
 
-
 ### Data types
 - Websites I browsed (Safari) ✅
 - CLI commands I ran (Terminal) ✅

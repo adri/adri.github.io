@@ -102,7 +102,6 @@ Most links or images on the internet don't work anymore after a few years. To co
             LEFT JOIN ZMTPODCAST ON ZMTEPISODE.ZPODCAST = ZMTPODCAST.Z_PK;
      ```
 
-
 ### Inspiration 
 - https://www.algolia.com/doc/guides	/building-search-ui/resources/ui-and-ux-patterns/in-depth/query-suggestions/js/
 - https://github.com/jshjohnson/Choices

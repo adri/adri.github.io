@@ -30,8 +30,8 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - Notes I wrote (Github) ✅
 - Website content I saved (Instapaper?) https://github.com/postlight/mercury-parser
 - Places I visited (Arc?)
-- Issues I opened or closed (Github)
-- Pull requests I created (Github)
+- Issues I opened or closed (Github) https://docs.github.com/en/rest/reference/activity#get-feeds
+- Pull requests I created (Github) 
 - Commits I made (local git) 
 - People I met (Calendar?)
 - Songs I listened to (Music)

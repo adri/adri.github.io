@@ -16,7 +16,7 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - Automatically grow search field (fixed by making it bigger) ✅
 - Show surrounding ✅
 - Autocomplete to add filters 
-- Disable typo correction 
+- Disable typo correction  ✅
 
 ### Data types
 - Websites I browsed (Safari) ✅
@@ -28,9 +28,9 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - Youtube videos I watched (via Safari) ✅
 - Tweets I read (Twitter) ✅
 - Notes I wrote (Github) ✅
-- Website content I saved (Instapaper?) https://github.com/postlight/mercury-parser
-- Places I visited (Arc?)
-- Issues I opened or closed (Github) https://docs.github.com/en/rest/reference/activity#get-feeds
+- Website content I saved (Instapaper?) [mercury-parser](https://github.com/postlight/mercury-parser)
+- Places I visited (Arc?) ✅
+- Issues I opened or closed (Github) [Github API feed](https://docs.github.com/en/rest/reference/activity#get-feeds) 
 - Pull requests I created (Github) 
 - Commits I made (local git) 
 - People I met (Calendar?)
@@ -104,8 +104,8 @@ Computers get smarter and can create links between documents that humans can't s
 - https://www.algolia.com/doc/guides	/building-search-ui/resources/ui-and-ux-patterns/in-depth/query-suggestions/js/
 - https://github.com/jshjohnson/Choices
 - https://tailwind.build/#how-it-works
-- timeline https://codepen.io/russelllighthouse/pen/pRXyqW
-- timeline https://codepen.io/mathiesjanssen/pen/ggeBKmr
+- [timeline](https://codepen.io/russelllighthouse/pen/pRXyqW) 
+- [timeline](https://codepen.io/mathiesjanssen/pen/ggeBKmr) 
 
 ### Sources
 - [The original 1945 Memex essay](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)

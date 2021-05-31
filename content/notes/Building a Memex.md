@@ -16,7 +16,7 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - Automatically grow search field (fixed by making it bigger) ✅
 - Show surrounding ✅
 - Autocomplete to add filters 
-- Disable typo correction  ✅
+- Disable typo correction ✅ 
 
 ### Data types
 - Websites I browsed (Safari) ✅

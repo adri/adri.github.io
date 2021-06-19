@@ -6,7 +6,7 @@ When I deploy more often, I have a greater sense of achievement. I change my thi
 I like to improve these habits while having fun doing it. I'll build a habit of more frequent smaller PRs and quick reviews. A automated coach can help me to nugde my behavior in the right direction.
 
 ### Non goals
-- It's about controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 
+- No controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 
 
 ### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?

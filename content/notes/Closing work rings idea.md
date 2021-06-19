@@ -1,6 +1,6 @@
 "Closing the rings" for work. The Apple Watch motivates me to achieve activity goals, can the same be done for work goals?
 
-### Goals
+### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?
 
 - **collaborate**: PRs reviewed 

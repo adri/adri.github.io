@@ -1,9 +1,9 @@
 "Closing the rings" for work. The Apple Watch motivates me to achieve activity goals, can the same be done for work goals?
-
+t
 ### Goals
 - Improve habi
 - 
-Improve habits while having fun don
+Improve habits while having fun doing i.
 I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Non goals

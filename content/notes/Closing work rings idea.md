@@ -4,7 +4,7 @@
 I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Non goals
-- It's about controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data isthe data needs to be 
+- It's about controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. There is  
 
 ### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?

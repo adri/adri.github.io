@@ -4,7 +4,7 @@
 I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Non goals
-There are tools that summarize 
+There are tools that summarize PR stat
 
 ### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?

@@ -3,6 +3,8 @@
 ### Goals
 I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
+### Non goals
+
 
 ### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?

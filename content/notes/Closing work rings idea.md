@@ -1,5 +1,9 @@
 "Closing the rings" for work. The Apple Watch motivates me to achieve activity goals, can the same be done for work goals?
 
+### Goals
+I'll  build a habit of more frequent smaller PRs and quick reviews. 
+
+
 ### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?
 
@@ -11,9 +15,6 @@ Goals are daily and specific. I can set for example these goals:
 - collaborate: 4 PRs reviewed (2 x of PRs merged)
 - deliver: 2 PRs merged
 - maintain: 1 "maintenance" PR merged
-
-### Goals
-I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Metrics
 Next to the goals Apple Watch shows additional metrics like total steps, total distance and flights climbed.

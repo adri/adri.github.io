@@ -4,7 +4,7 @@
 I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Non goals
-- Not for managers: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case.
+- It's not for managers: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case.
 
 ### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?

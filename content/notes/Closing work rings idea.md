@@ -12,7 +12,7 @@ Goals are daily and specific. I can set for example these goals:
 - deliver: 2 PRs merged
 - maintain: 1 "maintenance" PR merged
 
-### Impact
+### Goals
 I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Metrics

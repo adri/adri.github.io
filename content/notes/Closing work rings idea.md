@@ -1,10 +1,9 @@
 "Closing the rings" for work. The Apple Watch motivates me to achieve activity goals, can the same be done for work goals?
-t
+
 ### Goals
 - Improve habi
 - 
-Improve habits while having fun doing i.
-I'll  build a habit of more frequent smaller PRs and quick reviews. 
+Improve habits while having fun doing it. I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Non goals
 - It's about controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 

@@ -3,7 +3,7 @@
 ### Goals
 - Improve habi
 - 
-Improve habits while having fun doing it. I'll  build a habit of more frequent smaller PRs and quick reviews. A coach help sm
+Improve habits while having fun doing it. I'll  build a habit of more frequent smaller PRs and quick reviews. An automated coach help sme 
 
 ### Non goals
 - It's about controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 

@@ -9,7 +9,7 @@ Apple Watch uses 3 goals: stand, exercise and move. What to use in a work contex
 
 Goals are daily and specific. I can set for example these goals:
 - collaborate: 4 PRs reviewed (2 x of PRs merged)
-- 2 PRs merged
+- deliver: 2 PRs merged
 - 1 "maintenance" PR merged
 
 ### Impact

@@ -3,7 +3,7 @@
 ### Goals
 - Improve habi
 - 
-Improve ha
+Improve habits while having fun don
 I'll  build a habit of more frequent smaller PRs and quick reviews. 
 
 ### Non goals

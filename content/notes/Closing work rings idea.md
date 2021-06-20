@@ -26,16 +26,16 @@ Next to the goals Apple Watch shows additional metrics like total steps, total d
 - Avg time to PR review 
 - Avg time to PR merge
 
-### Motivation
+## Motivation
 To build a habit, it's important to stay engaged. Apple Watch uses three options to keep motivated.
 
-#### Awards
+### Awards
 When reaching personal bests or milestones  , awards can be received. For example: "200% of deliver goal reached".
 
-#### Coaching
+### Coaching
 In the evening: "you're so close to closing your collaborate ring. One more review should do it."
 
-#### Sharing
+### Sharing
 Encourage colleagues to participate or challenge each other. Gain points based on the percentage of activity rings closed.
 
 ### Questions

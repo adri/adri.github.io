@@ -13,7 +13,7 @@ Apple Watch uses 3 goals: stand, exercise and move. What to use in a work contex
 
 - **collaborate**: PRs reviewed 
 - **deliver**: PRs merged
-- **maintain**: Error fixed, performance improved, code improved 
+- **maintain**: PR created about Error fixed, performance improved, code improved 
 
 Goals are daily and specific. I can set for example these goals:
 - collaborate: 4 PRs reviewed (2 x of PRs merged)

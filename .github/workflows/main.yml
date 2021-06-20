@@ -37,13 +37,14 @@ jobs:
         run: |
           git config --global user.email "${{ secrets.EMAIL }}"
           git config --global user.name "Adrian Philipp"
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/adri/adri.github.io.git
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install dependencies
         run: cd gatsby && yarn install
       - name: Deploy website
         env:
-          # This is necessary in order to push a commit to the repo
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID }}
           GATSBY_ALGOLIA_SEARCH_KEY: ${{ secrets.GATSBY_ALGOLIA_SEARCH_KEY }}
           GATSBY_ALGOLIA_INDEX_NAME: ${{ secrets.GATSBY_ALGOLIA_INDEX_NAME }}

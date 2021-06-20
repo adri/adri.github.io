@@ -5,7 +5,7 @@ When I deploy more often, I have a greater sense of achievement. I change my thi
 
 I like to improve these habits while having fun doing it. I'll build a habit of frequent PRs and quick reviews. Having the data visible and a automated coach can help me to nugde my behavior in the right direction.
 
-The book [[Accelerate The Science of Lean Software and DevOps]] describes deploy frequency as one of the key measures behind  
+The book [[Accelerate The Science of Lean Software and DevOps]] describes deploy frequency as one of the key measures for 
 
 ### Non goals
 - No controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 

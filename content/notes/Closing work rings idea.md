@@ -11,7 +11,7 @@ The book [[Accelerate The Science of Lean Software and DevOps]] describes how de
 - No controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 
 
 ### Habits
-Apple Watch uses 3 goals: stand, exercise and move. By focusing on these lead metrics, lag metric as "health" is improv What to use in a work context?
+Apple Watch uses 3 goals: stand, exercise and move. By focusing on these lead metrics, lag metric like health" is improved. What to use in a work context?
 
 - **collaborate**: PRs reviewed 
 - **deliver**: PRs merged

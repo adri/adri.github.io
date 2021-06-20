@@ -24,6 +24,7 @@ Goals are daily and specific. I can set for example these goals:
 Next to the goals Apple Watch shows additional metrics like total steps, total distance and flights climbed.
 
 - Avg time to PR review 
+- Avg time to mer
 
 ### Motivation
 To build a habit, it's important to stay engaged. Apple Watch uses three options to keep motivated.

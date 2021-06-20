@@ -1,7 +1,7 @@
 "Closing the rings" for work. The Apple Watch motivates me to achieve activity goals, can the same be done for work goals?
 
 ### Goals
-When I deploy more often, I have a greater sense of achievement. I change my thinking to "what is the smallest thing I can do towards my goal?". I help my collegues better by reviewing faster. 
+When I deploy more often, I have a greater sense of achievement. I change my thinking to "what is the smallest thing I can do towards my goal?". I help my collegues better by reviewing faster. [[Accellerae]]
 
 I like to improve these habits while having fun doing it. I'll build a habit of more frequent smaller PRs and quick reviews. A automated coach can help me to nugde my behavior in the right direction.
 

@@ -45,6 +45,6 @@ Encourage colleagues to participate or challenge each other. Gain points based o
 ### Inspiration
 - [Picnic](https://github.com/PicnicSupermarket/pr-leaderboard)
 - [Apple Watch: Close your rings](https://www.apple.com/watch/close-your-rings/)
-- [Rings in CSS](https://cssanimation.rocks/watch/) [code rings](https://codepen.io/donovanh/pen/GgYEBZ)
+- [Rings in CSS](https://cssanimation.rocks/watch/) [codepen](https://codepen.io/donovanh/pen/GgYEBZ)
 
 #published 

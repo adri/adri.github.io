@@ -3,7 +3,7 @@
 ### Goals
 When I deploy more often, I have a greater sense of achievement. I change my thinking to "what is the smallest thing I can do towards my goal?". I help my collegues better by reviewing faster. 
 
-I like to improve these habits while having fun doing it. I'll build a habit of frequent PRs and quick reviews. Having the dataA automated coach can help me to nugde my behavior in the right direction.
+I like to improve these habits while having fun doing it. I'll build a habit of frequent PRs and quick reviews. Having the data visible and a automated coach can help me to nugde my behavior in the right direction.
 
 ### Non goals
 - No controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 

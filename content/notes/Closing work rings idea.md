@@ -7,6 +7,7 @@ I like to improve these habits while having fun doing it. I'll build a habit of 
 
 ### Non goals
 - No controlling: There are tools that build statistics of teams on how they perform. This is not a tool for this use-case. To avoid misuse, data is stored locally only. 
+- 
 
 ### Habits
 Apple Watch uses 3 goals: stand, exercise and move. What to use in a work context?

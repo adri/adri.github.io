@@ -35,7 +35,7 @@ To build a habit, it's important to stay engaged. Apple Watch uses three options
 #### Awards
 When reaching personal bests or milestones  , awards can be received. For example: "200% of deliver goal reached".
 
-"If you make your "
+"If you make your deliver "
 
 
 #### Coaching

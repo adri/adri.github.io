@@ -3,7 +3,7 @@
 ### Goals
 When I deploy more often, I have a greater sense of achievement. I change my thinking to "what is the smallest thing I can do towards my goal?". I also know that I can help my collegues by reviewing their changes faster. 
 
-I like to improve a habit of frequent PRs and quick reviews while having fun doing it. Having the data visible and a automated coach can help me to nugde my behavior in the right direction.
+I like to improve a habit of frequent small change  and quick reviews while having fun doing it. Having the data visible and a automated coach can help me to nugde my behavior in the right direction.
 
 The book [[Accelerate The Science of Lean Software and DevOps]] describes how deploy frequency as one of the key measures for software delivery performance.
 

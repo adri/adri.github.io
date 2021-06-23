@@ -24,7 +24,8 @@ Goals are daily and specific. I can set for example these goals:
 
 ### Metrics
 Next to the goals Apple Watch shows additional metrics like total steps, total distance and flights climbed.
-For work these meteoc
+For work these metrics can be interesting to  see:
+
 - Avg time to PR review 
 - Avg time to PR merge
 

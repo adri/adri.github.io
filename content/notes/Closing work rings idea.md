@@ -18,7 +18,7 @@ Apple Watch uses 3 goals: stand, exercise and move. By focusing on these lead me
 - **maintain**: PR merged that fixes an error, improves performance or code quality
 
 Goals are daily and specific. I can set for example these goals:
-- collaborate: 4 PRs reviewed (2 x of PRs merged because at work every )
+- collaborate: 4 PRs reviewed (2 x of PRs merged because at work every PR needs )
 - deliver: 2 PRs merged
 - maintain: 1 "maintenance" PR merged
 

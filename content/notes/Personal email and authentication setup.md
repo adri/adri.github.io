@@ -43,7 +43,7 @@ For that reason, password or email logins are still the most private and vendor-
 	- Can I use Keychain instead of 1Password? Apple added OTP support and improved password management. Is the UX good enough?
 	- Lock-in to the Apple eco-system gets even higher
 	- Would I switch away from iCloud?
-- How about my own domain 
+- How about my own burner email domain with a catch all forwa
 
 ### Sources
 - [Hide emails with 1Password + fastmail](https://gizmodo.com/1password-will-now-let-you-hide-your-email-for-logins-1847758333)

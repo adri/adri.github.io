@@ -33,6 +33,7 @@
 <url> <loc>https://adrian-philipp.com./notes/how-to-shape-a-neapolitan-pizza</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/how-to-split-a-monolith</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/how-to-use-search-templates-in-elasticsearch</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/impact-of-reading-news</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/import-github-stars</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/import-twitter-likes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/import-notes-from-instapaper</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -51,6 +52,7 @@
 <url> <loc>https://adrian-philipp.com./notes/optimizing-resource-usage-on-kubernetes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/oven-settings-for-baking-bread</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/post-a-request-to-php-fpm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/personal-email-and-authentication-setup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/picape</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/pre-build-symfony-caches-in-docker-containers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/proxy-for-redis-and-memcached</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -92,7 +94,6 @@
 <url> <loc>https://adrian-philipp.com./notes/obsidian-charts-examples</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/obsidian-mermaid-examples</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/optimizing-docker-images</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com./notes/impact-of-reading-news</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/todo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/how-does-http-request-smuggling-work</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/solid-principles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

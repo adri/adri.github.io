@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://adrian-philipp.com./notes/202020</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/accelerate-the-science-of-lean-software-and-devops</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/avoid-type-fields-in-domain-models</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/baking-bread</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/blockchain-foundations</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -53,6 +54,7 @@
 <url> <loc>https://adrian-philipp.com./notes/picape</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/pre-build-symfony-caches-in-docker-containers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/proxy-for-redis-and-memcached</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/reading-news</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/rockefeller-habits-for-scale-ups</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/run-php-on-arm-based-aws-eks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/sla-sli-slo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -60,6 +62,7 @@
 <url> <loc>https://adrian-philipp.com./notes/scale-kubernetes-pods-based-on-domain-events</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/security-of-software-systems</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/side-projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/single-reposibility-principle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/site-reliability-engineering</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/software-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/solve-problems-with-the-inversion-principle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -77,7 +80,6 @@
 <url> <loc>https://adrian-philipp.com./notes/google-cloud-ai-vision-api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/google-natural-language-api</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/chris-keathley</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com./notes/accelerate-the-science-of-lean-software-and-devops</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/postgresql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/tool</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/php</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -90,12 +92,14 @@
 <url> <loc>https://adrian-philipp.com./notes/obsidian-charts-examples</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/obsidian-mermaid-examples</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/optimizing-docker-images</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/impact-of-reading-news</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/todo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/how-does-http-request-smuggling-work</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/solid-principles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/agile-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/dutch-cuisine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/zettelkasten</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com./notes/single-reposibility-principle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./posts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

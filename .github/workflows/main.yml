@@ -21,9 +21,9 @@ jobs:
         with:
           path: |
             **/node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-v1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-yarn-v1-
       - name: Cache Gatsby
         uses: actions/cache@v2.1.1
         with:

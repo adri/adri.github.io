@@ -12,7 +12,7 @@ What I can do:
 ### Burner emails
 So far I've used a main email address and some "spam" email addresses. 
 
-My spam email address domain is currently owned by my email provider. That means I need to change all websites where I use that email address when i want to switch.
+My spam email address domain is currently owned by my email provider. That means I need to change all websites where I use that email address when I want to switch.
 
 However when using always the same email address, I'm still reusing that email address across websites. I should improve this by using random emails. A common way to do this is to use labels like name+label@domain.tld. However it's easy to guess the actual email address. Instead I should use [random]@some.tld.
 

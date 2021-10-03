@@ -21,18 +21,18 @@ jobs:
         with:
           path: |
             **/node_modules
-          key: ${{ runner.os }}-yarn-v1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-v1-
+            ${{ runner.os }}-yarn-v2-
       - name: Cache Gatsby
         uses: actions/cache@v2.1.1
         with:
           path: |
             ./gatsby/.cache
             ./gatsby/public
-          key: ${{ runner.os }}-gatsby-v3-${{ hashFiles('./gatsby/.cache/**') }}
+          key: ${{ runner.os }}-gatsby-v4-${{ hashFiles('./gatsby/.cache/**') }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-v3-
+            ${{ runner.os }}-gatsby-v4-
       - name: Setup git
         run: |
           git config --global user.email "${{ secrets.EMAIL }}"

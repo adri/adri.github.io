@@ -33,7 +33,7 @@ For that reason, password or email logins are still the most private and vendor-
 
 | Provider             | Burner | No lock-in | UX  | Cost   | 
 | -------------------- | ------ | ---------- | --- | ------ | 
-| 1Password + DF (now) | ❌     | ❌         | ❌  | 💰💰   | 
+| 1Password + DF (now) | x     | ❌         | ❌  | 💰💰   | 
 | 1Password + fastmail | 👌     | ❌         | 👌  | 💰💰💰 | 
 | iCloud+              | 👌     | ❌         | 👌  | 💰     | 
 

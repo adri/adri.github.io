@@ -1,7 +1,7 @@
 Authentication and email are linked together because email is still my main authentiation method, for good reasons.
 
 ### Reduce impact of data breaches 
-Data breaches occur almost on weekly basis and show how bad many companies are with keeping personal data private. Some companies even sell my data to advertisers. The impact on consumers can range from receiving phishing emails to identity fraud.
+Data breaches occur almost on weekly basis and show how hard it is many companies are with keeping personal data private. Some companies even sell my data to advertisers. The impact on consumers can range from receiving phishing emails to identity fraud.
 As a consumer it's hard to protect against this. Some data is unfortunately static, like e.g. my home address. However data like emails and passwords can be unique per website.
 
 What I can do:

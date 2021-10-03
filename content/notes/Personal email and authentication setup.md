@@ -34,7 +34,7 @@ For that reason, password or email logins are still the most private and vendor-
 | Provider             | Burner | No lock-in | UX  | Cost   | 
 | -------------------- | ------ | ---------- | --- | ------ | 
 | 1Password + DF (now) | x     | x         | x  | $   | 
-| 1Password + fastmail | 👌    | x         | 👌  | 💰💰💰 | 
+
 | iCloud+              | 👌     | x         | 👌  | 💰     | 
 
 - My current solution feels too expensive and I'm locked-in with the spam email domain owned by the email provider

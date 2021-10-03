@@ -34,8 +34,8 @@ For that reason, password or email logins are still the most private and vendor-
 | Provider             | Burner | No lock-in | UX  | Cost |
 | -------------------- | ------ | ---------- | --- | ---- |
 | 1Password + DF (now) | -      | -          | -   | $$   |
-| 1Password + fastmail | x     | -          | x  | $$$  |
-| iCloud+              | x     | -          | x  | $    |
+| 1Password + fastmail | x      | -          | x   | $$$  |
+| iCloud+              | x      | -          | x   | $    |
 
 - My current solution feels too expensive and I'm locked-in with the spam email domain owned by the email provider
 - The upcoming 1Password 8 forces me to use their account and iCloud sync will be removed. The advantage of choosing how 1Password syncs is gone. Fastmail and 1Password collaborate to provide burner emails. When switching email providers I loose all burner emails, I'm bound to Fastmail. The 1Password 7 upgrade already annoyed me by forcing their subscription model. For personal use, I don't see a future in 1Password. 

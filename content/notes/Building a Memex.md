@@ -92,7 +92,7 @@ Most links or images on the internet don't work anymore after a few years. To co
 ### Future: Creating links between documents
 Computers get smarter and can create links between documents that humans can't see because of the large amount of data. A lot of informational value comes not just from the documents themselves but from the metadata about the document.
 
-- Metadata of images with OCR text and AI recognized entities like [[Google Cloud AI Vision API]]
+- Metadata of images with OCR text and AI recognized entities like [[Google Cloud AI Vision API]] or Apple Photos
 - Metadata of notes with AI detected named entities like [[Google Natural Language API]] [AWS comprehend](https://aws.amazon.com/comprehend/features/)
 - Metadata of videos with generated captions
 - Metadata of websites from SEO content or crawlers, for example:

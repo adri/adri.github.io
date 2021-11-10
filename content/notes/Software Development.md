@@ -6,6 +6,6 @@
 - [[Agile Development]]
 
 ### Productivity
-- [[Software development workflows and tools]]
+- [[MacOS workflows and tools]]
 
 #published 

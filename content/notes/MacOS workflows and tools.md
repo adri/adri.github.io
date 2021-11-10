@@ -14,7 +14,7 @@ Tools I use on macOS.
 	- Show command times [[2013-08-07-shell-show-time-last-command-took]]
 	- [Git-number](https://github.com/holygeek/git-number) to quickly refer to files by numbers
 3. Knowledge management
-    - [[Obsidian]] is great for writing notes and managing todos todos. 
+    - [[Obsidian]] is great for writing notes and managing todos 
     - To find information I’m [[Building a Memex]]
     - [Whimsical](https://whimsical.com/) for beautiful flow charts
 4. Little helpers

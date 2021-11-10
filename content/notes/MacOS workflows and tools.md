@@ -31,6 +31,6 @@ Tools I use on macOS.
     - [ReadKit](https://readkit.app) to have all reading in one place, see [[Reading news]]
     - [MoneyMoney](https://moneymoney-app.com) to manage personal finance in one place
     - [Ferdi](https://getferdi.com/) to group work Slack and email and manage interruptions
-    - [[RunLanguageTool]]
+    - [[Run LanguageTool locally on mac]]
 
 #published

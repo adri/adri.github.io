@@ -25,7 +25,7 @@ Tools I use on macOS.
     - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) Firewall to keep tabs on apps internet connections
     - [Gas Mask](https://github.com/2ndalpha/gasmask) To block requests to tracking websites etc by adding them to the hosts file. [Example block lists](https://github.com/StevenBlack/hosts)
     - 1Password to manage passwords until iCloud passwords can be shared, see [[Personal email and authentication setup]]
-    - [Wipr](https://giorgiocalderolla.com/wipr.html) g
+    - [Wipr](https://giorgiocalderolla.com/wipr.html) good and fast ad-block
 5. Others
     - [ReadKit](https://readkit.app) to have all reading in one place, see [[Reading news]]
     - [MoneyMoney](https://moneymoney-app.com) to manage personal finance in one place

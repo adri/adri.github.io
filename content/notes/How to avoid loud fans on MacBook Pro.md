@@ -16,4 +16,4 @@ There is a feature called "Turbo Boost" which enables higher cock speeds for CPU
 - [Increase airflow by drilling holes](https://www.ifixit.com/News/6882/why-i-drilled-holes-in-my-macbook-pro-and-put-it-in-the-oven)
 - [Intel MacBook Pro Owner Adds Water Cooling to Silence Noisy Fans and Boost Performance](https://www.macrumors.com/2021/04/02/intel-macbook-pro-owner-adds-water-cooling/)
 
-#published
+#published 

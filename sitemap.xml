@@ -43,6 +43,7 @@
 <url> <loc>https://adrian-philipp.com./notes/improve-performance-and-scalability-with-connection-pooling</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/ingredients-to-improve-bread</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/linux-conntrack-race-condition</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/macos-workflows-and-tools</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/mysql-choose-index-column-order</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/mysql-optimizer-trace-to-debug-slow-queries</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/notes-database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -92,6 +93,7 @@
 <url> <loc>https://adrian-philipp.com./notes/kubernetes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/network</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/linux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes/2013-08-07-shell-show-time-last-command-took</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/obsidian-charts-examples</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/obsidian-mermaid-examples</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/optimizing-docker-images</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -99,7 +101,6 @@
 <url> <loc>https://adrian-philipp.com./notes/how-does-http-request-smuggling-work</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/solid-principles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/agile-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com./notes/macos-workflows-and-tools</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/dutch-cuisine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/zettelkasten</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

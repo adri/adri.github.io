@@ -6,6 +6,6 @@
 - [[Agile Development]]
 
 ### Productivity
-- [[Software and ]]
+- [[Software and tools]]
 
 #published 

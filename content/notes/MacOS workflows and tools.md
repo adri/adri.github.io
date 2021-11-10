@@ -21,7 +21,7 @@ Tools I use on macOS.
     - [Rocket app](https://matthewpalmer.net/rocket/) to quickly type emoij
     - [Dozer](https://github.com/Mortennn/Dozer) to clean up the menu bar
     - [Turbo Boost Switcher Pro](http://tbswitcher.rugarciap.com) to control the fan noise, see [[How to avoid loud fans on MacBook Pro]] 
-    - [[Alfred]] 
+    - [[Alfred
 5. Security and privacy
     - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) Firewall to keep tabs on apps internet connections
     - [Gas Mask](https://github.com/2ndalpha/gasmask) To block requests to tracking websites etc by adding them to the hosts file. [Example block lists](https://github.com/StevenBlack/hosts)

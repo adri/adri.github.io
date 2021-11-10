@@ -45,7 +45,6 @@
 <url> <loc>https://adrian-philipp.com./notes/mysql-choose-index-column-order</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/mysql-optimizer-trace-to-debug-slow-queries</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/notes-database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com./notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/obsidian</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/optimizing-auto-scaling-on-kubernetes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -98,7 +97,7 @@
 <url> <loc>https://adrian-philipp.com./notes/how-does-http-request-smuggling-work</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/solid-principles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/agile-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://adrian-philipp.com./notes/software-and</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://adrian-philipp.com./notes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/script</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/dutch-cuisine</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://adrian-philipp.com./notes/zettelkasten</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

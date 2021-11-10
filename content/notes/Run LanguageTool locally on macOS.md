@@ -89,7 +89,7 @@ Create the file `~/Library/LaunchAgents/org.languagetool.caddy-proxy.plist` with
 </plist>
 ```
 
-Then load both automatically at startup super good:
+Then load both automatically at startup:
 ```
 launchctl load ~/Library/LaunchAgents/org.languagetool.server.plist
 launchctl load ~/Library/LaunchAgents/org.languagetool.caddy-proxy.plist

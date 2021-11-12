@@ -1,6 +1,6 @@
 Grammarly like tool but without sending all of my keystrokes to the cloud. The [Safari extension](https://apps.apple.com/app/languagetool-for-safari/id1534275760) enables grammar checks on all text inputs. 
 
-To make it work it needs mu
+To make it work it needs multiple components
 
 ### Installation
 ```

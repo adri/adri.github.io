@@ -30,7 +30,7 @@ caddy reverse-proxy --from localhost:8082 --to localhost:8081
 
 Open https://localhost:8082/v2/check?language=en-US&text=my+text to see if it works. 
 
-### Start in background
+### Start everything background
 Create the file `~/Library/LaunchAgents/org.languagetool.server.plist` with this content:
 ```
 <?xml version="1.0" encoding="UTF-8"?>

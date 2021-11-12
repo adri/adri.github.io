@@ -33,7 +33,13 @@ Open https://localhost:8082/v2/check?language=en-US&text=my+text to see if it wo
 ### Fasttext
 Without this tool, LanguageTool will make mistakes detecting the language and recommend changes based on another language.
 
-``
+```
+brew install fasttext
+```
+
+```
+curl https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin -o lid.176.bin
+```
 
 ### Start in background
 Create the file `~/Library/LaunchAgents/org.languagetool.server.plist` with this content:

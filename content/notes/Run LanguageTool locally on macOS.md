@@ -125,6 +125,6 @@ Use [Obsidian LanguageTool Plugin](https://github.com/Clemens-E/obsidian-languag
 - [Documentation](https://dev.languagetool.org/http-server)
 - [Setup Safari extension](https://forum.languagetool.org/t/languagetool-for-safari/5554/22)
 - [Launchd configuration](https://www.launchd.info)
-- [Fasttext]
+- [Fasttext usage](https://forum.languagetool.org/t/adding-fasttext/5416)
 
 #published 

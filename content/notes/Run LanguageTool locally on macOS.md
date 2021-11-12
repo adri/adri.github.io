@@ -31,7 +31,9 @@ caddy reverse-proxy --from localhost:8082 --to localhost:8081
 Open https://localhost:8082/v2/check?language=en-US&text=my+text to see if it works. 
 
 ### Fasttext
-Without this tool, LanguageTool will make mistakes detecting the language and recommend changes based on 
+Without this tool, LanguageTool will make mistakes detecting the language and recommend changes based on another language.
+
+``
 
 ### Start in background
 Create the file `~/Library/LaunchAgents/org.languagetool.server.plist` with this content:

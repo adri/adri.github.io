@@ -39,7 +39,7 @@ brew install fasttext
 
 ```
 mkdir /usr/local/share/fasttext
-curl https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin -o lid.176.bin
+curl https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin -o /usr/local/share/fasttext/lid.176.bin
 ```
 
 ### Start in background

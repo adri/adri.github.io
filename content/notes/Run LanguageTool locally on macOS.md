@@ -3,7 +3,7 @@ Grammarly like tool but without sending all of my keystrokes to the cloud. The [
 To make it work it needs multiple components installed locally:
 * `languagetool` itself 
 * `fasttext` for language detection
-* `fasttext` model for language dete
+* `fasttext` model for language detection
 
 ### Installation
 ```

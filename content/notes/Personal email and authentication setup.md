@@ -21,6 +21,8 @@ Third-party logins like Apple, Facebook, GitHub and Google are great to avoid pa
 
 For that reason, password or email logins are still the most private and vendor-lock free authentication method.
 
+One interesting alternative is WebAuthN, however at this point it is not widely supported.
+
 ### Setup Requirements
 - **Privacy**: Support for burner email addresses
 - **Domain**: I should be free to change the provider, using a custom domain

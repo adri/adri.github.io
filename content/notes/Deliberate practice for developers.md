@@ -7,7 +7,6 @@
 	=> Prioritize so that I'm forced to take it
 - Running PHPUnit > Manually scrolling up 
   => Changed PHPStorm setting but still doesn't work
-- Creating PHPUnit boiler-plate to 
 - Debugger not setup when testing
 	=> Configured xdebug only in debug PHPUnit (but sometimes doesn't work)
 

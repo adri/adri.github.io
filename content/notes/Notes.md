@@ -2,7 +2,6 @@ Start exploring my notes and ideas from outline notes like this. These are colle
 
 Outline notes 📔 
 - [[Baking bread]]
-
 - Building a [[Notes database]]
 - [[Cooking]]
 - [[Side-projects]]

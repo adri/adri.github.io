@@ -34,6 +34,8 @@ Tech is Elixir, Phoenix Liveview, Tailwind CSS, Meilisearch, SQLite, JQ
 - Pull requests I created, reviewed and merged (Github)  ✅
 - Commits I made (local git) 
 - People I met (Calendar?)
+* Netflix Viewing Activity
+
 - Songs I listened to (Music)
 - Slack messages I wrote (Slack https://github.com/AlekseyDurachenko/slack2sqlite)
 - Songs I listened to. Maybe with Applescript?

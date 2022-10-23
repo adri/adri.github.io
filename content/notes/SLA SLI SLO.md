@@ -1,6 +1,5 @@
 A way to measure stuff. Used by [[Site Reliability Engineering]] and others in a company.
 
-
 ### Multi Window Multi Burn-Rate
 See [Google SRE book](https://sre.google/workbook/alerting-on-slos/#low-traffic-services-and-error-budget-alerting) and for a practical implementation [Designing Metrics at Scale at GitLab](https://www.youtube.com/watch?v=2zL9DymXi1E).
 
